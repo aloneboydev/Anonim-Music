@@ -47,7 +47,7 @@ If you donlt like to play in linked channel:
 + Sudo Users can execute any command in any groups
 
 #### Special Credits
-- [𝗨𝘀𝗲𝗿𝗯𝗼𝘁𝗠𝗮𝗽𝘀](https://github.com/UserbotMaps): Dev
+- [𝗨𝘀𝗲𝗿𝗯𝗼𝘁𝗠𝗮𝗽𝘀](https://github.com/UserbotMaps) Dev
 - [𝗥𝗶𝘇𝗸𝘆](https://github.com/muhammadrizky16) Developer
 
 ### Support & Updates 🎑
