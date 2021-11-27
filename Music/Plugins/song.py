@@ -69,7 +69,7 @@ Kembalikan ke Akun Pengguna Dari Hak Admin.
         buttons = gets(videoid, user_id)
         m = await message.reply_text(
             f"""
-<b>🏷️ Judul:</b> [{title[:25]}]({url})
+<b>🏷️ Judul:</b> [{title[:50]}]({url})
 <b>💡</b> [More Information](https://t.me/{BOT_USERNAME}?start=info_{id})
 <b>⚡ Didukung</b> [{BOT_NAME}](t.me/{BOT_USERNAME})
 """,
@@ -129,23 +129,23 @@ Kembalikan ke Akun Pengguna Dari Hak Admin.
 <b>✨ Silahkan Pilih Maba Yang Ingin Didownload</b>
 
 
-¹ <b>{title1[:20]}</b>
+¹ <b>{title1[:50]}</b>
 ├ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID1})
 └ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 
-² <b>{title2[:20]}</b>
+² <b>{title2[:50]}</b>
 ├ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID2})
 └ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 
-³ <b>{title3[:20]}</b>
+³ <b>{title3[:50]}</b>
 ├ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})
 └ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 
-⁴ <b>{title4[:20]}</b>
+⁴ <b>{title4[:50]}</b>
 ├ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID4})
 └ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 
-⁵ <b>{title5[:20]}</b>
+⁵ <b>{title5[:50]}</b>
 ├ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID5})
 └ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 """,
@@ -205,7 +205,7 @@ async def startyuplay(_, CallbackQuery):
         photo=thumb,
         reply_markup=InlineKeyboardMarkup(buttons),
         caption=f"""
-<b>🏷️ Judul:</b> [{title[:25]}]({url})
+<b>🏷️ Judul:</b> [{title[:50]}]({url})
 ├ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{id})
 └ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 """,
@@ -289,23 +289,23 @@ async def chonga(_, CallbackQuery):
 <b>✨ Silahkan Pilih Maba Yang Ingin Didownload</b>
 
 
-⁶ <b>{title6[:20]}</b>
+⁶ <b>{title6[:50]}</b>
 ├ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID6})
 └ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 
-⁷ <b>{title7[:20]}</b>
+⁷ <b>{title7[:50]}</b>
 ├ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID7})
 └ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 
-⁸ <b>{title8[:20]}</b>
+⁸ <b>{title8[:50]}</b>
 ├ 💡 [Get Additional Information](https://t.me/{BOT_USERNAME}?start=info_{ID8})
 └ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 
-⁹ <b>{title9[:20]}</b>
+⁹ <b>{title9[:50]}</b>
 ├ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID9})
 └ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 
-¹⁰ <b>{title10[:20]}</b>
+¹⁰ <b>{title10[:50]}</b>
 ├ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID10})
 └ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 """,
@@ -332,23 +332,23 @@ async def chonga(_, CallbackQuery):
 <b>✨ Silahkan Pilih Maba Yang Ingin Didownload</b>
 
 
-¹ <b>{title1[:20]}</b>
+¹ <b>{title1[:50]}</b>
 ├ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID1})
 └ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 
-² <b>{title2[:20]}</b>
+² <b>{title2[:50]}</b>
 ├ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID2})
 └ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 
-³ <b>{title3[:20]}</b>
+³ <b>{title3[:50]}</b>
 ├ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})
 └ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 
-⁴ <b>{title4[:20]}</b>
+⁴ <b>{title4[:50]}</b>
 ├ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID4})
 └ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 
-⁵ <b>{title5[:20]}</b>
+⁵ <b>{title5[:50]}</b>
 ├ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID5})
 └ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 """,
