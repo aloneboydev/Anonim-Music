@@ -2,7 +2,7 @@
     "name": "MUSIC NGENTOT",
     "description": "Music allow you to stream music trought the telegram voice chat feature.",
     "keywords": ["music", "voice chat", "telegram"],
-    "repository": "https://github.com/UserbotMaps/Mapsmusic",
+    "repository": "https://github.com/UserbotMaps/Anonim-Music",
     "stack": "container",
     "env": {
         "SESSION_NAME": {
