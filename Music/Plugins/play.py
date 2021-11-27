@@ -375,24 +375,24 @@ Unban terlebih dahulu untuk menggunakan
 **✨ Silahkan pilih lagu yang ingin anda putar**
 
 ¹ <b>{title1[:80]}</b>
-├ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID1})
-└ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
+╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID1})
+╚ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 
 ² <b>{title2[:80]}</b>
-├ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID2})
-└ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
+╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID2})
+╚ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 
 ⁴ <b>{title3[:80]}</b>
-├ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})
-└ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
+╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})
+╚ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 
 ⁴ <b>{title4[:80]}</b>
-├ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID4})
-└ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
+╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID4})
+╚ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 
 ⁵ <b>{title5[:80]}</b>
-├ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID5})
-└ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
+╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID5})
+╚ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 """,
             reply_markup=InlineKeyboardMarkup(buttons),
         )
@@ -731,23 +731,23 @@ async def popat(_, CallbackQuery):
 <b>✨ Silahkan pilih lagu yang ingin anda putar</b>
 
 ⁶ <b>{title6[:80]}</b>
-├ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID6})
-└ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
+╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID6})
+╚ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 
 ⁷ <b>{title7[:80]}</b>
-├ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID7})
-└ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
+╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID7})
+╚ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 
 ⁸ <b>{title8[:80]}</b>
-├ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID8})
-└ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
+╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID8})
+╚ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 
 ⁹ <b>{title9[:80]}</b>
-├ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID9})
-└ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
+╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID9})
+╚ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 ¹⁰ <b>{title10[:80]}</b>
-├ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID10})
-└ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
+╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID10})
+╚ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 """,
             reply_markup=InlineKeyboardMarkup(buttons),
         )
@@ -773,24 +773,24 @@ async def popat(_, CallbackQuery):
 <b>✨ Silahkan pilih lagu yang ingin anda putar</b>
 
 ¹ <b>{title1[:80]}</b>
-├ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID1})
-└ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
+╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID1})
+╚ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 
 ² <b>{title2[:80]}</b>
-├ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID2})
-└ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
+╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID2})
+╚ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 
 ³ <b>{title3[:80]}</b>
-├ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})
-└ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
+╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})
+╚ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 
 ⁴ <b>{title4[:80]}</b>
-├ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID4})
-└ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
+╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID4})
+╚ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 
 ⁵ <b>{title5[:80]}</b>
-├ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID5})
-└ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
+╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID5})
+╚ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 """,
             reply_markup=InlineKeyboardMarkup(buttons),
         )
