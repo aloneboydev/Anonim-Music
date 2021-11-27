@@ -130,24 +130,24 @@ Kembalikan ke Akun Pengguna Dari Hak Admin.
 
 
 ¹ <b>{title1[:50]}</b>
-├ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID1})
-└ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
+╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID1})
+╚ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 
 ² <b>{title2[:50]}</b>
-├ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID2})
-└ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
+╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID2})
+╚ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 
 ³ <b>{title3[:50]}</b>
-├ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})
-└ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
+╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})
+╚ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 
 ⁴ <b>{title4[:50]}</b>
-├ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID4})
-└ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
+╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID4})
+╚ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 
 ⁵ <b>{title5[:50]}</b>
-├ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID5})
-└ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
+╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID5})
+╚ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 """,
             reply_markup=InlineKeyboardMarkup(buttons),
         )
@@ -206,8 +206,8 @@ async def startyuplay(_, CallbackQuery):
         reply_markup=InlineKeyboardMarkup(buttons),
         caption=f"""
 <b>🏷️ Judul:</b> [{title[:50]}]({url})
-├ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{id})
-└ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
+╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{id})
+╚ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 """,
     )
     os.remove(thumb)
@@ -290,24 +290,24 @@ async def chonga(_, CallbackQuery):
 
 
 ⁶ <b>{title6[:50]}</b>
-├ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID6})
-└ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
+╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID6})
+╚ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 
 ⁷ <b>{title7[:50]}</b>
-├ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID7})
-└ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
+╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID7})
+╚ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 
 ⁸ <b>{title8[:50]}</b>
-├ 💡 [Get Additional Information](https://t.me/{BOT_USERNAME}?start=info_{ID8})
-└ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
+╚ 💡 [Get Additional Information](https://t.me/{BOT_USERNAME}?start=info_{ID8})
+╚ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 
 ⁹ <b>{title9[:50]}</b>
-├ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID9})
-└ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
+╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID9})
+╚ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 
 ¹⁰ <b>{title10[:50]}</b>
-├ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID10})
-└ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
+╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID10})
+╚ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 """,
             reply_markup=InlineKeyboardMarkup(buttons),
         )
@@ -333,24 +333,24 @@ async def chonga(_, CallbackQuery):
 
 
 ¹ <b>{title1[:50]}</b>
-├ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID1})
-└ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
+╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID1})
+╚ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 
 ² <b>{title2[:50]}</b>
-├ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID2})
-└ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
+╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID2})
+╚ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 
 ³ <b>{title3[:50]}</b>
-├ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})
-└ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
+╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})
+╚ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 
 ⁴ <b>{title4[:50]}</b>
-├ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID4})
-└ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
+╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID4})
+╚ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 
 ⁵ <b>{title5[:50]}</b>
-├ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID5})
-└ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
+╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID5})
+╚ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 """,
             reply_markup=InlineKeyboardMarkup(buttons),
         )
