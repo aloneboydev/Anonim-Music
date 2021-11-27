@@ -194,7 +194,7 @@ async def startyuplay(_, CallbackQuery):
         )
     title = x["title"]
     await CallbackQuery.answer(
-        f"Selected {title[:20]}.... \nProcessing..", show_alert=True
+        f"Selected {title[:50]}.... \nProcessing..", show_alert=True
     )
     thumbnail = x["thumbnail"]
     (x["id"])
