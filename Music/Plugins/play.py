@@ -374,23 +374,23 @@ Unban terlebih dahulu untuk menggunakan
             f"""
 **✨ Silahkan pilih lagu yang ingin anda putar**
 
-1️⃣ <b>{title1[:40]}</b>
+1️⃣ <b>{title1[:50]}</b>
 ╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID1})
 ╚ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 
-2️⃣ <b>{title2[:40]}</b>
+2️⃣ <b>{title2[:50]}</b>
 ╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID2})
 ╚ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 
-3️⃣ <b>{title3[:40]}</b>
+3️⃣ <b>{title3[:50]}</b>
 ╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})
 ╚ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 
-4️⃣ <b>{title4[:40]}</b>
+4️⃣ <b>{title4[:50]}</b>
 ╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID4})
 ╚ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 
-5️⃣ <b>{title5[:40]}</b>
+5️⃣ <b>{title5[:50]}</b>
 ╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID5})
 ╚ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 """,
@@ -730,22 +730,22 @@ async def popat(_, CallbackQuery):
             f"""
 <b>✨ Silahkan pilih lagu yang ingin anda putar</b>
 
-6️⃣ <b>{title6[:40]}</b>
+6️⃣ <b>{title6[:50]}</b>
 ╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID6})
 ╚ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 
-7️⃣ <b>{title7[:40]}</b>
+7️⃣ <b>{title7[:50]}</b>
 ╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID7})
 ╚ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 
-8️⃣ <b>{title8[:40]}</b>
+8️⃣ <b>{title8[:50]}</b>
 ╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID8})
 ╚ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 
-9️⃣ <b>{title9[:40]}</b>
+9️⃣ <b>{title9[:50]}</b>
 ╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID9})
 ╚ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
-🔟 <b>{title10[:40]}</b>
+🔟 <b>{title10[:50]}</b>
 ╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID10})
 ╚ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 """,
@@ -772,23 +772,23 @@ async def popat(_, CallbackQuery):
             f"""
 <b>✨ Silahkan pilih lagu yang ingin anda putar</b>
 
-1️⃣ <b>{title1[:40]}</b>
+1️⃣ <b>{title1[:50]}</b>
 ╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID1})
 ╚ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 
-2️⃣ <b>{title2[:40]}</b>
+2️⃣ <b>{title2[:50]}</b>
 ╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID2})
 ╚ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 
-3️⃣ <b>{title3[:40]}</b>
+3️⃣ <b>{title3[:50]}</b>
 ╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})
 ╚ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 
-4️⃣ <b>{title4[:40]}</b>
+4️⃣ <b>{title4[:50]}</b>
 ╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID4})
 ╚ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 
-5️⃣ <b>{title5[:40]}</b>
+5️⃣ <b>{title5[:50]}</b>
 ╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID5})
 ╚ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 """,
