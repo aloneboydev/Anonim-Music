@@ -85,21 +85,21 @@ def search_markup(
     buttons = [
         [
             InlineKeyboardButton(
-                text="1️⃣", callback_data=f"Music2 {ID1}|{duration1}|{user_id}"
+                text="1️⃣", callback_data=f"Music2 {duration}|{duration1}|{user_id}"
             ),
             InlineKeyboardButton(
-                text="2️⃣", callback_data=f"Music2 {ID2}|{duration2}|{user_id}"
+                text="2️⃣", callback_data=f"Music2 {duration}|{duration2}|{user_id}"
             ),
             InlineKeyboardButton(
-                text="3️⃣", callback_data=f"Music2 {ID3}|{duration3}|{user_id}"
+                text="3️⃣", callback_data=f"Music2 {duration}|{duration3}|{user_id}"
             ),
         ],
         [
             InlineKeyboardButton(
-                text="4️⃣", callback_data=f"Music2 {ID4}|{duration4}|{user_id}"
+                text="4️⃣", callback_data=f"Music2 {duration}|{duration4}|{user_id}"
             ),
             InlineKeyboardButton(
-                text="5️⃣", callback_data=f"Music2 {ID5}|{duration5}|{user_id}"
+                text="5️⃣", callback_data=f"Music2 {duration}|{duration5}|{user_id}"
             ),
         ],
         [InlineKeyboardButton(text="⌦", callback_data=f"popat 1|{query}|{user_id}")],
@@ -129,21 +129,21 @@ def search_markup2(
     buttons = [
         [
             InlineKeyboardButton(
-                text="6️⃣", callback_data=f"Music2 {ID6}|{duration6}|{user_id}"
+                text="6️⃣", callback_data=f"Music2 {duration}|{duration6}|{user_id}"
             ),
             InlineKeyboardButton(
-                text="7️⃣", callback_data=f"Music2 {ID7}|{duration7}|{user_id}"
+                text="7️⃣", callback_data=f"Music2 {duration}|{duration7}|{user_id}"
             ),
             InlineKeyboardButton(
-                text="8️⃣", callback_data=f"Music2 {ID8}|{duration8}|{user_id}"
+                text="8️⃣", callback_data=f"Music2 {duration}|{duration8}|{user_id}"
             ),
         ],
         [
             InlineKeyboardButton(
-                text="9️⃣", callback_data=f"Music2 {ID9}|{duration9}|{user_id}"
+                text="9️⃣", callback_data=f"Music2 {duration}|{duration9}|{user_id}"
             ),
             InlineKeyboardButton(
-                text="🔟", callback_data=f"Music2 {ID10}|{duration10}|{user_id}"
+                text="🔟", callback_data=f"Music2 {duration}|{duration10}|{user_id}"
             ),
         ],
         [
