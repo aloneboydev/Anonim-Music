@@ -375,23 +375,23 @@ Unban terlebih dahulu untuk menggunakan
 **✨ Silahkan pilih lagu yang ingin anda putar**
 
 1️⃣ <b>{title1[:50]}</b>
-╚ 💡 Durasi - {results[j]['duration']}\n"
+╚ 💡 Durasi:</b> {duration} \n
 ╚ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 
 2️⃣ <b>{title2[:50]}</b>
-╚ 💡 Durasi - {results[j]['duration']}\n"
+╚ 💡 Durasi:</b> {duration} \n
 ╚ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 
 3️⃣ <b>{title3[:50]}</b>
-╚ 💡 Durasi - {results[j]['duration']}\n"
+╚ 💡 Durasi:</b> {duration} \n
 ╚ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 
 4️⃣ <b>{title4[:50]}</b>
-╚ 💡 Durasi - {results[j]['duration']}\n"
+╚ 💡 Durasi:</b> {duration} \n
 ╚ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 
 5️⃣ <b>{title5[:50]}</b>
-╚ 💡 Durasi - {results[j]['duration']}\n"
+╚ 💡 Durasi:</b> {duration} \n
 ╚ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 """,
             reply_markup=InlineKeyboardMarkup(buttons),
@@ -731,22 +731,22 @@ async def popat(_, CallbackQuery):
 <b>✨ Silahkan pilih lagu yang ingin anda putar</b>
 
 6️⃣ <b>{title6[:50]}</b>
-╚ 💡 Durasi - {results[j]['duration']}\n")
+╚ 💡 Durasi:</b> {duration} \n
 ╚ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 
 7️⃣ <b>{title7[:50]}</b>
-╚ 💡 Durasi - {results[j]['duration']}\n"
+╚ 💡 Durasi:</b> {duration} \n
 ╚ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 
 8️⃣ <b>{title8[:50]}</b>
-╚ 💡 Durasi - {results[j]['duration']}\n"
+╚ 💡 Durasi:</b> {duration} \n
 ╚ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 
 9️⃣ <b>{title9[:50]}</b>
-╚ 💡 Durasi - {results[j]['duration']}\n"
+╚ 💡 Durasi:</b> {duration} \n
 ╚ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 🔟 <b>{title10[:50]}</b>
-╚ 💡 Durasi - {results[j]['duration']}\n"
+╚ 💡 Durasi:</b> {duration} \n
 ╚ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 """,
             reply_markup=InlineKeyboardMarkup(buttons),
@@ -773,23 +773,23 @@ async def popat(_, CallbackQuery):
 <b>✨ Silahkan pilih lagu yang ingin anda putar</b>
 
 1️⃣ <b>{title1[:50]}</b>
-╚ 💡 Durasi - {results[j]['duration']}\n"
+╚ 💡 Durasi:</b> {duration} \n
 ╚ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 
 2️⃣ <b>{title2[:50]}</b>
-╚ 💡 Durasi - {results[j]['duration']}\n"
+╚ 💡 Durasi:</b> {duration} \n
 ╚ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 
 3️⃣ <b>{title3[:50]}</b>
-╚ 💡 Durasi - {results[j]['duration']}\n"
+╚ 💡 Durasi:</b> {duration} \n
 ╚ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 
 4️⃣ <b>{title4[:50]}</b>
-╚ 💡 Durasi - {results[j]['duration']}\n"
+╚ 💡 Durasi:</b> {duration} \n
 ╚ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 
 5️⃣ <b>{title5[:50]}</b>
-╚ 💡 Durasi - {results[j]['duration']}\n"
+╚ 💡 Durasi:</b> {duration} \n
 ╚ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 """,
             reply_markup=InlineKeyboardMarkup(buttons),
