@@ -352,7 +352,8 @@ async def play(_, message: Message):
         buttons = search_markup(ID1, ID2, ID3, ID4, ID5, duration1, duration2, duration3, duration4, duration5, user_id, query)
         hmo = await message.reply_photo(
             photo=thumb, 
-            caption=(f"""
+            caption=(
+            f"""
 
 **✨ Silahkan pilih lagu yang ingin anda putar**
 
@@ -381,7 +382,7 @@ async def play(_, message: Message):
 ╚ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 ╚ ✨ **Di Kelola**: [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)
 """, 
-            reply_markup=InlineKeyboardMarkup(buttons)
+            reply_markup=InlineKeyboardMarkup(buttons), 
         )  
         disable_web_page_preview=True
         return   
@@ -419,7 +420,7 @@ async def play(_, message: Message):
 <b>🃏 Atas permintaan:</b> {checking}
 <b>#️⃣ Posisi Dalam antrian:</b> {position}
 """,
-            reply_markup=InlineKeyboardMarkup(buttons)
+            reply_markup=InlineKeyboardMarkup(buttons), 
         )
         return await mystic.delete()     
     else:
@@ -703,7 +704,7 @@ async def popat(_,CallbackQuery):
 ╚ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 ╚ ✨ **Di Kelola**: [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)
 """,    
-            reply_markup=InlineKeyboardMarkup(buttons)
+            reply_markup=InlineKeyboardMarkup(buttons), 
         )  
         disable_web_page_preview=True
         return    
@@ -738,7 +739,7 @@ async def popat(_,CallbackQuery):
 ╚ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 ╚ ✨ **Di Kelola**: [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)
 """,    
-            reply_markup=InlineKeyboardMarkup(buttons)
+            reply_markup=InlineKeyboardMarkup(buttons), 
         )  
         disable_web_page_preview=True
         return    
