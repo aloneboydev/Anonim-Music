@@ -47,8 +47,9 @@ If you donlt like to play in linked channel:
 + Sudo Users can execute any command in any groups
 
 #### Special Credits
+- [𝗧𝗼𝗻𝗶𝗰](https://github.com/Tonic990) Dev
 - [𝗨𝘀𝗲𝗿𝗯𝗼𝘁𝗠𝗮𝗽𝘀](https://github.com/UserbotMaps) Dev
-- [𝗥𝗶𝘇𝗸𝘆](https://github.com/muhammadrizky16) Developer
+- [𝗥𝗶𝘇𝗸𝘆](https://github.com/muhammadrizky16) Dev
 
 ### Support & Updates 🎑
 <a href="https://t.me/Virtualllnihsad"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/bombleebas"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
