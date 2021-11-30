@@ -381,7 +381,7 @@ async def play(_, message: Message):
 ╚ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 ╚ ✨ **Di Kelola**: [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)
 """, 
-            reply_markup=InlineKeyboardMarkup(buttons),
+            reply_markup=InlineKeyboardMarkup(buttons)
         )  
         disable_web_page_preview=True
         return   
@@ -703,7 +703,7 @@ async def popat(_,CallbackQuery):
 ╚ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 ╚ ✨ **Di Kelola**: [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)
 """,    
-            reply_markup=InlineKeyboardMarkup(buttons),
+            reply_markup=InlineKeyboardMarkup(buttons)
         )  
         disable_web_page_preview=True
         return    
@@ -738,7 +738,7 @@ async def popat(_,CallbackQuery):
 ╚ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 ╚ ✨ **Di Kelola**: [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)
 """,    
-            reply_markup=InlineKeyboardMarkup(buttons),
+            reply_markup=InlineKeyboardMarkup(buttons)
         )  
         disable_web_page_preview=True
         return    
