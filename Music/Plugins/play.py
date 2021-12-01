@@ -352,8 +352,8 @@ async def play(_, message: Message):
         buttons = search_markup(ID1,ID2,ID3,ID4,ID5,duration1,duration2,duration3,duration4,duration5,user_id,query,) 
         hmo = await message.reply_photo(
             photo=thumb, 
-            caption=(f"1️⃣<b>{title1}</b>\n  ┗  🔗 <u>__[Get Additional Information](https://t.me/{BOT_USERNAME}?start=info_{ID1})__</u>\n\n2️⃣<b>{title2}</b>\n  ┗  🔗 <u>__[Get Additional Information](https://t.me/{BOT_USERNAME}?start=info_{ID2})__</u>\n\n3️⃣<b>{title3}</b>\n  ┗  🔗 <u>__[Get Additional Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})__</u>\n\n4️⃣<b>{title4}</b>\n  ┗  🔗 <u>__[Get Additional Information](https://t.me/{BOT_USERNAME}?start=info_{ID4})__</u>\n\n5️⃣<b>{title5}</b>\n  ┗  🔗 <u>__[Get Additional Information](https://t.me/{BOT_USERNAME}?start=info_{ID5})__</u>",   
-            reply_markup=InlineKeyboardMarkup(buttons), 
+            caption=(f"**Yui X Inline Music Downloader**\n\n『1』 <b>{title1}</b>\n  ┗  💡 <u>__[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID1})__</u>\n\n『2』 <b>{title2}</b>\n  ┗  💡 <u>__[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID2})__</u>\n\n『3』 <b>{title3}</b>\n  ┗  💡 <u>__[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})__</u>\n\n『4』 <b>{title4}</b>\n  ┗  💡 <u>__[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID4})__</u>\n\n『5』 <b>{title5}</b>\n  ┗  💡 <u>__[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID5})__</u>"),    
+            reply_markup=InlineKeyboardMarkup(buttons),
         )  
         disable_web_page_preview=True
         return   
