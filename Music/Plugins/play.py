@@ -10,6 +10,7 @@ from Music import converter
 import yt_dlp
 import shutil
 import psutil
+from typing import Callable
 from pyrogram import Client
 from pyrogram.types import Message, Voice
 from pytgcalls import StreamType
@@ -640,3 +641,13 @@ async def play_playlist_cmd(_, message):
     reply_markup=InlineKeyboardMarkup(buttons),
     )
     return
+
+
+
+def force_subs(func: Callable) ➝ Callablle:
+    async def wrapper(client: client, message)
+        chat = await client.get_chat_member("Your group id/username", message.from_user.id)
+        if chat.status in ["left", kicked"]:
+            return await message.reply("Join the chat first")
+        return await func(client, message)
+    return wrapper
