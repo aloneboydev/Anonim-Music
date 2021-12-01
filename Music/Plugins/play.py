@@ -132,67 +132,67 @@ def time_to_seconds(time):
 
 @Client.on_message(command(["play", f"play@{BOT_USERNAME}", "p"]))
 async def play(_, message: Message):
-    chat_id = message.chat.id
+    chat_id = message.chat.id  
     if message.sender_chat:
-        return await message.reply_text("❌ You're an __Anonymous Admin__!\n✅ Kembalikan ke Akun Pengguna Dari Hak Admin.")  
+        return await message.reply_text("❌ You're an __Anonymous Admin__!\n✅ Revert back to User Account From Admin Rights.")  
     user_id = message.from_user.id
     chat_title = message.chat.title
     username = message.from_user.first_name
     checking = f"[{message.from_user.first_name}](tg://user?id={message.from_user.id})"
     if await is_on_off(1):
-        LOG_ID = "-1001184239224"
+        LOG_ID = "-1001429892362"
         if int(chat_id) != int(LOG_ID):
-            return await message.reply_text(f">> ❌ Bot sedang dalam Maintenance, Mohon maaf atas ketidaknyamanannya!")
-        return await message.reply_text(f">> ❌ Bot sedang dalam Maintenance, Mohon maaf atas ketidaknyamanannya!")
+            return await message.reply_text(f">> ❌ Bot is under Maintenance, Sorry for the inconvenience!")
+        return await message.reply_text(f">> ❌ Bot is under Maintenance, Sorry for the inconvenience!")
     a = await app.get_chat_member(message.chat.id , BOT_ID)
     if a.status != "administrator":
-        await message.reply_text(f"Saya perlu menjadi admin dengan beberapa izin:\n\n>> **can_manage_voice_chats:** Untuk mengelola obrolan suara\n>> **can_delete_messages:** Untuk menghapus Sampah yang Dicari Musik\n>> **can_invite_users**: Untuk mengundang asisten untuk mengobrol\n>> **can_restrict_members**: Untuk Melindungi Musik dari Spammer.")
+        await message.reply_text(f"I need to be admin with some permissions:\n\n>> **can_manage_voice_chats:** To manage voice chats\n>> **can_delete_messages:** To delete Music's Searched Waste\n>> **can_invite_users**: For inviting assistant to chat\n>> **can_restrict_members**: For Protecting Music from Spammers.")
         return
     if not a.can_manage_voice_chats:
         await message.reply_text(
-        "❌ Saya tidak memiliki izin yang diperlukan untuk melakukan tindakan ini."
-        + "\n**Izin:** __MENGELOLA OBROLAN SUARA__")
+        "❌ I don't have the required permission to perform this action."
+        + "\n**Permission:** __MANAGE VOICE CHATS__")
         return
     if not a.can_delete_messages:
         await message.reply_text(
-        "❌ Saya tidak memiliki izin yang diperlukan untuk melakukan tindakan ini."
-        + "\n**Izin:** __HAPUS PESAN__")
+        "❌ I don't have the required permission to perform this action."
+        + "\n**Permission:** __DELETE MESSAGES__")
         return
     if not a.can_invite_users:
         await message.reply_text(
-        "❌ Saya tidak memiliki izin yang diperlukan untuk melakukan tindakan ini."
-        + "\n**Izin:** __UNDANG PENGGUNA MELALUI LINK__")
+        "❌ I don't have the required permission to perform this action."
+        + "\n**Permission:** __INVITE USERS VIA LINK__")
         return
     if not a.can_restrict_members:
         await message.reply_text(
-        "❌ Saya tidak memiliki izin yang diperlukan untuk melakukan tindakan ini."
-        + "\n**Izin:** __BAN PENGGUNA__")
+        "❌ I don't have the required permission to perform this action."
+        + "\n**Permission:** __BAN USERS__")
         return
     try:
         b = await app.get_chat_member(message.chat.id , ASSID) 
         if b.status == "kicked":
-            await message.reply_text(f"❌ {ASSNAME}(@{ASSUSERNAME}) Dilarang di obrolan Anda **{chat_title}**\n\nUnban pertama kali menggunakan Musik")
+            await message.reply_text(f"❌ {ASSNAME}(@{ASSUSERNAME}) is banned in your chat **{chat_title}**\n\nUnban it first to use Music")
             return
     except UserNotParticipant:
         if message.chat.username:
             try: 
                 await ASS_ACC.join_chat(f"{message.chat.username}")
-                await message.reply(f"✅ {ASSNAME} Berhasil Bergabung",) 
+                await message.reply(f"✅ {ASSNAME} Joined Successfully",) 
                 await remove_active_chat(chat_id)
             except Exception as e:
-                await message.reply_text(f"❌ __**Asisten Gagal Bergabung**__\n\n**Reason**:{e}")
+                await message.reply_text(f"❌ __**Assistant Failed To Join**__\n\n**Reason**:{e}")
                 return
         else:
             try:
                 xxy = await app.export_chat_invite_link(message.chat.id)
                 yxy = await app.revoke_chat_invite_link(message.chat.id, xxy)
                 await ASS_ACC.join_chat(yxy.invite_link)
-                await message.reply(f"✅ {ASSNAME} Berhasil Bergabung",) 
+                await message.reply(f"✅ {ASSNAME} Joined Successfully",) 
                 await remove_active_chat(chat_id)
             except UserAlreadyParticipant:
                 pass
             except Exception as e:
-                return await message.reply_text(f"❌ __**Asisten Gagal Bergabung*__\n\n**Reason**:{e}")       
+                return await message.reply_text(f"❌ __**Assistant Failed To Join**__\n\n**Reason**:{e}")       
     audio = (message.reply_to_message.audio or message.reply_to_message.voice) if message.reply_to_message else None
     url = get_url(message)
     await message.delete()
@@ -201,13 +201,13 @@ async def play(_, message: Message):
         fucksemx = 1
         what = "Audio Searched"
         await LOG_CHAT(message, what)
-        mystic = await message.reply_text(f"**🔄 Memproses Audio yang Diberikan Oleh {username}**")
+        mystic = await message.reply_text(f"**🔄 Processing Audio Given By {username}**")
         if audio.file_size > 157286400:
-            await mystic.edit_text("❌ Ukuran File Audio Harus Kurang Dari 150 mb") 
+            await mystic.edit_text("❌ Audio File Size Should Be Less Than 150 mb") 
             return
         duration = round(audio.duration / 60)
         if duration > DURATION_LIMIT:
-            return await mystic.edit_text(f"❌ **__Duration Error__**\n\n**Durasi yang Diizinkan: **{DURATION_LIMIT} minute(s)\n**Durasi yang Diterima:** {duration} minute(s)")
+            return await mystic.edit_text(f"❌ **__Duration Error__**\n\n**Allowed Duration: **{DURATION_LIMIT} minute(s)\n**Received Duration:** {duration} minute(s)")
         file_name = audio.file_unique_id + '.' + (
             (
                 audio.file_name.split('.')[-1]
@@ -226,7 +226,7 @@ async def play(_, message: Message):
             else file_name,
         )
         title = "Selected Audio from Telegram"
-        link = "https://t.me/TurboMusicChnl"
+        link = "https://t.me/Technical_Hunter"
         thumb = "cache/audioplay.jpg"
         videoid = "smex1"
     elif url:
@@ -246,15 +246,15 @@ async def play(_, message: Message):
                 idxz = (result["id"])
                 videoid = (result["id"])
         except Exception as e:
-            return await mystic.edit_text(f"❌ Lagu Tidak Ditemukan.\n**Kemungkinan Alasan:**{e}")    
+            return await mystic.edit_text(f"❌ Soung Not Found.\n**Possible Reason:**{e}")    
         smex = int(time_to_seconds(duration))
         if smex > DURATION_LIMIT:
-            return await mystic.edit_text(f"❌ **__Kesalahan Durasi__**\n\n**Durasi yang Diizinkan: **90 minute(s)\n**Durasi yang Diizinkan:** {duration} minute(s)")
+            return await mystic.edit_text(f"❌ **__Duration Error__**\n\n**Allowed Duration: **90 minute(s)\n**Received Duration:** {duration} minute(s)")
         if duration == "None":
-            return await mystic.edit_text("❌ Maaf! Video langsung tidak Didukung")
+            return await mystic.edit_text("❌ Sorry! Live videos are not Supported")
         if views == "None":
-            return await mystic.edit_text("❌ Maaf! Video langsung tidak Didukung")
-        semxbabes = (f"Downloading {title[:80]}")
+            return await mystic.edit_text("❌ Sorry! Live videos are not Supported")
+        semxbabes = (f"Downloading {title[:50]}")
         await mystic.edit(semxbabes)
         theme = random.choice(themes)
         ctitle = message.chat.title
@@ -278,34 +278,34 @@ async def play(_, message: Message):
                     flex[str(bytesx)] += 1
                     try:
                         if eta > 2:
-                            mystic.edit(f"Downloading {title[:80]}\n\n**Ukuran file:** {size}\n**Downloaded:** {percentage}\n**Speed:** {speed}\n**ETA:** {eta} sec")
+                            mystic.edit(f"Downloading {title[:50]}\n\n**File Size:** {size}\n**Downloaded:** {percentage}\n**Speed:** {speed}\n**ETA:** {eta} sec")
                     except Exception as e:
                         pass
                 if per > 250:    
                     if flex[str(bytesx)] == 2:
                         flex[str(bytesx)] += 1
                         if eta > 2:     
-                            mystic.edit(f"Downloading {title[:80]}..\n\n**Ukuran file:** {size}\n**Downloaded:** {percentage}\n**Speed:** {speed}\n**ETA:** {eta} sec")
-                        print(f"[{videoid}] Downloaded {percentage} dengan kecepatan {speed} | ETA: {eta} seconds")
+                            mystic.edit(f"Downloading {title[:50]}..\n\n**File Size:** {size}\n**Downloaded:** {percentage}\n**Speed:** {speed}\n**ETA:** {eta} sec")
+                        print(f"[{videoid}] Downloaded {percentage} at a speed of {speed} | ETA: {eta} seconds")
                 if per > 500:    
                     if flex[str(bytesx)] == 3:
                         flex[str(bytesx)] += 1
                         if eta > 2:     
-                            mystic.edit(f"Downloading {title[:80]}...\n\n**Ukuran file:** {size}\n**Downloaded:** {percentage}\n**Speed:** {speed}\n**ETA:** {eta} sec")
-                        print(f"[{videoid}] Downloaded {percentage} dengan kecepatan {speed} | ETA: {eta} seconds")
+                            mystic.edit(f"Downloading {title[:50]}...\n\n**File Size:** {size}\n**Downloaded:** {percentage}\n**Speed:** {speed}\n**ETA:** {eta} sec")
+                        print(f"[{videoid}] Downloaded {percentage} at a speed of {speed} | ETA: {eta} seconds")
                 if per > 800:    
                     if flex[str(bytesx)] == 4:
                         flex[str(bytesx)] += 1
                         if eta > 2:    
-                            mystic.edit(f"Downloading {title[:80]}....\n\n**Ukuran file:** {size}\n**Downloaded:** {percentage}\n**Speed:** {speed}\n**ETA:** {eta} sec")
-                        print(f"[{videoid}] Downloaded {percentage} dengan kecepatan {speed} | ETA: {eta} seconds")
+                            mystic.edit(f"Downloading {title[:50]}....\n\n**File Size:** {size}\n**Downloaded:** {percentage}\n**Speed:** {speed}\n**ETA:** {eta} sec")
+                        print(f"[{videoid}] Downloaded {percentage} at a speed of {speed} | ETA: {eta} seconds")
             if d['status'] == 'finished': 
                 try:
                     taken = d['_elapsed_str']
                 except Exception as e:
                     taken = "00:00"
                 size = d['_total_bytes_str']
-                mystic.edit(f"**Downloaded {title[:80]}.....**\n\n**Ukuran file:** {size}\n**Time Taken:** {taken} sec\n\n**Converting File** [__FFmpeg processing__]")
+                mystic.edit(f"**Downloaded {title[:50]}.....**\n\n**File Size:** {size}\n**Time Taken:** {taken} sec\n\n**Converting File** [__FFmpeg processing__]")
                 print(f"[{videoid}] Downloaded| Elapsed: {taken} seconds")  
         loop = asyncio.get_event_loop()
         x = await loop.run_in_executor(None, download, link, my_hook)
@@ -315,11 +315,11 @@ async def play(_, message: Message):
             what = "Command"
             await LOG_CHAT(message, what)
             user_name = message.from_user.first_name
-            thumb ="cache/1638300987118.jpg"
+            thumb ="cache/playlistthumb.jpg"
             buttons = playlist_markup(user_name, user_id)
             hmo = await message.reply_photo(
             photo=thumb, 
-            caption=("**Usage:** /play [Nama Musik atau Tautan Youtube atau Balas Audio]\n\nJika Anda ingin memainkan Daftar Putar! Pilih salah satu dari Bawah."),    
+            caption=("**Usage:** /play [Music Name or Youtube Link or Reply to Audio]\n\nIf you want to play Playlists! Select the one from Below."),    
             reply_markup=InlineKeyboardMarkup(buttons),
             ) 
             return
@@ -346,13 +346,13 @@ async def play(_, message: Message):
             ID4 = (result[3]["id"])
             ID5 = (result[4]["id"])
         except Exception as e:
-            return await mystic.edit_text(f"❌ Lagu Tidak Ditemukan.\n**Kemungkinan Alasan:**{e}")
-        thumb ="cache/1638300987118.jpg"
+            return await mystic.edit_text(f"❌ Soung Not Found.\n**Possible Reason:**{e}")
+        thumb ="cache/photo_2021-11-17_22-43-02.jpg"
         await mystic.delete()   
-        buttons = search_markup(ID1,ID2,ID3,ID4,ID5,duration1,duration2,duration3,duration4,duration5,user_id,query,) 
+        buttons = search_markup(ID1, ID2, ID3, ID4, ID5, duration1, duration2, duration3, duration4, duration5, user_id, query)
         hmo = await message.reply_photo(
             photo=thumb, 
-            caption=(f"**Yui X Inline Music Downloader**\n\n『1』 <b>{title1}</b>\n  ┗  💡 <u>__[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID1})__</u>\n\n『2』 <b>{title2}</b>\n  ┗  💡 <u>__[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID2})__</u>\n\n『3』 <b>{title3}</b>\n  ┗  💡 <u>__[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})__</u>\n\n『4』 <b>{title4}</b>\n  ┗  💡 <u>__[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID4})__</u>\n\n『5』 <b>{title5}</b>\n  ┗  💡 <u>__[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID5})__</u>"),    
+            caption=(f"**List Of Result**\n\n『1』 <b>{title1}</b>\n  ┗  💡 <u>__[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID1})__</u>\n\n『2』 <b>{title2}</b>\n  ┗  💡 <u>__[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID2})__</u>\n\n『3』 <b>{title3}</b>\n  ┗  💡 <u>__[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})__</u>\n\n『4』 <b>{title4}</b>\n  ┗  💡 <u>__[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID4})__</u>\n\n『5』 <b>{title5}</b>\n  ┗  💡 <u>__[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID5})__</u>"),    
             reply_markup=InlineKeyboardMarkup(buttons),
         )  
         disable_web_page_preview=True
@@ -384,14 +384,8 @@ async def play(_, message: Message):
         checking = f"[{message.from_user.first_name}](tg://user?id={message.from_user.id})"
         await message.reply_photo(
             photo=thumb,
-            caption=(f"""
-<b>🔢 Music Ditambahkan Ke Antrian</b>
-<b>🏷️ Nama: [{title[:100]}]({link})</b>
-<b>⏱️ Durasi:</b> `{duration}` \n
-<b>🃏 Atas permintaan:</b> {checking}
-<b>#️⃣ Posisi Dalam antrian:</b> {position}
-""",
-            reply_markup=InlineKeyboardMarkup(buttons), 
+            caption=(f"🎬 <b>__Song:__</b>[{title[:25]}]({link}) \n⏳ <b>__Duration:__</b> {duration} \n👤 <b>__Requested by:__ </b>{checking} \n🚧 <b>__Queued at:__</b> <b>#{position}!</b>"),
+            reply_markup=InlineKeyboardMarkup(buttons)
         )
         return await mystic.delete()     
     else:
@@ -421,12 +415,8 @@ async def play(_, message: Message):
         await message.reply_photo(
         photo=thumb,
         reply_markup=InlineKeyboardMarkup(buttons),    
-        caption=(f"""
-<b>🏷 Nama:</b> [{title[:100]}]({link})
-<b>⏰ Durasi:</b> `{duration}` `Menit`
-<b>🃏 Atas permintaan:</b> {checking}
-""", 
-        )   
+        caption=(f"🎥 <b>__Playing:__</b>[{title[:25]}]({link}) \n⏳ <b>__Duration:__</b> {duration} \n👤 <b>__Requested by:__</b>{checking}")
+    )   
         return await mystic.delete()
          
     
@@ -442,11 +432,11 @@ async def startyuplay(_,CallbackQuery):
     try:
         id,duration,user_id = callback_request.split("|") 
     except Exception as e:
-        return await CallbackQuery.message.edit(f"❌ Terjadi kesalahan\n**Kemungkinan alasannya bisa**:{e}")
+        return await CallbackQuery.message.edit(f"❌ Error Occured\n**Possible reason could be**:{e}")
     if duration == "None":
-        return await CallbackQuery.message.reply_text(f"❌ Maaf!, Video Langsung tidak didukung")      
+        return await CallbackQuery.message.reply_text(f"❌ Sorry!, Live Videos are not supported")      
     if CallbackQuery.from_user.id != int(user_id):
-        return await CallbackQuery.answer("❌ Ini bukan untukmu! Cari Lagu Milik Anda", show_alert=True)
+        return await CallbackQuery.answer("❌ This is not for you! Search You Own Song", show_alert=True)
     await CallbackQuery.message.delete()
     checking = f"[{CallbackQuery.from_user.first_name}](tg://user?id={userid})"
     url = (f"https://www.youtube.com/watch?v={id}")
@@ -454,22 +444,15 @@ async def startyuplay(_,CallbackQuery):
     idx = id
     smex = int(time_to_seconds(duration))
     if smex > DURATION_LIMIT:
-        await CallbackQuery.message.reply_text(
-            f"""
-**Kesalahan Durasi**
-
-**Durasi yang Diizinkan: {DURATION_LIMIT}**
-**Durasi yang Diteriman:** {duration}
-"""
-        ) 
+        await CallbackQuery.message.reply_text(f"❌ **__Duration Error__**\n\n✅ **Allowed Duration: **90 minute(s)\n📲 **Received Duration:** {duration} minute(s)")
         return 
     try:
         with yt_dlp.YoutubeDL(ytdl_opts) as ytdl:
             x = ytdl.extract_info(url, download=False)
     except Exception as e:
-        return await CallbackQuery.message.reply_text(f"Gagal mengunduh video ini..\n\n**Alasan**: {e}") 
+        return await CallbackQuery.message.reply_text(f"❌ Failed to download this video.\n\n**Reason**:{e}") 
     title = (x["title"])
-    await CallbackQuery.answer(f"Selected {title[:80]}.... \nProcessing...", show_alert=True)
+    await CallbackQuery.answer(f"Selected {title[:20]}.... \nProcessing...", show_alert=True)
     mystic = await CallbackQuery.message.reply_text(f"Downloading {title[:50]}")
     thumbnail = (x["thumbnail"])
     idx = (x["id"])
@@ -491,34 +474,34 @@ async def startyuplay(_,CallbackQuery):
                 flex[str(bytesx)] += 1
                 try:
                     if eta > 2:
-                        mystic.edit(f"Downloading {title[:80]}\n\n**Ukuran file:** {size}\n**Downloaded:** {percentage}\n**Speed:** {speed}\n**ETA:** {eta} sec")
+                        mystic.edit(f"Downloading {title[:50]}\n\n**File Size:** {size}\n**Downloaded:** {percentage}\n**Speed:** {speed}\n**ETA:** {eta} sec")
                 except Exception as e:
                     pass
             if per > 250:    
                 if flex[str(bytesx)] == 2:
                     flex[str(bytesx)] += 1
                     if eta > 2:     
-                        mystic.edit(f"Downloading {title[:80]}..\n\n**Ukuran file:** {size}\n**Downloaded:** {percentage}\n**Speed:** {speed}\n**ETA:** {eta} sec")
-                    print(f"[{videoid}] Downloaded {percentage} dengan kecepatan {speed} | ETA: {eta} seconds")
+                        mystic.edit(f"Downloading {title[:50]}..\n\n**File Size:** {size}\n**Downloaded:** {percentage}\n**Speed:** {speed}\n**ETA:** {eta} sec")
+                    print(f"[{videoid}] Downloaded {percentage} at a speed of {speed} | ETA: {eta} seconds")
             if per > 500:    
                 if flex[str(bytesx)] == 3:
                     flex[str(bytesx)] += 1
                     if eta > 2:     
-                        mystic.edit(f"Downloading {title[:80]}...\n\n**Ukuran file:** {size}\n**Downloaded:** {percentage}\n**Speed:** {speed}\n**ETA:** {eta} sec")
-                    print(f"[{videoid}] Downloaded {percentage} dengan kecepatan {speed} | ETA: {eta} seconds")
+                        mystic.edit(f"Downloading {title[:50]}...\n\n**File Size:** {size}\n**Downloaded:** {percentage}\n**Speed:** {speed}\n**ETA:** {eta} sec")
+                    print(f"[{videoid}] Downloaded {percentage} at a speed of {speed} | ETA: {eta} seconds")
             if per > 800:    
                 if flex[str(bytesx)] == 4:
                     flex[str(bytesx)] += 1
                     if eta > 2:    
-                        mystic.edit(f"Downloading {title[:80]}....\n\n**Ukuran file:** {size}\n**Downloaded:** {percentage}\n**Speed:** {speed}\n**ETA:** {eta} sec")
-                    print(f"[{videoid}] Downloaded {percentage} dengan kecepatan {speed} | ETA: {eta} seconds")
+                        mystic.edit(f"Downloading {title[:50]}....\n\n**File Size:** {size}\n**Downloaded:** {percentage}\n**Speed:** {speed}\n**ETA:** {eta} sec")
+                    print(f"[{videoid}] Downloaded {percentage} at a speed of {speed} | ETA: {eta} seconds")
         if d['status'] == 'finished': 
             try:
                 taken = d['_elapsed_str']
             except Exception as e:
                 taken = "00:00"
             size = d['_total_bytes_str']
-            mystic.edit(f"**Downloaded {title[:80]}.....**\n\n**Ukuran file:** {size}\n**Time Taken:** {taken} sec\n\n**Converting File** [__FFmpeg processing__]")
+            mystic.edit(f"**Downloaded {title[:50]}.....**\n\n**File Size:** {size}\n**Time Taken:** {taken} sec\n\n**Converting File** [__FFmpeg processing__]")
             print(f"[{videoid}] Downloaded| Elapsed: {taken} seconds")    
     loop = asyncio.get_event_loop()
     x = await loop.run_in_executor(None, download, url, my_hook)
@@ -549,16 +532,9 @@ async def startyuplay(_,CallbackQuery):
         await mystic.delete()
         m = await CallbackQuery.message.reply_photo(
         photo=thumb,
-        caption=(f"""
-<b>🔢 Music Ditambahkan Ke Antrian</b>
-<b>🏷 Nama:</b>[{title[:100]}]({url})
-<b>⏱️ Durasi:</b> `{duration}` `Menit`
-<b>💡</b> [More Information](https://t.me/{BOT_USERNAME}?start=info_{id})
-<b>🃏 Atas permintaan:</b> {checking}
-<b>#️⃣ Posisi antrian</b> {position}
-""",
+        caption=(f"🎬 <b>__Song:__ </b>[{title[:25]}]({url}) \n⏳ <b>__Duration:__</b> {duration} \n💡 <b>__Info:__</b> [More Information](https://t.me/{BOT_USERNAME}?start=info_{id})\n👤 <b>__Requested by:__ </b>{checking} \n🚧 <b>__Queued at:__</b> <b>#{position}!</b>"),
         reply_markup=InlineKeyboardMarkup(buttons)
-        )
+    )
         os.remove(thumb)
         await CallbackQuery.message.delete()       
     else:
@@ -578,13 +554,8 @@ async def startyuplay(_,CallbackQuery):
         m = await CallbackQuery.message.reply_photo(
         photo=thumb,
         reply_markup=InlineKeyboardMarkup(buttons),    
-        caption=(f"""
-<b>🏷 Nama:</b> [{title[:100]}]({url})
-<b>⏱️ Durasi:</b> `{duration}` `Menit`
-<b>💡</b> [More Information](https://t.me/{BOT_USERNAME}?start=info_{id})
-<b>🃏 Atas permintaan:</b> {checking}
-""",
-        )   
+        caption=(f"🎥 <b>__Playing:__ </b>[{title[:25]}]({url}) \n⏳ <b>__Duration:__</b> {duration} \n💡 <b>__Info:__</b> [More Information](https://t.me/{BOT_USERNAME}?start=info_{id})\n👤**__Requested by:__** {checking}")
+    )   
         os.remove(thumb)
         await CallbackQuery.message.delete()
 
@@ -598,16 +569,12 @@ async def popat(_,CallbackQuery):
     print(callback_request)
     userid = CallbackQuery.from_user.id 
     try:
-        id, query, user_id = callback_request.split("|")
+        id , query, user_id = callback_request.split("|") 
     except Exception as e:
-        return await CallbackQuery.message.edit(
-            f"Terjadi Kesalahan\n**Kemungkinan alasannya adalah**: {e}"
-        )
+        return await CallbackQuery.message.edit(f"❌ Error Occured\n**Possible reason could be**:{e}")       
     if CallbackQuery.from_user.id != int(user_id):
-        return await CallbackQuery.answer(
-            "Ini bukan untukmu! Cari Lagu Milik Anda", show_alert=True
-        )
-    i = int(id)
+        return await CallbackQuery.answer("❌ This is not for you! Search You Own Song", show_alert=True)
+    i=int(id)
     query = str(query)
     try:
         a = VideosSearch(query, limit=10)
@@ -643,11 +610,11 @@ async def popat(_,CallbackQuery):
         ID9 = (result[8]["id"])
         ID10 = (result[9]["id"])                    
     except Exception as e:
-        return await mystic.edit_text(f"❌ Lagu Tidak Ditemukan.\n**Kemungkinan Alasan:**{e}")
+        return await mystic.edit_text(f"❌ Soung Not Found.\n**Possible Reason:**{e}")
     if i == 1:
         buttons = search_markup2(ID6, ID7, ID8, ID9, ID10, duration6, duration7, duration8, duration9, duration10 ,user_id, query)
         await CallbackQuery.edit_message_text(
-            f"6️⃣<b>{title6}</b>\n  ┗  🔗 <u>__[Get Additional Information](https://t.me/{BOT_USERNAME}?start=info_{ID6})__</u>\n\n7️⃣<b>{title7}</b>\n  ┗  🔗 <u>__[Get Additional Information](https://t.me/{BOT_USERNAME}?start=info_{ID7})__</u>\n\n8️⃣<b>{title8}</b>\n  ┗  🔗 <u>__[Get Additional Information](https://t.me/{BOT_USERNAME}?start=info_{ID8})__</u>\n\n9️⃣<b>{title9}</b>\n  ┗  🔗 <u>__[Get Additional Information](https://t.me/{BOT_USERNAME}?start=info_{ID9})__</u>\n\n🔟<b>{title10}</b>\n  ┗  🔗 <u>__[Get Additional Information](https://t.me/{BOT_USERNAME}?start=info_{ID10})__</u>",    
+            f"『6』 <b>{title6}</b>\n  ┗  💡 <u>__[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID6})__</u>\n\n『7』 <b>{title7}</b>\n  ┗  💡 <u>__[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID7})__</u>\n\n『8』 <b>{title8}</b>\n  ┗  💡 <u>__[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID8})__</u>\n\n『9』 <b>{title9}</b>\n  ┗  💡 <u>__[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID9})__</u>\n\n『10』 <b>{title10}</b>\n  ┗  💡 <u>__[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID10})__</u>",    
             reply_markup=InlineKeyboardMarkup(buttons),
         )  
         disable_web_page_preview=True
@@ -655,22 +622,21 @@ async def popat(_,CallbackQuery):
     if i == 2:
         buttons = search_markup(ID1, ID2, ID3, ID4, ID5, duration1, duration2, duration3, duration4, duration5, user_id, query)
         await CallbackQuery.edit_message_text(
-            f"1️⃣<b>{title1}</b>\n  ┗  🔗 <u>__[Get Additional Information](https://t.me/{BOT_USERNAME}?start=info_{ID1})__</u>\n\n2️⃣<b>{title2}</b>\n  ┗  🔗 <u>__[Get Additional Information](https://t.me/{BOT_USERNAME}?start=info_{ID2})__</u>\n\n3️⃣<b>{title3}</b>\n  ┗  🔗 <u>__[Get Additional Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})__</u>\n\n4️⃣<b>{title4}</b>\n  ┗  🔗 <u>__[Get Additional Information](https://t.me/{BOT_USERNAME}?start=info_{ID4})__</u>\n\n5️⃣<b>{title5}</b>\n  ┗  🔗 <u>__[Get Additional Information](https://t.me/{BOT_USERNAME}?start=info_{ID5})__</u>",   
+            f"『1』 <b>{title1}</b>\n  ┗  💡 <u>__[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID1})__</u>\n\n『2』 <b>{title2}</b>\n  ┗  💡 <u>__[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID2})__</u>\n\n『3』 <b>{title3}</b>\n  ┗  💡 <u>__[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})__</u>\n\n『4』 <b>{title4}</b>\n  ┗  💡 <u>__[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID4})__</u>\n\n『5』 <b>{title5}</b>\n  ┗  💡 <u>__[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID5})__</u>",    
             reply_markup=InlineKeyboardMarkup(buttons),
-        )   
+        )  
         disable_web_page_preview=True
         return    
         
 @app.on_message(filters.command("playplaylist"))
 async def play_playlist_cmd(_, message):
-    thumb ="cache/1638300987118.jpg"
+    thumb ="cache/playlistthumb.jpg"
     user_id = message.from_user.id
     user_name = message.from_user.first_name
     buttons = playlist_markup(user_name, user_id)
     await message.reply_photo(
     photo=thumb, 
-    caption=("**__Music's Playlist Feature__**\n\nPilih Daftar Putar yang ingin Anda mainkan!."),    
+    caption=("**__Music's Playlist Feature__**\n\nSelect the Playlist you want to play!."),    
     reply_markup=InlineKeyboardMarkup(buttons),
     )
     return
-
