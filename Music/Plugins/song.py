@@ -148,7 +148,7 @@ async def mpthree(_, message: Message):
         m = await message.reply_photo(
             photo=thumb,
             reply_markup=InlineKeyboardMarkup(buttons),    
-            caption=(f"🏷 <b>Nama: </b>[{title[:50]}]({url})\n💡 <\u>**[DiKelola Oleh]** :<b> (https://t.me/{BOT_USERNAME}?start=info_{id}) ✨<b> **Powered by** :<b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa")
+            caption=(f"🏷 <b>Nama: </b>[{title[:50]}]({url})\n💡 <\u>**[DiKelola Oleh]** :<b> (https://t.me/{BOT_USERNAME}?start=info_{id}) ✨<b> **Powered by** :<b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa"), 
         )   
         os.remove(thumb)
     else:
