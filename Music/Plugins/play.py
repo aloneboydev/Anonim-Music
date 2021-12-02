@@ -384,7 +384,7 @@ async def play(_, message: Message):
         checking = f"[{message.from_user.first_name}](tg://user?id={message.from_user.id})"
         await message.reply_photo(
             photo=thumb,
-            caption=(f"🏷 <b>Nama:</b>[{title[:80]}]({link}) \n⏱️ <b>Duration:</b> `{duration}` `Menit` \n👤 <b>Atas permintaan: </b>{checking} \n#️⃣ <b>Posisi antrian:</b> <b>#{position}!</b>"),
+            caption=(f"🏷 <b>Nama :</b>[{title[:80]}]({link}) \n⏱️ <b>Duration :</b> `{duration}` `Menit` \n👤 <b>Atas permintaan : </b>{checking} \n#️⃣ <b>Posisi antrian :</b> <b>#{position}!</b>"),
             reply_markup=InlineKeyboardMarkup(buttons)
         )
         return await mystic.delete()     
@@ -415,7 +415,7 @@ async def play(_, message: Message):
         await message.reply_photo(
         photo=thumb,
         reply_markup=InlineKeyboardMarkup(buttons),    
-        caption=(f"🏷 <b>Memutar:</b>[{title[:80]}]({link}) \n⏱️ <b>Duration:</b> `{duration}` `Menit`\n👤 <b>Atas permintaan:</b>{checking}")
+        caption=(f"🏷 <b>Memutar :</b>[{title[:80]}]({link}) \n⏱️ <b>Duration :</b> `{duration}` `Menit`\n👤 <b>Atas permintaan :</b>{checking}")
     )   
         return await mystic.delete()
          
@@ -532,7 +532,7 @@ async def startyuplay(_,CallbackQuery):
         await mystic.delete()
         m = await CallbackQuery.message.reply_photo(
         photo=thumb,
-        caption=(f"🏷 <b>Song: </b>[{title[:80]}]({url}) \n⏱️ <b>Duration:</b> `{duration}` `Menit` \n💡 <b>Info:</b> [More Information](https://t.me/{BOT_USERNAME}?start=info_{id})\n👤 <b>Atas permintaan: </b>{checking} \n#️⃣ <b>Posisi antrian:</b> <b>#{position}!</b>"),
+        caption=(f"🏷 <b>Song : </b>[{title[:80]}]({url}) \n⏱️ <b>Duration :</b> `{duration}` `Menit` \n💡 <b>Info :</b> [More Information](https://t.me/{BOT_USERNAME}?start=info_{id})\n👤 <b>Atas permintaan : </b>{checking} \n#️⃣ <b>Posisi antrian :</b> <b>#{position}!</b>"),
         reply_markup=InlineKeyboardMarkup(buttons)
     )
         os.remove(thumb)
@@ -554,7 +554,7 @@ async def startyuplay(_,CallbackQuery):
         m = await CallbackQuery.message.reply_photo(
         photo=thumb,
         reply_markup=InlineKeyboardMarkup(buttons),    
-        caption=(f"🏷 <b>Memutar: </b>[{title[:80]}]({url}) \n⏱️ <b>Duration:</b> `{duration}` `Menit` \n💡 <b>Info:</b> [More Information](https://t.me/{BOT_USERNAME}?start=info_{id})\n👤**Atas permintaan:** {checking}")
+        caption=(f"🏷 <b>Memutar : </b>[{title[:80]}]({url}) \n⏱️ <b>Duration :</b> `{duration}` `Menit` \n💡 <b>Info :</b> [More Information](https://t.me/{BOT_USERNAME}?start=info_{id})\n👤 **Atas permintaan :** {checking}")
     )   
         os.remove(thumb)
         await CallbackQuery.message.delete()
