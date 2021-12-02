@@ -76,7 +76,7 @@ async def getspy(_,CallbackQuery):
     try:
         if userLastDownloadTime > datetime.now():
             wait_time = round((userLastDownloadTime - datetime.now()).total_seconds() / 60, 2)
-            return await CallbackQuery.message.reply_text(f"Okay {Name}, Fast AF Boiii.. `Wait for {wait_time} min(s) before next download request")
+            return await CallbackQuery.message.reply_text(f"Okay {Name}, AF Cepat Boi.. `Tunggu Sebentar {wait_time} Menit(s) sebelum permintaan unduhan berikutnya")
     except:
         pass
     url = (f"https://www.youtube.com/watch?v={videoid}")
@@ -87,7 +87,7 @@ async def getspy(_,CallbackQuery):
         user_time[userid] = now + \
                                      timedelta(minutes=youtube_next_fetch)
     except Exception:
-        return await CallbackQuery.message.reply_text("Failed To Fetch Data...")
+        return await CallbackQuery.message.reply_text("Gagal Mengambil Data...")
     j = 0
     a = 0
     b = 0
@@ -150,10 +150,10 @@ async def getspy(_,CallbackQuery):
                     f += 1
                     a6 = InlineKeyboardButton(text=f"(2160)p 📹 {humanbytes(x['filesize'])}", callback_data=f"ytdata video||{x['format_id']}||{videoid}")   
         else:
-            return await CallbackQuery.message.reply_text("Video Format Not Found.")
+            return await CallbackQuery.message.reply_text("Format Video Tidak Ditemukan.")
     universal = InlineKeyboardButton(text="ᴛᴜᴛᴜᴘ •", callback_data=f'close2')
     if j == 0:
-        return await CallbackQuery.message.reply_text("Video Format Not Found..")
+        return await CallbackQuery.message.reply_text("Format Video Tidak Ditemukan..")
     elif j == 1:
         key = InlineKeyboardMarkup(
             [
@@ -254,7 +254,7 @@ async def getspy(_,CallbackQuery):
             ]
         )    
     else:
-        return await CallbackQuery.message.reply_text("Video Format Not Found....")
+        return await CallbackQuery.message.reply_text("Format Video Tidak Ditemukan....")
     await CallbackQuery.edit_message_reply_markup(reply_markup=key)
 
     
@@ -298,7 +298,7 @@ inl = InlineKeyboardMarkup(
 upl = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton(text="Uploading......", callback_data=f'down')
+                    InlineKeyboardButton(text="Mengunggah......", callback_data=f'down')
                 ]   
             ]
         )
@@ -306,7 +306,7 @@ upl = InlineKeyboardMarkup(
 def inl_mark(videoid, user_id):
     buttons= [
             [
-                InlineKeyboardButton(text="Download or Upload Failed......", callback_data=f'down')
+                InlineKeyboardButton(text="Unduh atau Unggahan Gagal......", callback_data=f'down')
             ],
             [
                 InlineKeyboardButton(text="• ⌫", callback_data=f'good {videoid}|{user_id}'),
@@ -341,12 +341,12 @@ async def boom(_,CallbackQuery):
         await CallbackQuery.edit_message_reply_markup(reply_markup=InlineKeyboardMarkup(buttons)) 
     mystic = await CallbackQuery.edit_message_text("Download Started\n\nDownloading speed could be slow. Please hold on..", reply_markup = inl)
     fetched = f"""
-**Track Downloaded**
-❇️**Title:** {x["title"]}
-⏳**Duration:** {round(x["duration"] / 60)} Mins
-👀**Views:** __{x["view_count"]}__
-🎥**Channel Name:** {x["uploader"]}
-__Youtube Inline Download Powered By Music__ """    
+**Music - Video Sudah Selesai Di Unduh**
+🏷 **Nama** : {x["title"]}
+⏱️ **Duration** : {round(x["duration"] / 60)} `Menit`
+💡 **Views** : {x["view_count"]}
+⚡ **Channel** : {x["uploader"]}
+✨ **Powered By** : [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)"""    
     link = (x["webpage_url"])
     channel = (x["channel_url"])
     perf = (x['uploader'])
@@ -451,7 +451,7 @@ def p_mark(link, channel):
     return buttons    
     
 async def send_file(CallbackQuery, med, filename, videoid, user_id, link, channel):
-    await CallbackQuery.edit_message_text("Upload Started\n\nUploading speed could be slow. Please hold on..", reply_markup = upl)
+    await CallbackQuery.edit_message_text("Unduh Dimulai\n\nKecepatan Pengunduhan Bisa Lambat..Mohon Tunggu Sebentar Napa Kntl..", reply_markup = upl)
     try:
         await app.send_chat_action(chat_id=CallbackQuery.message.chat.id, action="upload_document")
         buttons = p_mark(link, channel)
