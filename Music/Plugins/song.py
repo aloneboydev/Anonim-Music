@@ -148,7 +148,7 @@ async def mpthree(_, message: Message):
         m = await message.reply_photo(
             photo=thumb,
             reply_markup=InlineKeyboardMarkup(buttons),    
-            caption=(f"🏷 <b>Nama: </b>[{title[:50]}]({url})\n💡 **DiKelola Oleh** :<b> (https://t.me/{BOT_USERNAME}?start=info_{id}) ✨<b> **Powered by** :<b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa")
+            caption=(f"🏷 <b>Nama: </b>[{title[:50]}]({url})\n💡 **[DiKelola Oleh]** :<b> (https://t.me/{BOT_USERNAME}?start=info_{id}) ✨<b> **Powered by** :<b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa")
         )   
         os.remove(thumb)
     else:
@@ -181,7 +181,7 @@ async def mpthree(_, message: Message):
         buttons = search_markup(ID1, ID2, ID3, ID4, ID5, duration1, duration2, duration3, duration4, duration5, user_id, query)
         hmo = await message.reply_photo(
             photo=thumb, 
-            caption=(f"**✨ Silahkan pilih lagu yang ingin Lu Download Kontol▪️**\n\n1️⃣ <b>{title1}</b>\n ╚ 💡 <u>[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID1})</u>\n ╚ ✨<b> **Powered by** :<b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)\n\n2️⃣ <b>{title2}</b>\n ╚ 💡 <u>[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID2})</u>\n ╚ ✨<b> **Powered by** :<b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)\n\n3️⃣ <b>{title3}</b>\n ╚ 💡 <u>[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})</u>\n ╚ ✨<b> **Powered by** :<b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)\n\n4️⃣ <b>{title4}</b>\n ╚ 💡 <u>[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID4})</u>\n ╚ ✨<b> **Powered by** :<b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)\n\n5️⃣ <b>{title5}</b>\n ╚ 💡 <u>[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID5})</b>\n ╚ ✨<b> **Powered by** :<b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)<b>"),   
+            caption=(f"**✨ Silahkan pilih lagu yang ingin Lu Download Kontol▪️**\n\n1️⃣ <b>{title1}</b>\n ╚ 💡 <u>[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID1})</u>\n ╚ ✨<b> **Powered by** :<b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)\n\n2️⃣ <b>{title2}</b>\n ╚ 💡 <u>[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID2})</u>\n ╚ ✨<b> **Powered by** :<b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)\n\n3️⃣ <b>{title3}</b>\n ╚ 💡 <u>[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})</u>\n ╚ ✨<b> **Powered by** :<b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)\n\n4️⃣ <b>{title4}</b>\n ╚ 💡 <u>[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID4})</u>\n ╚ ✨<b> **Powered by** :<b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)\n\n5️⃣ <b>{title5}</b>\n ╚ 💡 <u>[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID5})</b>\n ╚ ✨<b> **Powered by** :<b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa<b>"),   
             reply_markup=InlineKeyboardMarkup(buttons),
         )  
         disable_web_page_preview=True
@@ -227,7 +227,7 @@ async def startyuplay(_,CallbackQuery):
     m = await CallbackQuery.message.reply_photo(
         photo=thumb,
         reply_markup=InlineKeyboardMarkup(buttons),    
-        caption=(f"🏷 <b>Nama: </b>[{title[:50]}]({url})\n ╚ 💡**[DiKelola Oleh]** : (https://t.me/{BOT_USERNAME}?start=info_{id})\n ╚ ✨<b> **Powered by** :<b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa")
+        caption=(f"🏷 <b>Nama: </b>[{title[:50]}]({url})\n ╚ 💡 <u>[More Information](https://t.me/{BOT_USERNAME}?start=info_{id})\n ╚ ✨ <u>**Powered by** :<b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa")
     )   
     os.remove(thumb)
     await CallbackQuery.message.delete()
