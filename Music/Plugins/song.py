@@ -181,7 +181,7 @@ async def mpthree(_, message: Message):
         buttons = search_markup(ID1, ID2, ID3, ID4, ID5, duration1, duration2, duration3, duration4, duration5, user_id, query)
         hmo = await message.reply_photo(
             photo=thumb, 
-            caption=(f"**✨ Silahkan pilih lagu yang ingin anda putar**\n\n1️⃣ <b>{title1}</b>\n ╚ 💡 <u>[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID1})</u>\n ╚ ✨<b> **Powered by**:<b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)\n\n2️⃣ <b>{title2}</b>\n ╚ 💡 <u>[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID2})</u>\n ╚ ✨<b> **Powered by**:<b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)\n\n3️⃣ <b>{title3}</b>\n ╚ 💡 <u>[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})</u>\n ╚ ✨<b> **Powered by**:<b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)\n\n4️⃣ <b>{title4}</b>\n ╚ 💡 <u>[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID4})</u>\n ╚ ✨<b> **Powered by**:<b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)\n\n5️⃣ <b>{title5}</b>\n ╚ 💡 <u>[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID5})</b>\n ╚ ✨<b> **Powered by**:<b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)</u>"),   
+            caption=(f"**✨ Silahkan pilih lagu yang ingin Lu Download Kontol▪️**\n\n1️⃣ <b>{title1}</b>\n ╚ 💡 <u>[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID1})</u>\n ╚ ✨<b> **Powered by** :<b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)\n\n2️⃣ <b>{title2}</b>\n ╚ 💡 <u>[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID2})</u>\n ╚ ✨<b> **Powered by** :<b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)\n\n3️⃣ <b>{title3}</b>\n ╚ 💡 <u>[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})</u>\n ╚ ✨<b> **Powered by** :<b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)\n\n4️⃣ <b>{title4}</b>\n ╚ 💡 <u>[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID4})</u>\n ╚ ✨<b> **Powered by** :<b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)\n\n5️⃣ <b>{title5}</b>\n ╚ 💡 <u>[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID5})</b>\n ╚ ✨<b> **Powered by** :<b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)<b>",   
             reply_markup=InlineKeyboardMarkup(buttons),
         )  
         disable_web_page_preview=True
@@ -200,9 +200,9 @@ async def startyuplay(_,CallbackQuery):
     except Exception as e:
         return await CallbackQuery.message.edit(f"❌ Error Occured\n**Possible reason could be**:{e}")
     if duration == "None":
-        return await CallbackQuery.message.reply_text(f"❌ Sorry!, Live Videos are not supported")      
+        return await CallbackQuery.message.reply_text(f"❌ Maaf!, Video Langsung tidak didukung")      
     if CallbackQuery.from_user.id != int(user_id):
-        return await CallbackQuery.answer("❌ This is not for you! Search You Own Song", show_alert=True)
+        return await CallbackQuery.answer("❌ Ini bukan untukmu! Cari Lagu Milik Anda", show_alert=True)
     await CallbackQuery.message.delete()
     checking = f"[{CallbackQuery.from_user.first_name}](tg://user?id={userid})"
     url = (f"https://www.youtube.com/watch?v={id}")
@@ -227,7 +227,7 @@ async def startyuplay(_,CallbackQuery):
     m = await CallbackQuery.message.reply_photo(
         photo=thumb,
         reply_markup=InlineKeyboardMarkup(buttons),    
-        caption=(f"🏷 <b>Nama: </b>[{title[:50]}]({url})\n💡**DiKelola Oleh**(https://t.me/{BOT_USERNAME}?start=info_{id})")
+        caption=(f"🏷 <b>Nama: </b>[{title[:50]}]({url})\n ╚ 💡**[DiKelola Oleh]** : (https://t.me/{BOT_USERNAME}?start=info_{id})\n ╚ ✨<b> **Powered by** :<b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa")
     )   
     os.remove(thumb)
     await CallbackQuery.message.delete()
@@ -287,7 +287,7 @@ async def chonga(_,CallbackQuery):
     if i == 1:
         buttons = search_markup2(ID6, ID7, ID8, ID9, ID10, duration6, duration7, duration8, duration9, duration10 ,user_id, query)
         await CallbackQuery.edit_message_text(
-           f"6️⃣ <b>{title6}</b>\n ╚ 💡 <u>[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID6})</u>\n ╚ ✨<b> **Powered by** :<b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)\n\n7️⃣ <b>{title7}</b>\n ╚ 💡 <u>[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID7})</u>\n ╚ ✨<b> **Powered by** :<b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)\n\n8️⃣ <b>{title8}</b>\n ╚ 💡 <u>[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID8})</u>\n ╚ ✨<b> **Powered by** :<b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)\n\n9️⃣ <b>{title9}</b>\n ╚ 💡 <u>[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID9})</u>\n ╚ ✨<b> **Powered by** :<b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)\n\n🔟 <b>{title10}</b>\n ╚ 💡 <u>[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID10})</b>\n ╚ ✨<b> **Powered by** :<b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)</u>",    
+            f"6️⃣ <b>{title6}</b>\n ╚ 💡 <u>[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID6})</u>\n ╚ ✨<b> **Powered by** :<b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)\n\n7️⃣ <b>{title7}</b>\n ╚ 💡 <u>[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID7})</u>\n ╚ ✨<b> **Powered by** :<b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)\n\n8️⃣ <b>{title8}</b>\n ╚ 💡 <u>[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID8})</u>\n ╚ ✨<b> **Powered by** :<b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)\n\n9️⃣ <b>{title9}</b>\n ╚ 💡 <u>[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID9})</u>\n ╚ ✨<b> **Powered by** :<b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)\n\n🔟 <b>{title10}</b>\n ╚ 💡 <u>[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID10})</b>\n ╚ ✨<b> **Powered by** :<b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)<b>",    
             reply_markup=InlineKeyboardMarkup(buttons),
         )  
         disable_web_page_preview=True
@@ -295,7 +295,7 @@ async def chonga(_,CallbackQuery):
     if i == 2:
         buttons = search_markup(ID1, ID2, ID3, ID4, ID5, duration1, duration2, duration3, duration4, duration5, user_id, query)
         await CallbackQuery.edit_message_text(
-            f"1️⃣ <b>{title1}</b>\n ╚ 💡 <u>[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID1})</u>\n ╚ ✨<b> **Powered by** :<b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)\n\n2️⃣ <b>{title2}</b>\n ╚ 💡 <u>[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID2})</u>\n ╚ ✨<b> **Powered by** :<b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)\n\n3️⃣ <b>{title3}</b>\n ╚ 💡 <u>[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})</u>\n ╚ ✨<b> **Powered by** :<b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)\n\n4️⃣ <b>{title4}</b>\n ╚ 💡 <u>[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID4})</u>\n ╚ ✨<b> **Powered by** :<b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)\n\n5️⃣ <b>{title5}</b>\n ╚ 💡 <u>[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID5})</b>\n ╚ ✨<b> **Powered by** :<b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)</u>",    
+            f"1️⃣ <b>{title1}</b>\n ╚ 💡 <u>[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID1})</u>\n ╚ ✨<b> **Powered by** :<b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)\n\n2️⃣ <b>{title2}</b>\n ╚ 💡 <u>[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID2})</u>\n ╚ ✨<b> **Powered by** :<b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)\n\n3️⃣ <b>{title3}</b>\n ╚ 💡 <u>[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})</u>\n ╚ ✨<b> **Powered by** :<b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)\n\n4️⃣ <b>{title4}</b>\n ╚ 💡 <u>[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID4})</u>\n ╚ ✨<b> **Powered by** :<b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)\n\n5️⃣ <b>{title5}</b>\n ╚ 💡 <u>[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID5})</b>\n ╚ ✨<b> **Powered by** :<b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)<b>",    
             reply_markup=InlineKeyboardMarkup(buttons),
         )  
         disable_web_page_preview=True
