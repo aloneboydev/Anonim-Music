@@ -181,7 +181,7 @@ async def mpthree(_, message: Message):
         buttons = search_markup(ID1, ID2, ID3, ID4, ID5, duration1, duration2, duration3, duration4, duration5, user_id, query)
         hmo = await message.reply_photo(
             photo=thumb, 
-            caption=(f"**✨ Silahkan pilih lagu yang ingin Lu Download Kontol▪️**\n\n1️⃣ <b>{title1}</b>\n ╚ 💡 <u>[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID1})</u>\n ╚ ✨<b> **Powered by** :<b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)\n\n2️⃣ <b>{title2}</b>\n ╚ 💡 <u>[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID2})</u>\n ╚ ✨<b> **Powered by** :<b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)\n\n3️⃣ <b>{title3}</b>\n ╚ 💡 <u>[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})</u>\n ╚ ✨<b> **Powered by** :<b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)\n\n4️⃣ <b>{title4}</b>\n ╚ 💡 <u>[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID4})</u>\n ╚ ✨<b> **Powered by** :<b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)\n\n5️⃣ <b>{title5}</b>\n ╚ 💡 <u>[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID5})</b>\n ╚ ✨<b> **Powered by** :<b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)<\b>"),   
+            caption=(f"**✨ Silahkan pilih lagu yang ingin Lu Download Kontol▪️**\n\n1️⃣ <b>{title1}</b>\n  ╚  💡 <u>[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID1})</u>\n  ╚  ✨<b> **Powered by** :<b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)\n\n2️⃣ <b>{title2}</b>\n  ╚  💡 <u>[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID2})</u>\n  ╚  ✨<b> **Powered by** :<b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)\n\n3️⃣ <b>{title3}</b>\n  ╚  💡 <u>[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})</u>\n  ╚  ✨<b> **Powered by** :<b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)\n\n4️⃣ <b>{title4}</b>\n  ╚  💡 <u>[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID4})</u>\n  ╚  ✨<b> **Powered by** :<b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)\n\n5️⃣ <b>{title5}</b>\n  ╚  💡 <u>[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID5})</b>\n ╚ ✨<b> **Powered by** :<b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)<b>"),   
             reply_markup=InlineKeyboardMarkup(buttons),
         )  
         disable_web_page_preview=True
@@ -287,7 +287,7 @@ async def chonga(_,CallbackQuery):
     if i == 1:
         buttons = search_markup2(ID6, ID7, ID8, ID9, ID10, duration6, duration7, duration8, duration9, duration10 ,user_id, query)
         await CallbackQuery.edit_message_text(
-           f"6️⃣ <b>{title6}</b>\n ╚ 💡 <u>[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID6})</u>\n ╚ ✨<b> **Powered by** :<b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)\n\n7️⃣ <b>{title7}</b>\n ╚ 💡 <u>[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID7})</u>\n ╚ ✨<b> **Powered by** :<b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)\n\n8️⃣ <b>{title8}</b>\n ╚ 💡 <u>[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID8})</u>\n ╚ ✨<b> **Powered by** :<b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)\n\n9️⃣ <b>{title9}</b>\n ╚ 💡 <u>[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID9})</u>\n ╚ ✨<b> **Powered by** :<b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)\n\n🔟 <b>{title10}</b>\n ╚ 💡 <u>[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID10})</b>\n ╚ ✨<b> **Powered by** :<b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)<b>",    
+            f"6️⃣ <b>{title6}</b>\n  ╚  💡 <u>[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID6})</u>\n  ╚  ✨<b> **Powered by** :<b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)\n\n7️⃣ <b>{title7}</b>\n  ╚  💡 <u>[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID7})</u>\n  ╚  ✨<b> **Powered by** :<b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)\n\n8️⃣ <b>{title8}</b>\n  ╚  💡 <u>[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID8})</u>\n  ╚  ✨<b> **Powered by** :<b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)\n\n9️⃣ <b>{title9}</b>\n  ╚  💡 <u>[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID9})</u>\n  ╚  ✨<b> **Powered by** :<b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)\n\n🔟 <b>{title10}</b>\n  ╚  💡 <u>[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID10})</b>\n  ╚ ✨<b> **Powered by** :<b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)<b>",    
             reply_markup=InlineKeyboardMarkup(buttons),
         )  
         disable_web_page_preview=True
@@ -295,24 +295,24 @@ async def chonga(_,CallbackQuery):
     if i == 2:
         buttons = search_markup(ID1, ID2, ID3, ID4, ID5, duration1, duration2, duration3, duration4, duration5, user_id, query)
         await CallbackQuery.edit_message_text(
-            f"1️⃣ <b>{title1}</b>\n ╚ 💡 <u>[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID1})</u>\n ╚ ✨<b> **Powered by** :<b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)\n\n2️⃣ <b>{title2}</b>\n ╚ 💡 <u>[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID2})</u>\n ╚ ✨<b> **Powered by** :<b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)\n\n3️⃣ <b>{title3}</b>\n ╚ 💡 <u>[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})</u>\n ╚ ✨<b> **Powered by** :<b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)\n\n4️⃣ <b>{title4}</b>\n ╚ 💡 <u>[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID4})</u>\n ╚ ✨<b> **Powered by** :<b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)\n\n5️⃣ <b>{title5}</b>\n ╚ 💡 <u>[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID5})</b>\n ╚ ✨<b> **Powered by** :<b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)<b>",    
+            f"1️⃣ <b>{title1}</b>\n  ╚  💡 <u>[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID1})</u>\n  ╚  ✨<b> **Powered by** :<b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)\n\n2️⃣ <b>{title2}</b>\n  ╚  💡 <u>[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID2})</u>\n  ╚  ✨<b> **Powered by** :<b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)\n\n3️⃣ <b>{title3}</b>\n  ╚  💡 <u>[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})</u>\n  ╚  ✨<b> **Powered by** :<b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)\n\n4️⃣ <b>{title4}</b>\n  ╚  💡 <u>[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID4})</u>\n  ╚  ✨<b> **Powered by** :<b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)\n\n5️⃣ <b>{title5}</b>\n  ╚  💡 <u>[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID5})</b>\n  ╚  ✨<b> **Powered by** :<b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)<b>",    
             reply_markup=InlineKeyboardMarkup(buttons),
         )  
-        disable_web_page_preview=True
-        return    
+        disable_web_page_preview=True 
+        return
       
       
       
 def search_markup(ID1, ID2, ID3, ID4, ID5, duration1, duration2, duration3, duration4, duration5, user_id, query):
     buttons= [
             [
-                InlineKeyboardButton(text="1", callback_data=f'beta {ID1}|{duration1}|{user_id}'),
-                InlineKeyboardButton(text="2", callback_data=f'beta {ID2}|{duration2}|{user_id}'),
-                InlineKeyboardButton(text="3", callback_data=f'beta {ID3}|{duration3}|{user_id}')
+                InlineKeyboardButton(text="1️⃣", callback_data=f'beta {ID1}|{duration1}|{user_id}'),
+                InlineKeyboardButton(text="2️⃣", callback_data=f'beta {ID2}|{duration2}|{user_id}'),
+                InlineKeyboardButton(text="3️⃣", callback_data=f'beta {ID3}|{duration3}|{user_id}')
             ],
             [ 
-                InlineKeyboardButton(text="4", callback_data=f'beta {ID4}|{duration4}|{user_id}'),
-                InlineKeyboardButton(text="5", callback_data=f'beta {ID5}|{duration5}|{user_id}')
+                InlineKeyboardButton(text="4️⃣", callback_data=f'beta {ID4}|{duration4}|{user_id}'),
+                InlineKeyboardButton(text="5️⃣", callback_data=f'beta {ID5}|{duration5}|{user_id}')
             ],
             [ 
                 
@@ -326,13 +326,13 @@ def search_markup(ID1, ID2, ID3, ID4, ID5, duration1, duration2, duration3, dura
 def search_markup2(ID6, ID7, ID8, ID9, ID10, duration6, duration7, duration8, duration9, duration10 ,user_id, query):
     buttons= [
             [
-                InlineKeyboardButton(text="6", callback_data=f'beta {ID6}|{duration6}|{user_id}'),
-                InlineKeyboardButton(text="7", callback_data=f'beta {ID7}|{duration7}|{user_id}'),
-                InlineKeyboardButton(text="8", callback_data=f'beta {ID8}|{duration8}|{user_id}')
+                InlineKeyboardButton(text="6️⃣", callback_data=f'beta {ID6}|{duration6}|{user_id}'),
+                InlineKeyboardButton(text="7️⃣", callback_data=f'beta {ID7}|{duration7}|{user_id}'),
+                InlineKeyboardButton(text="8️⃣", callback_data=f'beta {ID8}|{duration8}|{user_id}')
             ],
             [ 
-                InlineKeyboardButton(text="9", callback_data=f'beta {ID9}|{duration9}|{user_id}'),
-                InlineKeyboardButton(text="10", callback_data=f'beta {ID10}|{duration10}|{user_id}')
+                InlineKeyboardButton(text="9️⃣", callback_data=f'beta {ID9}|{duration9}|{user_id}'),
+                InlineKeyboardButton(text="🔟", callback_data=f'beta {ID10}|{duration10}|{user_id}')
             ],
             [ 
                 
@@ -346,8 +346,8 @@ def search_markup2(ID6, ID7, ID8, ID9, ID10, duration6, duration7, duration8, du
 def gets(videoid, user_id):
     buttons= [
             [
-                InlineKeyboardButton(text="⇓ Get Audio", callback_data=f'gets audio|{videoid}|{user_id}'),
-                InlineKeyboardButton(text="⇓ Get Video", callback_data=f'gets video|{videoid}|{user_id}')
+                InlineKeyboardButton(text="『⇓』 Get Audio", callback_data=f'gets audio|{videoid}|{user_id}'),
+                InlineKeyboardButton(text="『⇓』 Get Video", callback_data=f'gets video|{videoid}|{user_id}')
             ],
             [
                 InlineKeyboardButton(text="🗑 Close Menu", callback_data=f'close2')
