@@ -261,10 +261,10 @@ async def stop_cmd(_, message):
                         f"""
 <b>⏭️ Melewati lagu</b>
 
-╚ 🏷<b> **Nama** :</b>[{title[:50]}]({url})
-╚ ⏰<b> **Durasi** :</b> `{duration}` `Menit`
-╚ 🎧<b> **Atas permintaan** :</b> {semx.mention}
-╚ ✨<b> **Powered by** :<b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)
+<b>🏷 **Nama** :</b>[{title[:50]}]({url})
+<b>⏰ **Durasi** :</b> `{duration}` `Menit`
+<b>🎧 **Atas permintaan** :</b> {semx.mention}
+<b> ✨**Powered by** :<b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)
 """
                     ),
                 )
@@ -299,10 +299,10 @@ async def stop_cmd(_, message):
                     caption=f"""
 <b>⏭️ Melewati lagu</b>
 
-╚ 🏷<b> **Nama** :</b>[{title[:50]}]({url})
-╚ ⏰<b> **Durasi** :</b> `{duration}` `Menit`
-╚ 🎧<b> **Atas permintaan** :</b> {semx.mention}
-╚ ✨<b> **Powered by** :<b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)
+<b>🏷 **Nama** :</b>[{title[:50]}]({url})
+<b>⏰ **Durasi** :</b> `{duration}` `Menit`
+<b>🎧 **Atas permintaan** :</b> {semx.mention}
+<b>✨ **Powered by** :<b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)
 """,
                 )
                 return
