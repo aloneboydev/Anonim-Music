@@ -211,7 +211,7 @@ async def mpthree(_, message: Message):
 5️⃣ <b>{title5[:80]}</b>
 ╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID5})
 ╚ ⚡ **Di Kelola** : [{BOT_NAME}](t.me/{BOT_USERNAME})
-╚ ✨ **Powered by** : [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)""",    
+╚ ✨ **Powered by** : [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)"""),    
             reply_markup=InlineKeyboardMarkup(buttons),
         )  
         disable_web_page_preview=True
