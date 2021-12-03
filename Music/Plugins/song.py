@@ -148,12 +148,12 @@ async def mpthree(_, message: Message):
         m = await message.reply_photo(
             photo=thumb,
             reply_markup=InlineKeyboardMarkup(buttons),    
-            caption=(f"🏷 <b>Nama: </b>[{title[:50]}]({url})\n💡 </b>**[DiKelola Oleh]** :<b> (https://t.me/{BOT_USERNAME}?start=info_{id}) ✨<b> **Powered by** :<b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)"
+            caption=(f"🏷 <b>Nama: </b>[{title[:50]}]({url})\n💡 </b>**[DiKelola Oleh]** :<b> (https://t.me/{BOT_USERNAME}?start=info_{id}) ✨<b> **Powered by** :<b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)") 
         )   
-        os.remove(thumb 
+        os.remove(thumb) 
     else:
         if len(message.command) < 2:
-            await message.reply_text("**Usage:**\n\n/song or /music [Url Youtube atau Nama Judul Musik]")
+            await message.reply_text("**Contoh Nih Kontol:**\n\n/song or /music [Url Youtube atau Nama Judul Musik]")
         query = message.text.split(None, 1)[1]
         mystic = await message.reply_text("**🔄 Searching**")
         try:
