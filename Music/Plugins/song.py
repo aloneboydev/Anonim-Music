@@ -190,27 +190,27 @@ async def mpthree(_, message: Message):
 
 1️⃣ <b>{title1[:80]}</b>
 ╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID1})
-╚ ⚡ **Di Kelola** : [{BOT_NAME}](t.me/{BOT_USERNAME})
+╚ ⚡ **Didukung** : [{BOT_NAME}](t.me/{BOT_USERNAME})
 ╚ ✨ **Powered by** : [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)
 
 2️⃣ <b>{title2[:80]}</b>
 ╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID2})
-╚ ⚡ **Di Kelola** : [{BOT_NAME}](t.me/{BOT_USERNAME})
+╚ ⚡ **Didukung** : [{BOT_NAME}](t.me/{BOT_USERNAME})
 ╚ ✨ **Powered by** : [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)
 
 3️⃣ <b>{title3[:80]}</b>
 ╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})
-╚ ⚡ **Di Kelola** : [{BOT_NAME}](t.me/{BOT_USERNAME})
+╚ ⚡ **Didukung** : [{BOT_NAME}](t.me/{BOT_USERNAME})
 ╚ ✨ **Powered by** : [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)
 
 4️⃣ <b>{title4[:80]}</b>
 ╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID4})
-╚ ⚡ **Di Kelola** : [{BOT_NAME}](t.me/{BOT_USERNAME})
+╚ ⚡ **Didukung** : [{BOT_NAME}](t.me/{BOT_USERNAME})
 ╚ ✨ **Powered by** : [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)
 
 5️⃣ <b>{title5[:80]}</b>
 ╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID5})
-╚ ⚡ **Di Kelola** : [{BOT_NAME}](t.me/{BOT_USERNAME})
+╚ ⚡ **Didukung** : [{BOT_NAME}](t.me/{BOT_USERNAME})
 ╚ ✨ **Powered by** : [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)</b>"""),    
             reply_markup=InlineKeyboardMarkup(buttons),
         )  
@@ -326,27 +326,27 @@ async def chonga(_,CallbackQuery):
 
 6️⃣ <b>{title6[:80]}</b>
 ╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID6})
-╚ ⚡ **Di Kelola** : [{BOT_NAME}](t.me/{BOT_USERNAME})
+╚ ⚡ **Didukung** : [{BOT_NAME}](t.me/{BOT_USERNAME})
 ╚ ✨ **Powered by** : [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)
 
 7️⃣ <b>{title7[:80]}</b>
 ╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID7})
-╚ ⚡ **Di Kelola** : [{BOT_NAME}](t.me/{BOT_USERNAME})
+╚ ⚡ **Didukung** : [{BOT_NAME}](t.me/{BOT_USERNAME})
 ╚ ✨ **Powered by** : [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)
 
 8️⃣ <b>{title8[:80]}</b>
 ╚ 💡 [Get Additional Information](https://t.me/{BOT_USERNAME}?start=info_{ID8})
-╚ ⚡ **Di Kelola** : [{BOT_NAME}](t.me/{BOT_USERNAME})
+╚ ⚡ **Didukung** : [{BOT_NAME}](t.me/{BOT_USERNAME})
 ╚ ✨ **Powered by** : [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)
 
 9️⃣ <b>{title9[:80]}</b>
 ╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID9})
-╚ ⚡ **Di Kelola** : [{BOT_NAME}](t.me/{BOT_USERNAME})
+╚ ⚡ **Didukung** : [{BOT_NAME}](t.me/{BOT_USERNAME})
 ╚ ✨ **Powered by** : [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)
 
 🔟 <b>{title10[:80]}</b>
 ╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID10})
-╚ ⚡ **Di Kelola** : [{BOT_NAME}](t.me/{BOT_USERNAME})
+╚ ⚡ **Didukung** : [{BOT_NAME}](t.me/{BOT_USERNAME})
 ╚ ✨ **Powered by** : [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)</b>""",    
             reply_markup=InlineKeyboardMarkup(buttons),
         )  
@@ -360,27 +360,27 @@ async def chonga(_,CallbackQuery):
 
 1️⃣ <b>{title1[:80]}</b>
 ╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID1})
-╚ ⚡ **Di Kelola** : [{BOT_NAME}](t.me/{BOT_USERNAME})
+╚ ⚡ **Didukung** : [{BOT_NAME}](t.me/{BOT_USERNAME})
 ╚ ✨ **Powered by** : [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)
 
 2️⃣ <b>{title2[:80]}</b>
 ╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID2})
-╚ ⚡ **Di Kelola** : [{BOT_NAME}](t.me/{BOT_USERNAME})
+╚ ⚡ **Didukung** : [{BOT_NAME}](t.me/{BOT_USERNAME})
 ╚ ✨ **Powered by** : [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)
 
 3️⃣ <b>{title3[:80]}</b>
 ╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})
-╚ ⚡ **Di Kelola** : [{BOT_NAME}](t.me/{BOT_USERNAME})
+╚ ⚡ **Didukung** : [{BOT_NAME}](t.me/{BOT_USERNAME})
 ╚ ✨ **Powered by** : [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)
 
 4️⃣ <b>{title4[:80]}</b>
 ╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID4})
-╚ ⚡ **Di Kelola** : [{BOT_NAME}](t.me/{BOT_USERNAME})
+╚ ⚡ **Didukung** : [{BOT_NAME}](t.me/{BOT_USERNAME})
 ╚ ✨ **Powered by** : [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)
 
 5️⃣ <b>{title5[:80]}</b>
 ╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID5})
-╚ ⚡ **Di Kelola** : [{BOT_NAME}](t.me/{BOT_USERNAME})
+╚ ⚡ **Didukung** : [{BOT_NAME}](t.me/{BOT_USERNAME})
 ╚ ✨ **Powered by** : [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)</b>""",    
             reply_markup=InlineKeyboardMarkup(buttons),
         )  
