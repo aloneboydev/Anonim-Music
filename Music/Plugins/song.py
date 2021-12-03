@@ -152,7 +152,7 @@ async def mpthree(_, message: Message):
 <b>🏷️ **Judul** :</b> [{title[:80]}]({url})
 <b>⏱️ **Durasi** : </b> ` { durasi } ` `Menit` })
 <b>💡</b> [More Information](https://t.me/{BOT_USERNAME}?start=info_{id})
-<b>✨ **Powered by** :<b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)"""
+<b>✨ **Powered by** :<b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)""") 
         )   
         os.remove(thumb)
     else:
