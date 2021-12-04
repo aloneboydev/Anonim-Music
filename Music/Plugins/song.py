@@ -200,7 +200,7 @@ async def mpthree(_, message: Message):
         hmo = await message.reply_photo(
             photo=thumb, 
             caption=(
-            f"
+            f"""
 <b>✨ Silahkan Pilih Lagu Mana Yang Ingin Di Download
 1️⃣ <b>{title1[:80]}</b>
 ╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID1})
@@ -222,7 +222,7 @@ async def mpthree(_, message: Message):
 5️⃣ <b>{title5[:80]}</b>
 ╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID5})
 ╚ ✨ **Powered by** : [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)
-"),    
+"""),    
             reply_markup=InlineKeyboardMarkup(buttons),
         )  
         disable_web_page_preview=True
@@ -268,11 +268,11 @@ async def startyuplay(_,CallbackQuery):
     m = await CallbackQuery.message.reply_photo(
         photo=thumb,
         reply_markup=InlineKeyboardMarkup(buttons),    
-        caption=(f"
+        caption=(f"""
 <b>🏷️ Judul :</b> [{title[:80]}]({url})
 ╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{id})
 ╚ ✨ **Powered by** : [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)
-")
+""")
     )   
     os.remove(thumb)
     await CallbackQuery.message.delete()
@@ -344,7 +344,7 @@ async def chonga(_,CallbackQuery):
             user_id,
             query)
         await CallbackQuery.edit_message_text(
-            f"
+            f"""
 <b>✨ Silahkan Pilih Lagu Mana Yang Ingin Didownload</b>
 
 6️⃣ <b>{title6[:80]}</b>
@@ -366,7 +366,7 @@ async def chonga(_,CallbackQuery):
 🔟 <b>{title10[:80]}</b>
 ╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID10})
 ╚ ✨ **Powered by** : [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)
-",    
+""",    
             reply_markup=InlineKeyboardMarkup(buttons),
         )  
         disable_web_page_preview=True
@@ -374,7 +374,7 @@ async def chonga(_,CallbackQuery):
     if i == 2:
         buttons = search_markup(ID1, ID2, ID3, ID4, ID5, duration1, duration2, duration3, duration4, duration5, user_id, query)
         await CallbackQuery.edit_message_text(
-            f"
+            f"""
 <b>✨ Silahkan Pilih Maba Yang Ingin Didownload</b>
 
 1️⃣ <b>{title1[:80]}</b>
@@ -396,7 +396,7 @@ async def chonga(_,CallbackQuery):
 5️⃣ <b>{title5[:80]}</b>
 ╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID5})
 ╚ ✨ **Powered by** : [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)
-",    
+""",    
             reply_markup=InlineKeyboardMarkup(buttons),
         )  
         disable_web_page_preview=True
