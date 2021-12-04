@@ -182,7 +182,7 @@ async def mpthree(_, message: Message):
         except Exception as e:
             return await mystic.edit_text(
                 f"❌ Soung Not Found.\n**Possible Reason:**{e}")
-        thumb ="cache/1638363845612.jpg"
+        thumb ="cache/IMG_20211201_214925_953.jpg"
         await mystic.delete()   
         buttons = search_markup(
             ID1,
