@@ -208,7 +208,7 @@ async def mpthree(_, message: Message):
 
 2️⃣ <b>{title2[:80]}</b>
 ╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID2})
-╚ ⚡ **Di Kelola** : [{BOT_NAME}](t.me/{BOT_USERNAME})
+
 ╚ ✨ **Powered by** : [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)
 
 3️⃣ <b>{title3[:80]}</b>
