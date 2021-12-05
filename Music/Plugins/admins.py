@@ -262,9 +262,9 @@ async def stop_cmd(_, message):
 <b>⏭️ Melewati lagu</b>
 
 <b>🏷 **Nama** :</b>[{title[:50]}]({url})
-<b>⏰ **Durasi** :</b> `{duration}` `Menit`
+<b>⏱️ **Durasi** :</b> `{duration}` `Menit`
 <b>🎧 **Atas permintaan** :</b> {semx.mention}
-<b> ✨**Powered by** :<b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)
+<b>✨**Powered by** :<b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)
 """
                     ),
                 )
@@ -300,7 +300,7 @@ async def stop_cmd(_, message):
 <b>⏭️ Melewati lagu</b>
 
 <b>🏷 **Nama** :</b>[{title[:50]}]({url})
-<b>⏰ **Durasi** :</b> `{duration}` `Menit`
+<b>⏱️ **Durasi** :</b> `{duration}` `Menit`
 <b>🎧 **Atas permintaan** :</b> {semx.mention}
 <b>✨ **Powered by** :<b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)
 """,
