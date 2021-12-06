@@ -454,7 +454,7 @@ async def play(_, message: Message):
 <b>🏷 **Nama** :</b> [{title[:100]}]({link})
 <b>⏱️ **Durasi** :</b> {duration}
 <b>🎧 **Atas permintaan** :</b> {checking}
-<b>⚡ **Powered by** : `Gtr Music Project`
+<b>⚡ **Powered by** : [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)
 """)
         )   
         return await mystic.delete()
@@ -607,7 +607,7 @@ async def startyuplay(_,CallbackQuery):
 <b>⏱️ **Durasi** :</b> `{duration}` `Menit`
 <b>💡 **Status** : `Sedang memutar`
 <b>🎧 **Atas Permintaan** :</b> {checking}
-<b>⚡ **Powered by** :</b> [Gtr Project](https://t.me/TurboMusicChnl)
+<b>⚡ **Powered by** :</b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)
 """)
         )   
         os.remove(thumb)
