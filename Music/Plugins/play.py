@@ -357,29 +357,29 @@ async def play(_, message: Message):
 **🎼 Silahkan pilih lagu yang ingin lu putar kntl**
 
 1️⃣ <b>{title1[:100]}</b>
-▪️💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID1})
-▪️⚡ **Racikan** : [{BOT_NAME}](t.me/{BOT_USERNAME})
-▪️✨ **Powered by** : [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)
+╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID1})
+╚ ⚡ **Racikan** : [{BOT_NAME}](t.me/{BOT_USERNAME})
+╚ ✨ **Powered by** : [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)
 
 2️⃣ <b>{title2[:100]}</b>
-▪️💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID2})
-▪️⚡ **Racikan** : [{BOT_NAME}](t.me/{BOT_USERNAME})
-▪️✨ **Powered by** : [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)
+╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID2})
+╚ ⚡ **Racikan** : [{BOT_NAME}](t.me/{BOT_USERNAME})
+╚ ✨ **Powered by** : [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)
 
 3️⃣ <b>{title3[:100]}</b>
-▪️💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})
-▪️⚡ **Racikan** : [{BOT_NAME}](t.me/{BOT_USERNAME})
-▪️✨ **Powered by** : [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)
+╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})
+╚ ⚡ **Racikan** : [{BOT_NAME}](t.me/{BOT_USERNAME})
+╚ ✨ **Powered by** : [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)
 
 4️⃣ <b>{title4[:100]}</b>
-▪️💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})
-▪️⚡ **Racikan** : [{BOT_NAME}](t.me/{BOT_USERNAME})
-▪️✨ **Powered by** : [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)
+╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})
+╚ ⚡ **Racikan** : [{BOT_NAME}](t.me/{BOT_USERNAME})
+╚ ✨ **Powered by** : [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)
 
 5️⃣ <b>{title5[:100]}</b>
-▪️💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})
-▪️⚡ **Racikan** : [{BOT_NAME}](t.me/{BOT_USERNAME})
-▪️✨ **Powered by** : [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)
+╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})
+╚ ⚡ **Racikan** : [{BOT_NAME}](t.me/{BOT_USERNAME})
+╚ ✨ **Powered by** : [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)
 """),    
             reply_markup=InlineKeyboardMarkup(buttons),
         )  
@@ -672,29 +672,29 @@ async def popat(_,CallbackQuery):
 <b>🎼 Silahkan pilih lagu yang ingin lu putar kntl</b>
 
 6️⃣ <b>{title6[:100]}</b>
-▪️💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})
-▪️⚡ **Racikan** : [{BOT_NAME}](t.me/{BOT_USERNAME})
-▪️✨ **Powered by** : [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)
+╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})
+╚ ⚡ **Racikan** : [{BOT_NAME}](t.me/{BOT_USERNAME})
+╚ ✨ **Powered by** : [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)
 
 7️⃣ <b>{title7[:100]}</b>
-▪️💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})
-▪️⚡ **Racikan** : [{BOT_NAME}](t.me/{BOT_USERNAME})
-▪️✨ **Powered by** : [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)
+╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})
+╚ ⚡ **Racikan** : [{BOT_NAME}](t.me/{BOT_USERNAME})
+╚ ✨ **Powered by** : [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)
 
 8️⃣ <b>{title8[:100]}</b>
-▪️💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})
-▪️⚡ **Racikan** : [{BOT_NAME}](t.me/{BOT_USERNAME})
-▪️✨ **Powered by** : [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)
+╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})
+╚ ⚡ **Racikan** : [{BOT_NAME}](t.me/{BOT_USERNAME})
+╚ ✨ **Powered by** : [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)
 
 9️⃣ <b>{title9[:100]}</b>
-▪️💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})
-▪️⚡ **Racikan** : [{BOT_NAME}](t.me/{BOT_USERNAME})
-▪️✨ **Powered by** : [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)
+╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})
+╚ ⚡ **Racikan** : [{BOT_NAME}](t.me/{BOT_USERNAME})
+╚ ✨ **Powered by** : [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)
 
 🔟 <b>{title10[:100]}</b>
-▪️💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})
-▪️⚡ **Racikan** : [{BOT_NAME}](t.me/{BOT_USERNAME})
-▪️✨ **Powered by** : [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)
+╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})
+╚ ⚡ **Racikan** : [{BOT_NAME}](t.me/{BOT_USERNAME})
+╚ ✨ **Powered by** : [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)
 """, 
             reply_markup=InlineKeyboardMarkup(buttons),
         )  
@@ -707,29 +707,29 @@ async def popat(_,CallbackQuery):
 <b>🎼 Silahkan pilih lagu yang ingin lu putar kntl</b>
 
 1️⃣ <b>{title1[:100]}</b>
-▪️💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})
-▪️⚡ **Racikan** : [{BOT_NAME}](t.me/{BOT_USERNAME})
-▪️✨ **Powered by** : [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)
+╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})
+╚ ⚡ **Racikan** : [{BOT_NAME}](t.me/{BOT_USERNAME})
+╚ ✨ **Powered by** : [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)
 
 2️⃣ <b>{title2[:100]}</b>
-▪️💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})
-▪️⚡ **Racikan** : [{BOT_NAME}](t.me/{BOT_USERNAME})
-▪️✨ **Powered by** : [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)
+╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})
+╚ ⚡ **Racikan** : [{BOT_NAME}](t.me/{BOT_USERNAME})
+╚ ✨ **Powered by** : [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)
 
 3️⃣ <b>{title3[:100]}</b>
-▪️💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})
-▪️⚡ **Racikan** : [{BOT_NAME}](t.me/{BOT_USERNAME})
-▪️✨ **Powered by** : [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)
+╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})
+╚ ⚡ **Racikan** : [{BOT_NAME}](t.me/{BOT_USERNAME})
+╚ ✨ **Powered by** : [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)
 
 4️⃣ <b>{title4[:100]}</b>
-▪️💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})
-▪️⚡ **Racikan** : [{BOT_NAME}](t.me/{BOT_USERNAME})
-▪️✨ **Powered by** : [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)
+╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})
+╚ ⚡ **Racikan** : [{BOT_NAME}](t.me/{BOT_USERNAME})
+╚ ✨ **Powered by** : [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)
 
 5️⃣ <b>{title5[:100]}</b>
-▪️💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})
-▪️⚡ **Racikan** : [{BOT_NAME}](t.me/{BOT_USERNAME})
-▪️✨ **Powered by** : [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)
+╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})
+╚ ⚡ **Racikan** : [{BOT_NAME}](t.me/{BOT_USERNAME})
+╚ ✨ **Powered by** : [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)
 """,    
             reply_markup=InlineKeyboardMarkup(buttons),
         )  
