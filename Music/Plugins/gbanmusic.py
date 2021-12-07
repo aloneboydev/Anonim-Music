@@ -55,7 +55,7 @@ Waktu yang diharapkan: {len(served_chats)}
                 except Exception:
                     pass
             ban_text = f"""
-__**Larangan Global Baru pada Musik**__
+**Larangan Global Baru pada Musik**
 **Asal:** {message.chat.title} [`{message.chat.id}`]
 **Pengguna Sudo:** {from_user.mention}
 **Pengguna yang Diblokir:** {user.mention}
@@ -110,7 +110,7 @@ Waktu yang diharapkan: {len(served_chats)}
                 except Exception:
                     pass
             ban_text = f"""
-__**Larangan Global Baru pada Musik**__
+**Larangan Global Baru pada Musik**
 **Asal:** {message.chat.title} [`{message.chat.id}`]
 **Pengguna Sudo:** {from_user_mention}
 **Pengguna yang Diblokir:** {mention}
