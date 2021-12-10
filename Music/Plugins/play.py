@@ -417,8 +417,8 @@ async def play(_, message: Message):
 
 <b>🏷️ **Nama** : [{title[:100]}]({link})</b>
 <b>⏱️ **Durasi** :</b>`{duration}` `Menit`
-<b>🎧 **Atas Permintaan** :</b>{checking}
-<b>🔢 **Posisi Antrian Ke** »</b>{position}
+<b>🎧 **Atas Permintaan** : </b>{checking}
+<b>🔢 **Posisi Antrian Ke** » </b>{position}
 """),
             reply_markup=InlineKeyboardMarkup(buttons)
         )
