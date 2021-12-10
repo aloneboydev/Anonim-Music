@@ -25,8 +25,8 @@ from pyrogram.types import (
 def start_pannel():
     buttons = [
         [
-            InlineKeyboardButton("Group", url="https://t.me/TurboGroupSupport"),
-            InlineKeyboardButton("Channel", url=f"https://t.me/bombleebas"),
+            InlineKeyboardButton("ɢʀᴏᴜᴘ", url="https://t.me/Virtualllnihsad"),
+            InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/bombleebas"),
         ],
     ]
     return (
@@ -39,11 +39,11 @@ pstart_markup = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(
-                "➕ Add Turbo Your To Group ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
+                "ᴛᴀᴍʙᴀʜᴋᴀɴ sᴀʏᴀ ᴋᴇ ɢʀᴏᴜᴘ ᴀɴᴅᴀ", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
         ],
         [
-            InlineKeyboardButton("Group", url="https://t.me/TurboGroupSupport"),
-            InlineKeyboardButton("Channel", url=f"https://t.me/TurboMusicChnl"),
+            InlineKeyboardButton("ɢʀᴏᴜᴘ", url="https://t.me/Virtualllnihsad"),
+            InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/bombleebas"),
         ],
     ]
 )
