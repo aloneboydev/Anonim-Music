@@ -39,14 +39,14 @@ pstart_markup = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(
-                "𝚃𝚊𝚖𝚋𝚊𝚑𝚔𝚊𝚗 𝚂𝚊𝚢𝚊 𝙺𝚎 𝙶𝚛𝚘𝚞𝚙 𝙰𝚗𝚍𝚊", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
+                "ᴛᴀᴍʙᴀʜᴋᴀɴ sᴀʏᴀ ᴋᴇ ɢʀᴏᴜᴘ ᴀɴᴅᴀ ", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
         ],
         [
-            InlineKeyboardButton("𝙶𝚛𝚘𝚞𝚙", url="https://t.me/Virtualllnihsad"),
-            InlineKeyboardButton("𝙲𝚑𝚊𝚗𝚗𝚎𝚕", url=f"https://t.me/bombleebas"),
+            InlineKeyboardButton("ɢʀᴏᴜᴘ", url="https://t.me/Virtualllnihsad"),
+            InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/bombleebas"),
         ],
         [
-            InlineKeyboardButton("𝙾𝚆𝙽𝙴𝚁", url="https://t.me/Bisubiarenak"),
+            InlineKeyboardButton("ᴏᴡɴᴇʀ", url="https://t.me/Bisubiarenak"),
         ],
     ]
 )
