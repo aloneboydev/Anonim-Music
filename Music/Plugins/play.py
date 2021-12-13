@@ -359,27 +359,27 @@ async def play(_, message: Message):
 1️⃣ <b>{title1[:100]}</b>
 ╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID1})
 ╚ ⚡ **Racikan** : [{BOT_NAME}](t.me/{BOT_USERNAME})
-╚ ✨ **Powered by** : [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)
+╚ ✨ **Powered by** : [Hiroshi•](https://t.me/Bisubiarenak)
 
 2️⃣ <b>{title2[:100]}</b>
 ╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID2})
 ╚ ⚡ **Racikan** : [{BOT_NAME}](t.me/{BOT_USERNAME})
-╚ ✨ **Powered by** : [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)
+╚ ✨ **Powered by** : [Hiroshi•](https://t.me/Bisubiarenak)
 
 3️⃣ <b>{title3[:100]}</b>
 ╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})
 ╚ ⚡ **Racikan** : [{BOT_NAME}](t.me/{BOT_USERNAME})
-╚ ✨ **Powered by** : [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)
+╚ ✨ **Powered by** : [Hiroshi•](https://t.me/Bisubiarenak)
 
 4️⃣ <b>{title4[:100]}</b>
 ╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})
 ╚ ⚡ **Racikan** : [{BOT_NAME}](t.me/{BOT_USERNAME})
-╚ ✨ **Powered by** : [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)
+╚ ✨ **Powered by** : [Hiroshi•](https://t.me/Bisubiarenak)
 
 5️⃣ <b>{title5[:100]}</b>
 ╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})
 ╚ ⚡ **Racikan** : [{BOT_NAME}](t.me/{BOT_USERNAME})
-╚ ✨ **Powered by** : [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)
+╚ ✨ **Powered by** : [Hiroshi•](https://t.me/Bisubiarenak)
 """),    
             reply_markup=InlineKeyboardMarkup(buttons),
         )  
@@ -454,7 +454,7 @@ async def play(_, message: Message):
 <b>🏷 **Nama** :</b> [{title[:100]}]({link})
 <b>⏱️ **Durasi** :</b> {duration}
 <b>🎧 **Atas permintaan** :</b> {checking}
-<b>⚡ **Powered by** : [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)
+<b>⚡ **Powered by** : [Hiroshi•](https://t.me/Bisubiarenak)
 """)
         )   
         return await mystic.delete()
@@ -575,7 +575,7 @@ async def startyuplay(_,CallbackQuery):
         caption=(f"""
 <b>🎼 Menambahkan Ke Daftar Antrian Lagu</b> 
 
-<b>🏷 **Nama** :</b>[{title[:100]}]({url})
+<b>🏷 **Nama** : </b>[{title[:100]}]({url})
 <b>⏱️ **Durasi** :</b> `{duration}` `Menit`
 <b>💡 **Status** : `Dalam antrian`
 <b>🎧 **Atas Permintaan** :</b> {checking}
@@ -607,7 +607,7 @@ async def startyuplay(_,CallbackQuery):
 <b>⏱️ **Durasi** :</b> `{duration}` `Menit`
 <b>💡 **Status** : `Sedang memutar`
 <b>🎧 **Atas Permintaan** :</b> {checking}
-<b>⚡ **Powered by** :</b> [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)
+<b>⚡ **Powered by** :</b> [Hiroshi•](https://t.me/Bisubiarenak)
 """)
         )   
         os.remove(thumb)
@@ -674,27 +674,27 @@ async def popat(_,CallbackQuery):
 6️⃣ <b>{title6[:100]}</b>
 ╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})
 ╚ ⚡ **Racikan** : [{BOT_NAME}](t.me/{BOT_USERNAME})
-╚ ✨ **Powered by** : [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)
+╚ ✨ **Powered by** : [Hiroshi•](https://t.me/Bisubiarenak)
 
 7️⃣ <b>{title7[:100]}</b>
 ╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})
 ╚ ⚡ **Racikan** : [{BOT_NAME}](t.me/{BOT_USERNAME})
-╚ ✨ **Powered by** : [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)
+╚ ✨ **Powered by** : [Hiroshi•](https://t.me/Bisubiarenak)
 
 8️⃣ <b>{title8[:100]}</b>
 ╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})
 ╚ ⚡ **Racikan** : [{BOT_NAME}](t.me/{BOT_USERNAME})
-╚ ✨ **Powered by** : [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)
+╚ ✨ **Powered by** : [Hiroshi•](https://t.me/Bisubiarenak)
 
 9️⃣ <b>{title9[:100]}</b>
 ╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})
 ╚ ⚡ **Racikan** : [{BOT_NAME}](t.me/{BOT_USERNAME})
-╚ ✨ **Powered by** : [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)
+╚ ✨ **Powered by** : [Hiroshi•](https://t.me/Bisubiarenak)
 
 🔟 <b>{title10[:100]}</b>
 ╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})
 ╚ ⚡ **Racikan** : [{BOT_NAME}](t.me/{BOT_USERNAME})
-╚ ✨ **Powered by** : [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)
+╚ ✨ **Powered by** : [Hiroshi•](https://t.me/Bisubiarenak)
 """, 
             reply_markup=InlineKeyboardMarkup(buttons),
         )  
@@ -709,27 +709,27 @@ async def popat(_,CallbackQuery):
 1️⃣ <b>{title1[:100]}</b>
 ╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})
 ╚ ⚡ **Racikan** : [{BOT_NAME}](t.me/{BOT_USERNAME})
-╚ ✨ **Powered by** : [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)
+╚ ✨ **Powered by** : [Hiroshi•](https://t.me/Bisubiarenak)
 
 2️⃣ <b>{title2[:100]}</b>
 ╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})
 ╚ ⚡ **Racikan** : [{BOT_NAME}](t.me/{BOT_USERNAME})
-╚ ✨ **Powered by** : [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)
+╚ ✨ **Powered by** : [Hiroshi•](https://t.me/Bisubiarenak)
 
 3️⃣ <b>{title3[:100]}</b>
 ╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})
 ╚ ⚡ **Racikan** : [{BOT_NAME}](t.me/{BOT_USERNAME})
-╚ ✨ **Powered by** : [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)
+╚ ✨ **Powered by** : [Hiroshi•](https://t.me/Bisubiarenak)
 
 4️⃣ <b>{title4[:100]}</b>
 ╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})
 ╚ ⚡ **Racikan** : [{BOT_NAME}](t.me/{BOT_USERNAME})
-╚ ✨ **Powered by** : [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)
+╚ ✨ **Powered by** : [Hiroshi•](https://t.me/Bisubiarenak)
 
 5️⃣ <b>{title5[:100]}</b>
 ╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})
 ╚ ⚡ **Racikan** : [{BOT_NAME}](t.me/{BOT_USERNAME})
-╚ ✨ **Powered by** : [𝙂𝙇𝙄𝙏𝙏𝙀𝙍•](https://t.me/Biarenakliatnyaaaa)
+╚ ✨ **Powered by** : [Hiroshi•](https://t.me/Bisubiarenak)
 """,    
             reply_markup=InlineKeyboardMarkup(buttons),
         )  
