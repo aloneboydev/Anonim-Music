@@ -9,7 +9,7 @@ from pyrogram.types import (
 def play_markup(videoid, user_id):
     buttons = [
         [
-            InlineKeyboardButton(text="✨ Channel", url="https://t.me/TurboMusicChnl"), 
+            InlineKeyboardButton(text="✨ Channel", url="https://t.me/bombleebas"), 
             InlineKeyboardButton(text="• Menu •", callback_data=f'other {videoid}|{user_id}'),            
         ],
     ]
@@ -124,7 +124,7 @@ start_keyboard = InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "✨ Group", url="https://t.me/TurboGroupSupport"
+                        "✨ Group", url="https://t.me/hiroshisupport"
                     )
                 ],
                 [
