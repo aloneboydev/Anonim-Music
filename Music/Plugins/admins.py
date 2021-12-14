@@ -301,7 +301,7 @@ async def stop_cmd(_, message):
 
 <b>🏷 **Nama** : </b>[{title[:50]}]
 <b>⏱️ **Durasi** : </b> `{duration}` `Menit`
-<b>🎧 **Atas permintaan** :</b> {semx.mention}
+<b>🎧 **Atas permintaan** :</b> {mention}
 <b>✨ **Powered by** :<b> [Hiroshi•](https://t.me/Bisubiarenak)
 """,
                 )
