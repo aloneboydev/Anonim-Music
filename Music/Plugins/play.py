@@ -358,27 +358,27 @@ async def play(_, message: Message):
 
 1️⃣ <b>{title1[:100]}</b>
 ╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID1})
-╚ ⚡ **Racikan** : [{BOT_NAME}](t.me/{BOT_USERNAME})
+╚ ⚡ **Developer** : [{BOT_NAME}](t.me/{BOT_USERNAME})
 ╚ ✨ **Powered by** : [Hiroshi•](https://t.me/Bisubiarenak)
 
 2️⃣ <b>{title2[:100]}</b>
 ╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID2})
-╚ ⚡ **Racikan** : [{BOT_NAME}](t.me/{BOT_USERNAME})
+╚ ⚡ **Developer** : [{BOT_NAME}](t.me/{BOT_USERNAME})
 ╚ ✨ **Powered by** : [Hiroshi•](https://t.me/Bisubiarenak)
 
 3️⃣ <b>{title3[:100]}</b>
 ╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})
-╚ ⚡ **Racikan** : [{BOT_NAME}](t.me/{BOT_USERNAME})
+╚ ⚡ **Developer** : [{BOT_NAME}](t.me/{BOT_USERNAME})
 ╚ ✨ **Powered by** : [Hiroshi•](https://t.me/Bisubiarenak)
 
 4️⃣ <b>{title4[:100]}</b>
 ╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})
-╚ ⚡ **Racikan** : [{BOT_NAME}](t.me/{BOT_USERNAME})
+╚ ⚡ **Developer** : [{BOT_NAME}](t.me/{BOT_USERNAME})
 ╚ ✨ **Powered by** : [Hiroshi•](https://t.me/Bisubiarenak)
 
 5️⃣ <b>{title5[:100]}</b>
 ╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})
-╚ ⚡ **Racikan** : [{BOT_NAME}](t.me/{BOT_USERNAME})
+╚ ⚡ **Developer** : [{BOT_NAME}](t.me/{BOT_USERNAME})
 ╚ ✨ **Powered by** : [Hiroshi•](https://t.me/Bisubiarenak)
 """),    
             reply_markup=InlineKeyboardMarkup(buttons),
@@ -673,27 +673,27 @@ async def popat(_,CallbackQuery):
 
 6️⃣ <b>{title6[:100]}</b>
 ╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})
-╚ ⚡ **Racikan** : [{BOT_NAME}](t.me/{BOT_USERNAME})
+╚ ⚡ **Developer** : [{BOT_NAME}](t.me/{BOT_USERNAME})
 ╚ ✨ **Powered by** : [Hiroshi•](https://t.me/Bisubiarenak)
 
 7️⃣ <b>{title7[:100]}</b>
 ╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})
-╚ ⚡ **Racikan** : [{BOT_NAME}](t.me/{BOT_USERNAME})
+╚ ⚡ **Developer** : [{BOT_NAME}](t.me/{BOT_USERNAME})
 ╚ ✨ **Powered by** : [Hiroshi•](https://t.me/Bisubiarenak)
 
 8️⃣ <b>{title8[:100]}</b>
 ╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})
-╚ ⚡ **Racikan** : [{BOT_NAME}](t.me/{BOT_USERNAME})
+╚ ⚡ **Developer** : [{BOT_NAME}](t.me/{BOT_USERNAME})
 ╚ ✨ **Powered by** : [Hiroshi•](https://t.me/Bisubiarenak)
 
 9️⃣ <b>{title9[:100]}</b>
 ╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})
-╚ ⚡ **Racikan** : [{BOT_NAME}](t.me/{BOT_USERNAME})
+╚ ⚡ **Developer** : [{BOT_NAME}](t.me/{BOT_USERNAME})
 ╚ ✨ **Powered by** : [Hiroshi•](https://t.me/Bisubiarenak)
 
 🔟 <b>{title10[:100]}</b>
 ╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})
-╚ ⚡ **Racikan** : [{BOT_NAME}](t.me/{BOT_USERNAME})
+╚ ⚡ **Developer** : [{BOT_NAME}](t.me/{BOT_USERNAME})
 ╚ ✨ **Powered by** : [Hiroshi•](https://t.me/Bisubiarenak)
 """, 
             reply_markup=InlineKeyboardMarkup(buttons),
@@ -708,27 +708,27 @@ async def popat(_,CallbackQuery):
 
 1️⃣ <b>{title1[:100]}</b>
 ╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})
-╚ ⚡ **Racikan** : [{BOT_NAME}](t.me/{BOT_USERNAME})
+╚ ⚡ **Developer** : [{BOT_NAME}](t.me/{BOT_USERNAME})
 ╚ ✨ **Powered by** : [Hiroshi•](https://t.me/Bisubiarenak)
 
 2️⃣ <b>{title2[:100]}</b>
 ╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})
-╚ ⚡ **Racikan** : [{BOT_NAME}](t.me/{BOT_USERNAME})
+╚ ⚡ **Developer** : [{BOT_NAME}](t.me/{BOT_USERNAME})
 ╚ ✨ **Powered by** : [Hiroshi•](https://t.me/Bisubiarenak)
 
 3️⃣ <b>{title3[:100]}</b>
 ╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})
-╚ ⚡ **Racikan** : [{BOT_NAME}](t.me/{BOT_USERNAME})
+╚ ⚡ **Developer** : [{BOT_NAME}](t.me/{BOT_USERNAME})
 ╚ ✨ **Powered by** : [Hiroshi•](https://t.me/Bisubiarenak)
 
 4️⃣ <b>{title4[:100]}</b>
 ╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})
-╚ ⚡ **Racikan** : [{BOT_NAME}](t.me/{BOT_USERNAME})
+╚ ⚡ **Developer** : [{BOT_NAME}](t.me/{BOT_USERNAME})
 ╚ ✨ **Powered by** : [Hiroshi•](https://t.me/Bisubiarenak)
 
 5️⃣ <b>{title5[:100]}</b>
 ╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})
-╚ ⚡ **Racikan** : [{BOT_NAME}](t.me/{BOT_USERNAME})
+╚ ⚡ **Developer** : [{BOT_NAME}](t.me/{BOT_USERNAME})
 ╚ ✨ **Powered by** : [Hiroshi•](https://t.me/Bisubiarenak)
 """,    
             reply_markup=InlineKeyboardMarkup(buttons),
