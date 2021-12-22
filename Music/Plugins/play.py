@@ -356,27 +356,27 @@ async def play(_, message: Message):
             f"""
 **🎼 𝐒𝐢𝐥𝐚𝐡𝐤𝐚𝐧 𝐏𝐢𝐥𝐢𝐡 𝐋𝐚𝐠𝐮 𝐘𝐚𝐧𝐠 𝐈𝐧𝐠𝐢𝐧 𝐋𝐮 𝐏𝐮𝐭𝐚𝐫 𝐊𝐧𝐭𝐥 🎼**
 
-1️⃣ <b>{title1[:65]}</b>
+1️⃣ <b>{title1[:75]}</b>
 ╚ [𝐌𝐨𝐫𝐞 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧](https://t.me/{BOT_USERNAME}?start=info_{ID1})
 ╚ **𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫** : [{BOT_NAME}](t.me/{BOT_USERNAME})
 ╚ **𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲** : [𝐇𝐢𝐫𝐨𝐬𝐡𝐢](https://t.me/Bisubiarenak)
 
-2️⃣ <b>{title2[:65]}</b>
+2️⃣ <b>{title2[:75]}</b>
 ╚ [𝐌𝐨𝐫𝐞 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧](https://t.me/{BOT_USERNAME}?start=info_{ID2})
 ╚ **𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫** : [{BOT_NAME}](t.me/{BOT_USERNAME})
 ╚ **𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲** : [𝐇𝐢𝐫𝐨𝐬𝐡𝐢](https://t.me/Bisubiarenak)
 
-3️⃣ <b>{title3[:65]}</b>
+3️⃣ <b>{title3[:75]}</b>
 ╚ [𝐌𝐨𝐫𝐞 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧](https://t.me/{BOT_USERNAME}?start=info_{ID3})
 ╚ **𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫** : [{BOT_NAME}](t.me/{BOT_USERNAME})
 ╚ **𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲** : [𝐇𝐢𝐫𝐨𝐬𝐡𝐢](https://t.me/Bisubiarenak)
 
-4️⃣ <b>{title4[:65]}</b>
+4️⃣ <b>{title4[:75]}</b>
 ╚ [𝐌𝐨𝐫𝐞 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧](https://t.me/{BOT_USERNAME}?start=info_{ID3})
 ╚ **𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫** : [{BOT_NAME}](t.me/{BOT_USERNAME})
 ╚ **𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲** : [𝐇𝐢𝐫𝐨𝐬𝐡𝐢](https://t.me/Bisubiarenak)
 
-5️⃣ <b>{title5[:65]}</b>
+5️⃣ <b>{title5[:75]}</b>
 ╚ [𝐌𝐨𝐫𝐞 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧](https://t.me/{BOT_USERNAME}?start=info_{ID3})
 ╚ **𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫** : [{BOT_NAME}](t.me/{BOT_USERNAME})
 ╚ **𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲** : [𝐇𝐢𝐫𝐨𝐬𝐡𝐢](https://t.me/Bisubiarenak)
@@ -671,27 +671,27 @@ async def popat(_,CallbackQuery):
             f"""
 <b>**🎼 𝐒𝐢𝐥𝐚𝐡𝐤𝐚𝐧 𝐏𝐢𝐥𝐢𝐡 𝐋𝐚𝐠𝐮 𝐘𝐚𝐧𝐠 𝐈𝐧𝐠𝐢𝐧 𝐋𝐮 𝐏𝐮𝐭𝐚𝐫 𝐊𝐧𝐭𝐥 🎼**</b>
 
-6️⃣ <b>{title6[:65]}</b>
+6️⃣ <b>{title6[:75]}</b>
 ╚ [𝐌𝐨𝐫𝐞 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧](https://t.me/{BOT_USERNAME}?start=info_{ID3})
 ╚ **𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫** : [{BOT_NAME}](t.me/{BOT_USERNAME})
 ╚ **𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲** : [𝐇𝐢𝐫𝐨𝐬𝐡𝐢](https://t.me/Bisubiarenak)
 
-7️⃣ <b>{title7[:65]}</b>
+7️⃣ <b>{title7[:75]}</b>
 ╚ [𝐌𝐨𝐫𝐞 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧](https://t.me/{BOT_USERNAME}?start=info_{ID3})
 ╚ **𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫** : [{BOT_NAME}](t.me/{BOT_USERNAME})
 ╚ **𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲** : [𝐇𝐢𝐫𝐨𝐬𝐡𝐢](https://t.me/Bisubiarenak)
 
-8️⃣ <b>{title8[:65]}</b>
+8️⃣ <b>{title8[:75]}</b>
 ╚ [𝐌𝐨𝐫𝐞 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧](https://t.me/{BOT_USERNAME}?start=info_{ID3})
 ╚ **𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫** : [{BOT_NAME}](t.me/{BOT_USERNAME})
 ╚ **𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲** : [𝐇𝐢𝐫𝐨𝐬𝐡𝐢](https://t.me/Bisubiarenak)
 
-9️⃣ <b>{title9[:65]}</b>
+9️⃣ <b>{title9[:75]}</b>
 ╚ [𝐌𝐨𝐫𝐞 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧](https://t.me/{BOT_USERNAME}?start=info_{ID3})
 ╚ **𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫** : [{BOT_NAME}](t.me/{BOT_USERNAME})
 ╚ **𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲** : [𝐇𝐢𝐫𝐨𝐬𝐡𝐢](https://t.me/Bisubiarenak)
 
-🔟 <b>{title10[:65]}</b>
+🔟 <b>{title10[:75]}</b>
 ╚ [𝐌𝐨𝐫𝐞 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧](https://t.me/{BOT_USERNAME}?start=info_{ID3})
 ╚ **𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫** : [{BOT_NAME}](t.me/{BOT_USERNAME})
 ╚ **𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲** : [𝐇𝐢𝐫𝐨𝐬𝐡𝐢](https://t.me/Bisubiarenak)
@@ -706,27 +706,27 @@ async def popat(_,CallbackQuery):
             f"""
 <b>**🎼 𝐒𝐢𝐥𝐚𝐡𝐤𝐚𝐧 𝐏𝐢𝐥𝐢𝐡 𝐋𝐚𝐠𝐮 𝐘𝐚𝐧𝐠 𝐈𝐧𝐠𝐢𝐧 𝐋𝐮 𝐏𝐮𝐭𝐚𝐫 𝐊𝐧𝐭𝐥**</b>
 
-1️⃣ <b>{title1[:65]}</b>
+1️⃣ <b>{title1[:75]}</b>
 ╚ [𝐌𝐨𝐫𝐞 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧](https://t.me/{BOT_USERNAME}?start=info_{ID3})
 ╚ **𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫** : [{BOT_NAME}](t.me/{BOT_USERNAME})
 ╚ **𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲** : [𝐇𝐢𝐫𝐨𝐬𝐡𝐢](https://t.me/Bisubiarenak)
 
-2️⃣ <b>{title2[:65]}</b>
+2️⃣ <b>{title2[:75]}</b>
 ╚ [𝐌𝐨𝐫𝐞 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧](https://t.me/{BOT_USERNAME}?start=info_{ID3})
 ╚ **𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫** : [{BOT_NAME}](t.me/{BOT_USERNAME})
 ╚ **𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲** : [𝐇𝐢𝐫𝐨𝐬𝐡𝐢](https://t.me/Bisubiarenak)
 
-3️⃣ <b>{title3[:65]}</b>
+3️⃣ <b>{title3[:75]}</b>
 ╚ [𝐌𝐨𝐫𝐞 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧](https://t.me/{BOT_USERNAME}?start=info_{ID3})
 ╚ **𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫** : [{BOT_NAME}](t.me/{BOT_USERNAME})
 ╚ **𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲** : [𝐇𝐢𝐫𝐨𝐬𝐡𝐢](https://t.me/Bisubiarenak)
 
-4️⃣ <b>{title4[:65]}</b>
+4️⃣ <b>{title4[:75]}</b>
 ╚ [𝐌𝐨𝐫𝐞 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧](https://t.me/{BOT_USERNAME}?start=info_{ID3})
 ╚ **𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫** : [{BOT_NAME}](t.me/{BOT_USERNAME})
 ╚ **𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲** : [𝐇𝐢𝐫𝐨𝐬𝐡𝐢](https://t.me/Bisubiarenak)
 
-5️⃣ <b>{title5[:65]}</b>
+5️⃣ <b>{title5[:75]}</b>
 ╚ [𝐌𝐨𝐫𝐞 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧](https://t.me/{BOT_USERNAME}?start=info_{ID3})
 ╚ **𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫** : [{BOT_NAME}](t.me/{BOT_USERNAME})
 ╚ **𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲** : [𝐇𝐢𝐫𝐨𝐬𝐡𝐢](https://t.me/Bisubiarenak)
