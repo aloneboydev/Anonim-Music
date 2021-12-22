@@ -84,7 +84,7 @@ async def skip(client, m: Message):
             await m.reply("❌ Tidak ada yang sedang diputar")
         elif op == 1:
             await m.reply(
-                "✅ __Antrian__ **kosong.**\n\n**• Assistant meninggalkan obrolan suara**"
+                "✅ Antrian **kosong.**\n\n**• Assistant meninggalkan obrolan suara**"
             )
         elif op == 2:
             await m.reply(
