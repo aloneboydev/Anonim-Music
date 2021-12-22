@@ -416,7 +416,7 @@ async def play(_, message: Message):
 <b>**🎼 𝐌𝐞𝐧𝐚𝐦𝐛𝐚𝐡𝐤𝐚𝐧 𝐊𝐞 𝐃𝐚𝐟𝐭𝐚𝐫 𝐀𝐧𝐭𝐫𝐢𝐚𝐧 𝐋𝐚𝐠𝐮**</b>
 
 <b>🏷️ **𝐍𝐚𝐦𝐚** :</b> [{title[:80]}]({link})
-<b>⏱️ **𝐃𝐮𝐫𝐚𝐬𝐢** :</b>`{duration}` `Menit`
+<b>⏱️ **𝐃𝐮𝐫𝐚𝐬𝐢** :</b> {duration} 𝐌𝐞𝐧𝐢𝐭
 <b>🎧 **𝐀𝐭𝐚𝐬 𝐏𝐞𝐫𝐦𝐢𝐧𝐭𝐚𝐚𝐧** : </b>{checking}
 <b>🔢 **𝐏𝐨𝐬𝐢𝐬𝐢 𝐀𝐧𝐭𝐫𝐢𝐚𝐧 𝐊𝐞** » </b>{position}
 """),
@@ -452,7 +452,7 @@ async def play(_, message: Message):
         reply_markup=InlineKeyboardMarkup(buttons),    
         caption=(f"""
 <b>🏷 **𝐍𝐚𝐦𝐚** :</b> [{title[:80]}]({link})
-<b>⏱️ **𝐃𝐮𝐫𝐚𝐬𝐢** :</b> {duration}
+<b>⏱️ **𝐃𝐮𝐫𝐚𝐬𝐢** :</b> {duration} 𝐌𝐞𝐧𝐢𝐭
 <b>🎧 **𝐀𝐭𝐚𝐬 𝐩𝐞𝐫𝐦𝐢𝐧𝐭𝐚𝐚𝐧** :</b> {checking}
 <b>⚡ **𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲** : [𝐇𝐢𝐫𝐨𝐬𝐡𝐢](https://t.me/Bisubiarenak)
 """)
@@ -576,7 +576,7 @@ async def startyuplay(_,CallbackQuery):
 <b>🎼 𝐌𝐞𝐧𝐚𝐦𝐛𝐚𝐡𝐤𝐚𝐧 𝐊𝐞 𝐃𝐚𝐟𝐭𝐚𝐫 𝐀𝐧𝐭𝐫𝐢𝐚𝐧 𝐋𝐚𝐠𝐮</b> 
 
 <b>🏷 **𝐍𝐚𝐦𝐚** :</b> [{title[:80]}]({url})
-<b>⏱️ **𝐃𝐮𝐫𝐚𝐬𝐢** :</b> `{duration}` `Menit`
+<b>⏱️ **𝐃𝐮𝐫𝐚𝐬𝐢** :</b> {duration} 𝐌𝐞𝐧𝐢𝐭
 <b>💡 **𝐒𝐭𝐚𝐭𝐮𝐬** : `Dalam antrian`
 <b>🎧 **𝐀𝐭𝐚𝐬 𝐏𝐞𝐫𝐦𝐢𝐧𝐭𝐚𝐚𝐧** :</b> {checking}
 <b>🔢 **𝐏𝐨𝐬𝐢𝐬𝐢 𝐀𝐧𝐭𝐫𝐢𝐚𝐧 𝐊𝐞** »</b> `{position}`
@@ -604,7 +604,7 @@ async def startyuplay(_,CallbackQuery):
         reply_markup=InlineKeyboardMarkup(buttons),    
         caption=(f"""
 <b>🏷 **𝐍𝐚𝐦𝐚** :</b> [{title[:80]}]({url})
-<b>⏱️ **𝐃𝐮𝐫𝐚𝐬𝐢** :</b> `{duration}` `Menit`
+<b>⏱️ **𝐃𝐮𝐫𝐚𝐬𝐢** :</b> {duration} 𝐌𝐞𝐧𝐢𝐭
 <b>💡 **𝐒𝐭𝐚𝐭𝐮𝐬** : `Sedang memutar`
 <b>🎧 **𝐀𝐭𝐚𝐬 𝐏𝐞𝐫𝐦𝐢𝐧𝐭𝐚𝐚𝐧** :</b> {checking}
 <b>⚡ **𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲** :</b> [𝐇𝐢𝐫𝐨𝐬𝐡𝐢](https://t.me/Bisubiarenak)
