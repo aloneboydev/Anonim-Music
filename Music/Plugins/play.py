@@ -356,27 +356,27 @@ async def play(_, message: Message):
             f"""
 **🎼 sɪʟᴀʜᴋᴀɴ ᴘɪʟɪʜ ʟᴀɢᴜ ʏᴀɴɢ ɪɴɢɪɴ ʟᴜ ᴘᴜᴛᴀʀ ᴋɴᴛʟ**
 
-1️⃣ <b>{title1[:100]}</b>
+1️⃣ <b>{title1[:80]}</b>
 ╚ [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID1})
 ╚ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [{BOT_NAME}](t.me/{BOT_USERNAME})
 ╚ **ᴘᴏᴡᴇʀᴇᴅ ʙʏ** : [ʜɪʀᴏsʜɪ](https://t.me/Bisubiarenak)
 
-2️⃣ <b>{title2[:100]}</b>
+2️⃣ <b>{title2[:80]}</b>
 ╚ [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID2})
 ╚ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [{BOT_NAME}](t.me/{BOT_USERNAME})
 ╚ **ᴘᴏᴡᴇʀᴇᴅ ʙʏ** : [ʜɪʀᴏsʜɪ](https://t.me/Bisubiarenak)
 
-3️⃣ <b>{title3[:100]}</b>
+3️⃣ <b>{title3[:80]}</b>
 ╚ [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})
 ╚ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [{BOT_NAME}](t.me/{BOT_USERNAME})
 ╚ **ᴘᴏᴡᴇʀᴇᴅ ʙʏ** : [ʜɪʀᴏsʜɪ](https://t.me/Bisubiarenak)
 
-4️⃣ <b>{title4[:100]}</b>
+4️⃣ <b>{title4[:80]}</b>
 ╚ [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})
 ╚ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [{BOT_NAME}](t.me/{BOT_USERNAME})
 ╚ **ᴘᴏᴡᴇʀᴇᴅ ʙʏ** : [ʜɪʀᴏsʜɪ](https://t.me/Bisubiarenak)
 
-5️⃣ <b>{title5[:100]}</b>
+5️⃣ <b>{title5[:80]}</b>
 ╚ [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})
 ╚ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [{BOT_NAME}](t.me/{BOT_USERNAME})
 ╚ **ᴘᴏᴡᴇʀᴇᴅ ʙʏ** : [ʜɪʀᴏsʜɪ](https://t.me/Bisubiarenak)
@@ -415,7 +415,7 @@ async def play(_, message: Message):
             caption=(f"""
 <b>**🎼 Menambahkan Ke Daftar Antrian Lagu**</b>
 
-<b>🏷️ **Nama** : [{title[:100]}]({link})</b>
+<b>🏷️ **Nama** : [{title[:80]}]({link})</b>
 <b>⏱️ **Durasi** :</b>`{duration}` `Menit`
 <b>🎧 **Atas Permintaan** : </b>{checking}
 <b>🔢 **Posisi Antrian Ke** » </b>{position}
@@ -451,10 +451,10 @@ async def play(_, message: Message):
         photo=thumb,
         reply_markup=InlineKeyboardMarkup(buttons),    
         caption=(f"""
-<b>🏷 **Nama** :</b> [{title[:100]}]({link})
+<b>🏷 **Nama** :</b> [{title[:80]}]({link})
 <b>⏱️ **Durasi** :</b> {duration}
 <b>🎧 **Atas permintaan** :</b> {checking}
-<b>⚡ **Powered by** : [𝐇𝐢𝐫𝐨𝐬𝐡𝐢•](https://t.me/Bisubiarenak)
+<b>⚡ **Powered by** : [𝐇𝐢𝐫𝐨𝐬𝐡𝐢](https://t.me/Bisubiarenak)
 """)
         )   
         return await mystic.delete()
@@ -575,7 +575,7 @@ async def startyuplay(_,CallbackQuery):
         caption=(f"""
 <b>🎼 Menambahkan Ke Daftar Antrian Lagu</b> 
 
-<b>🏷 **Nama** : </b>[{title[:100]}]({url})
+<b>🏷 **Nama** : </b>[{title[:80]}]({url})
 <b>⏱️ **Durasi** :</b> `{duration}` `Menit`
 <b>💡 **Status** : `Dalam antrian`
 <b>🎧 **Atas Permintaan** :</b> {checking}
@@ -603,7 +603,7 @@ async def startyuplay(_,CallbackQuery):
         photo=thumb,
         reply_markup=InlineKeyboardMarkup(buttons),    
         caption=(f"""
-<b>🏷 **Nama** :</b> [{title[:100]}]({url})
+<b>🏷 **Nama** :</b> [{title[:80]}]({url})
 <b>⏱️ **Durasi** :</b> `{duration}` `Menit`
 <b>💡 **Status** : `Sedang memutar`
 <b>🎧 **Atas Permintaan** :</b> {checking}
@@ -671,27 +671,27 @@ async def popat(_,CallbackQuery):
             f"""
 <b>**🎼 sɪʟᴀʜᴋᴀɴ ᴘɪʟɪʜ ʟᴀɢᴜ ʏᴀɴɢ ɪɴɢɪɴ ʟᴜ ᴘᴜᴛᴀʀ ᴋɴᴛʟ**</b>
 
-6️⃣ <b>{title6[:100]}</b>
+6️⃣ <b>{title6[:80]}</b>
 ╚ [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})
 ╚ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [{BOT_NAME}](t.me/{BOT_USERNAME})
 ╚ **ᴘᴏᴡᴇʀᴇᴅ ʙʏ** : [ʜɪʀᴏsʜɪ](https://t.me/Bisubiarenak)
 
-7️⃣ <b>{title7[:100]}</b>
+7️⃣ <b>{title7[:80]}</b>
 ╚ [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})
 ╚ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [{BOT_NAME}](t.me/{BOT_USERNAME})
 ╚ **ᴘᴏᴡᴇʀᴇᴅ ʙʏ** : [ʜɪʀᴏsʜɪ](https://t.me/Bisubiarenak)
 
-8️⃣ <b>{title8[:100]}</b>
+8️⃣ <b>{title8[:80]}</b>
 ╚ [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})
 ╚ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [{BOT_NAME}](t.me/{BOT_USERNAME})
 ╚ **ᴘᴏᴡᴇʀᴇᴅ ʙʏ** : [ʜɪʀᴏsʜɪ](https://t.me/Bisubiarenak)
 
-9️⃣ <b>{title9[:100]}</b>
+9️⃣ <b>{title9[:80]}</b>
 ╚ [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})
 ╚ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [{BOT_NAME}](t.me/{BOT_USERNAME})
 ╚ **ᴘᴏᴡᴇʀᴇᴅ ʙʏ** : [ʜɪʀᴏsʜɪ](https://t.me/Bisubiarenak)
 
-🔟 <b>{title10[:100]}</b>
+🔟 <b>{title10[:80]}</b>
 ╚ [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})
 ╚ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [{BOT_NAME}](t.me/{BOT_USERNAME})
 ╚ **ᴘᴏᴡᴇʀᴇᴅ ʙʏ** : [ʜɪʀᴏsʜɪ](https://t.me/Bisubiarenak)
@@ -706,27 +706,27 @@ async def popat(_,CallbackQuery):
             f"""
 <b>**🎼 sɪʟᴀʜᴋᴀɴ ᴘɪʟɪʜ ʟᴀɢᴜ ʏᴀɴɢ ɪɴɢɪɴ ʟᴜ ᴘᴜᴛᴀʀ ᴋɴᴛʟ**</b>
 
-1️⃣ <b>{title1[:100]}</b>
+1️⃣ <b>{title1[:80]}</b>
 ╚ [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})
 ╚ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [{BOT_NAME}](t.me/{BOT_USERNAME})
 ╚ **ᴘᴏᴡᴇʀᴇᴅ ʙʏ** : [ʜɪʀᴏsʜɪ](https://t.me/Bisubiarenak)
 
-2️⃣ <b>{title2[:100]}</b>
+2️⃣ <b>{title2[:80]}</b>
 ╚ [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})
 ╚ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [{BOT_NAME}](t.me/{BOT_USERNAME})
 ╚ **ᴘᴏᴡᴇʀᴇᴅ ʙʏ** : [ʜɪʀᴏsʜɪ](https://t.me/Bisubiarenak)
 
-3️⃣ <b>{title3[:100]}</b>
+3️⃣ <b>{title3[:80]}</b>
 ╚ [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})
 ╚ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [{BOT_NAME}](t.me/{BOT_USERNAME})
 ╚ **ᴘᴏᴡᴇʀᴇᴅ ʙʏ** : [ʜɪʀᴏsʜɪ](https://t.me/Bisubiarenak)
 
-4️⃣ <b>{title4[:100]}</b>
+4️⃣ <b>{title4[:80]}</b>
 ╚ [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})
 ╚ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [{BOT_NAME}](t.me/{BOT_USERNAME})
 ╚ **ᴘᴏᴡᴇʀᴇᴅ ʙʏ** : [ʜɪʀᴏsʜɪ](https://t.me/Bisubiarenak)
 
-5️⃣ <b>{title5[:100]}</b>
+5️⃣ <b>{title5[:80]}</b>
 ╚ [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})
 ╚ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [{BOT_NAME}](t.me/{BOT_USERNAME})
 ╚ **ᴘᴏᴡᴇʀᴇᴅ ʙʏ** : [ʜɪʀᴏsʜɪ](https://t.me/Bisubiarenak)
