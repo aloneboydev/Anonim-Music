@@ -285,7 +285,7 @@ async def vplay(c: Client, message: Message):
                             await app.send_message(
                                 chat_id,
                                 f"""
-▷ **Memutar video dimulai**
+🎼 **Memutar video dimulai**
 🏷 **Nama:** [{songname[:999]}]({url})
 ⏱️ **Durasi:** {duration}
 🎧 **Atas permintaan:** {requester}
