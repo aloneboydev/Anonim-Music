@@ -63,11 +63,11 @@ async def welcome(_, message: Message):
         try:
             if member.id in OWNER:
                 return await message.reply_text(
-                    f"💡 Pemilik Bot [{member.mention}] baru saja bergabung di grup ini."
+                    f"💡 ᴘᴇᴍɪʟɪᴋ ʙᴏᴛ [{member.mention}] ʙᴀʀᴜ sᴀᴊᴀ ʙᴇʀɢᴀʙᴜɴɢ ᴅɪ ɢʀᴜᴘ ɪɴɪ"
                 )
             if member.id in SUDOERS:
                 return await message.reply_text(
-                    f"💡 Admin Bot [{member.mention}] baru saja bergabung di grup ini."
+                    f"💡 ᴀᴅᴍɪɴ ʙᴏᴛ [{member.mention}] ʙᴀʀᴜ sᴀᴊᴀ ʙᴇʀɢᴀʙᴜɴɢ ᴅɪ ɢʀᴜᴘ ɪɴɪ"
                 )
             if member.id == ASSID:
                 await remove_active_chat(chat_id)
@@ -75,9 +75,9 @@ async def welcome(_, message: Message):
                 out = start_pannel()
                 await message.reply_text(
                     f"""
-👋 ** Halo senang rasanya bisa bergabung di grup ini**
+👋 ** ʜᴀʟᴏ sᴇɴᴀɴɢ ʀᴀsᴀɴʏᴀ ʙɪsᴀ ʙᴇʀɢᴀʙᴜɴɢ ᴅɪ ɢʀᴜᴘ ɪɴɪ**
 
-💡 **Jangan lupa untuk menjadikan saya sebagai admin di grup ini**
+💡 **ᴊᴀɴɢᴀɴ ʟᴜᴘᴀ ᴜɴᴛᴜᴋ ᴍᴇɴᴊᴀᴅɪᴋᴀɴ sᴀʏᴀ sᴇʙᴀɢᴀɪ ᴀᴅᴍɪɴ ᴅɪ ɢʀᴜᴘ ɪɴɪ**
 """,
                     reply_markup=InlineKeyboardMarkup(out[1]),
                     disable_web_page_preview=True
@@ -98,10 +98,10 @@ async def start(_, message: Message):
     out = start_pannel()
     await message.reply_text(
         f"""
-Terima kasih telah memasukkan saya di {message.chat.title}.
-Musik itu hidup.
+ᴛᴇʀɪᴍᴀ ᴋᴀsɪʜ ᴛᴇʟᴀʜ ᴍᴇᴍᴀsᴜᴋᴋᴀɴ sᴀʏᴀ ᴅɪ {message.chat.title}.
+ᴍᴜsɪᴋ ɪᴛᴜ ʜɪᴅᴜᴘ.
 
-Untuk bantuan silahkan klik tombol dibawah.
+ᴜɴᴛᴜᴋ ʙᴀɴᴛᴜᴀɴ sɪʟᴀʜᴋᴀɴ ᴋʟɪᴋ ᴛᴏᴍʙᴏʟ ᴅɪʙᴀᴡᴀʜ.
 """,
         reply_markup=InlineKeyboardMarkup(out[1]),
         disable_web_page_preview=True
@@ -118,9 +118,9 @@ async def play(_, message: Message):
         await app.send_message(
             message.chat.id,
             text=f"""
-**✨ Selamat Datang {rpk}!
+**✨ sᴇʟᴀᴍᴀᴛ ᴅᴀᴛᴀɴɢ {rpk}!
 
-💬 [{BOT_NAME}](t.me/{BOT_USERNAME}) memungkinkan anda untuk memutar musik pada grup melalui obrolan suara yang baru di Telegram**
+💬 [{BOT_NAME}](t.me/{BOT_USERNAME}) ᴍᴇᴍᴜɴɢᴋɪɴᴋᴀɴ ᴀɴᴅᴀ ᴜɴᴛᴜᴋ ᴍᴇᴍᴜᴛᴀʀ ᴍᴜsɪᴋ ᴘᴀᴅᴀ ɢʀᴜᴘ ᴍᴇʟᴀʟᴜɪ ᴏʙʀᴏʟᴀɴ sᴜᴀʀᴀ ʏᴀɴɢ ʙᴀʀᴜ ᴅɪ ᴛᴇʟᴇɢʀᴀᴍ**
 
 """,
             parse_mode="markdown",
