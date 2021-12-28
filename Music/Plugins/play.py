@@ -357,12 +357,12 @@ async def play(_, message: Message):
 **🎼 𝐒𝐢𝐥𝐚𝐡𝐤𝐚𝐧 𝐏𝐢𝐥𝐢𝐡 𝐋𝐚𝐠𝐮 𝐘𝐚𝐧𝐠 𝐈𝐧𝐠𝐢𝐧 𝐋𝐮 𝐏𝐮𝐭𝐚𝐫 𝐊𝐧𝐭𝐥 🎼**
 
 1️⃣ <b>{title1[:75]}</b>
-╚ [𝐌𝐨𝐫𝐞 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧](https://t.me/{BOT_USERNAME}?start=info_{ID1})
-╚ **𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫** : [{BOT_NAME}](t.me/{BOT_USERNAME})
-╚ **𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲** : [𝐇𝐢𝐫𝐨𝐬𝐡𝐢](https://t.me/Bisubiarenak)
+┣ 💡 [𝐌𝐨𝐫𝐞 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧](https://t.me/{BOT_USERNAME}?start=info_{ID1})
+┣ ⚡ **𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫** : [{BOT_NAME}](t.me/{BOT_USERNAME})
+┗ ✨ **𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲** : [𝐇𝐢𝐫𝐨𝐬𝐡𝐢](https://t.me/Bisubiarenak)
 
 2️⃣ <b>{title2[:75]}</b>
-╚ [𝐌𝐨𝐫𝐞 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧](https://t.me/{BOT_USERNAME}?start=info_{ID2})
+┣ 💡 [𝐌𝐨𝐫𝐞 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧](https://t.me/{BOT_USERNAME}?start=info_{ID2})
 ╚ **𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫** : [{BOT_NAME}](t.me/{BOT_USERNAME})
 ╚ **𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲** : [𝐇𝐢𝐫𝐨𝐬𝐡𝐢](https://t.me/Bisubiarenak)
 
