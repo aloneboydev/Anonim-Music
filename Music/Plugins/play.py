@@ -359,27 +359,27 @@ async def play(_, message: Message):
 ¹ <b>{title1[:50]}</b>
   ╠ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID1})
   ╠ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ʜɪʀᴏsʜɪ](https://t.me/Bisubiarenak)
-  ╚═ ᴘᴇᴍɪʟɪᴋ ʜɪʀᴏsʜɪ ᴍᴜsɪᴄ
+  ╚ ᴘᴇᴍɪʟɪᴋ ʜɪʀᴏsʜɪ ᴍᴜsɪᴄ
 
 ² <b>{title2[:50]}</b>
   ╠ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID2})
   ╠ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ʜɪʀᴏsʜɪ](https://t.me/Bisubiarenak)
-  ╚═ ᴘᴇᴍɪʟɪᴋ ʜɪʀᴏsʜɪ ᴍᴜsɪᴄ
+  ╚ ᴘᴇᴍɪʟɪᴋ ʜɪʀᴏsʜɪ ᴍᴜsɪᴄ
 
 ³ <b>{title3[:50]}</b>
   ╠ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID3})
   ╠ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ʜɪʀᴏsʜɪ](https://t.me/Bisubiarenak)
-  ╚═ ᴘᴇᴍɪʟɪᴋ ʜɪʀᴏsʜɪ ᴍᴜsɪᴄ
+  ╚ ᴘᴇᴍɪʟɪᴋ ʜɪʀᴏsʜɪ ᴍᴜsɪᴄ
 
 ⁴ <b>{title4[:50]}</b>
   ╠ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID3})
   ╠ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ʜɪʀᴏsʜɪ](https://t.me/Bisubiarenak)
-  ╚═ ᴘᴇᴍɪʟɪᴋ ʜɪʀᴏsʜɪ ᴍᴜsɪᴄ
+  ╚ ᴘᴇᴍɪʟɪᴋ ʜɪʀᴏsʜɪ ᴍᴜsɪᴄ
 
 ⁵ <b>{title5[:50]}</b>
   ╠ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID3})
   ╠ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ʜɪʀᴏsʜɪ](https://t.me/Bisubiarenak)
-  ╚═ ᴘᴇᴍɪʟɪᴋ ʜɪʀᴏsʜɪ ᴍᴜsɪᴄ
+  ╚ ᴘᴇᴍɪʟɪᴋ ʜɪʀᴏsʜɪ ᴍᴜsɪᴄ
 """),    
             reply_markup=InlineKeyboardMarkup(buttons),
         )  
@@ -674,27 +674,27 @@ async def popat(_,CallbackQuery):
 ⁶ <b>{title6[:50]}</b>
   ╠ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID3})
   ╠ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ʜɪʀᴏsʜɪ](https://t.me/Bisubiarenak)
-  ╚═ ᴘᴇᴍɪʟɪᴋ ʜɪʀᴏsʜɪ ᴍᴜsɪᴄ
+  ╚ ᴘᴇᴍɪʟɪᴋ ʜɪʀᴏsʜɪ ᴍᴜsɪᴄ
 
 ⁷ <b>{title7[:50]}</b>
   ╠ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID3})
   ╠ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ʜɪʀᴏsʜɪ](https://t.me/Bisubiarenak)
-  ╚═ ᴘᴇᴍɪʟɪᴋ ʜɪʀᴏsʜɪ ᴍᴜsɪᴄ
+  ╚ ᴘᴇᴍɪʟɪᴋ ʜɪʀᴏsʜɪ ᴍᴜsɪᴄ
 
 ⁸ <b>{title8[:50]}</b>
   ╠ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID3})
   ╠ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ʜɪʀᴏsʜɪ](https://t.me/Bisubiarenak)
-  ╚═ ᴘᴇᴍɪʟɪᴋ ʜɪʀᴏsʜɪ ᴍᴜsɪᴄ
+  ╚ ᴘᴇᴍɪʟɪᴋ ʜɪʀᴏsʜɪ ᴍᴜsɪᴄ
 
 ⁹ <b>{title9[:50]}</b>
   ╠ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID3})
   ╠ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ʜɪʀᴏsʜɪ](https://t.me/Bisubiarenak)
-  ╚═ ᴘᴇᴍɪʟɪᴋ ʜɪʀᴏsʜɪ ᴍᴜsɪᴄ
+  ╚ ᴘᴇᴍɪʟɪᴋ ʜɪʀᴏsʜɪ ᴍᴜsɪᴄ
 
 ¹⁰ <b>{title10[:50]}</b>
   ╠ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID3})
   ╠ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ʜɪʀᴏsʜɪ](https://t.me/Bisubiarenak)
-  ╚═ ᴘᴇᴍɪʟɪᴋ ʜɪʀᴏsʜɪ ᴍᴜsɪᴄ
+  ╚ ᴘᴇᴍɪʟɪᴋ ʜɪʀᴏsʜɪ ᴍᴜsɪᴄ
 """, 
             reply_markup=InlineKeyboardMarkup(buttons),
         )  
@@ -709,27 +709,27 @@ async def popat(_,CallbackQuery):
 ¹ <b>{title1[:50]}</b>
   ╠ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID3})
   ╠ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ʜɪʀᴏsʜɪ](https://t.me/Bisubiarenak)
-  ╚═ ᴘᴇᴍɪʟɪᴋ ʜɪʀᴏsʜɪ ᴍᴜsɪᴄ
+  ╚ ᴘᴇᴍɪʟɪᴋ ʜɪʀᴏsʜɪ ᴍᴜsɪᴄ
 
 ² <b>{title2[:50]}</b>
   ╠ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID3})
   ╠ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ʜɪʀᴏsʜɪ](https://t.me/Bisubiarenak)
-  ╚═ ᴘᴇᴍɪʟɪᴋ ʜɪʀᴏsʜɪ ᴍᴜsɪᴄ
+  ╚ ᴘᴇᴍɪʟɪᴋ ʜɪʀᴏsʜɪ ᴍᴜsɪᴄ
 
 ³ <b>{title3[:50]}</b>
   ╠ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID3})
   ╠ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ʜɪʀᴏsʜɪ](https://t.me/Bisubiarenak)
-  ╚═ ᴘᴇᴍɪʟɪᴋ ʜɪʀᴏsʜɪ ᴍᴜsɪᴄ
+  ╚ ᴘᴇᴍɪʟɪᴋ ʜɪʀᴏsʜɪ ᴍᴜsɪᴄ
 
 ⁴ <b>{title4[:50]}</b>
   ╠ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID3})
   ╠ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ʜɪʀᴏsʜɪ](https://t.me/Bisubiarenak)
-  ╚═ ᴘᴇᴍɪʟɪᴋ ʜɪʀᴏsʜɪ ᴍᴜsɪᴄ
+  ╚ ᴘᴇᴍɪʟɪᴋ ʜɪʀᴏsʜɪ ᴍᴜsɪᴄ
 
 ⁵ <b>{title5[:50]}</b>
   ╠ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID3})
   ╠ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ʜɪʀᴏsʜɪ](https://t.me/Bisubiarenak)
-  ╚═ ᴘᴇᴍɪʟɪᴋ ʜɪʀᴏsʜɪ ᴍᴜsɪᴄ
+  ╚ ᴘᴇᴍɪʟɪᴋ ʜɪʀᴏsʜɪ ᴍᴜsɪᴄ
 """,    
             reply_markup=InlineKeyboardMarkup(buttons),
         )  
