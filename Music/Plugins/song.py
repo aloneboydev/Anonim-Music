@@ -210,7 +210,7 @@ Kembalikan ke Akun Pengguna Dari Hak Admin.
         )
         hmo = await message.reply_text(
             f"""
-<b>✨ Silahkan Pilih Maba Yang Ingin Didownload</b>
+<b>✨ Silahkan Pilih Mana Lagu Yang Ingin Lu Download</b>
 
 ¹ <b>{title1[:50]}</b>
   ╚ 💡[Kepo Lu Kontol](https://t.me/{BOT_USERNAME}?start=info_{ID1})
@@ -288,7 +288,7 @@ async def startyuplay(_, CallbackQuery):
         photo=thumb,
         reply_markup=InlineKeyboardMarkup(buttons),
         caption=f"""
-<b>🏷️ *Namam** :</b> [{title[:50]}]({url})
+<b>🏷️ **Nama** :</b> [{title[:50]}]({url})
 ╚ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{id})
 ╚ ✨ **Developer** : [ɢʟɪᴛᴛᴇʀ](https://t.me/Biarenakliatnyaaaa)
 """,
