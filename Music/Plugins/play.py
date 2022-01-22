@@ -354,7 +354,7 @@ async def play(_, message: Message):
             photo=thumb, 
             caption=(
             f"""
-**🎼 𝐒𝐢𝐥𝐚𝐡𝐤𝐚𝐧 𝐏𝐢𝐥𝐢𝐡 𝐋𝐚𝐠𝐮 𝐘𝐚𝐧𝐠 𝐈𝐧𝐠𝐢𝐧 𝐋𝐮 𝐏𝐮𝐭𝐚𝐫 𝐊𝐧𝐭𝐥 🎼**
+**🏷 sɪʟᴀʜᴋᴀɴ ᴘɪʟɪʜ ʟᴀɢᴜ ʏᴀɴɢ ɪɴɢɪɴ ʟᴜ ᴘᴜᴛᴀʀ ᴋᴏɴᴛᴏʟ 👀**
 
 ¹ <b>{title1[:65]}</b>
   ┣ ❒ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID1})
@@ -669,7 +669,7 @@ async def popat(_,CallbackQuery):
         buttons = search_markup2(ID6, ID7, ID8, ID9, ID10, duration6, duration7, duration8, duration9, duration10 ,user_id, query)
         await CallbackQuery.edit_message_text(
             f"""
-<b>**🎼 𝐒𝐢𝐥𝐚𝐡𝐤𝐚𝐧 𝐏𝐢𝐥𝐢𝐡 𝐋𝐚𝐠𝐮 𝐘𝐚𝐧𝐠 𝐈𝐧𝐠𝐢𝐧 𝐋𝐮 𝐏𝐮𝐭𝐚𝐫 𝐊𝐧𝐭𝐥 🎼**</b>
+<b>**🏷 sɪʟᴀʜᴋᴀɴ ᴘɪʟɪʜ ʟᴀɢᴜ ʏᴀɴɢ ɪɴɢɪɴ ʟᴜ ᴘᴜᴛᴀʀ ᴋᴏɴᴛᴏʟ 👀**</b>
 
 ⁶ <b>{title6[:60]}</b>
   ┣ ❒ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID3})
@@ -704,7 +704,7 @@ async def popat(_,CallbackQuery):
         buttons = search_markup(ID1, ID2, ID3, ID4, ID5, duration1, duration2, duration3, duration4, duration5, user_id, query)
         await CallbackQuery.edit_message_text(
             f"""
-<b>**🎼 𝐒𝐢𝐥𝐚𝐡𝐤𝐚𝐧 𝐏𝐢𝐥𝐢𝐡 𝐋𝐚𝐠𝐮 𝐘𝐚𝐧𝐠 𝐈𝐧𝐠𝐢𝐧 𝐋𝐮 𝐏𝐮𝐭𝐚𝐫 𝐊𝐧𝐭𝐥 🎼**</b>
+<b>**🏷 sɪʟᴀʜᴋᴀɴ ᴘɪʟɪʜ ʟᴀɢᴜ ʏᴀɴɢ ɪɴɢɪɴ ʟᴜ ᴘᴜᴛᴀʀ ᴋᴏɴᴛᴏʟ 👀**</b>
 
 ¹ <b>{title1[:60]}</b>
   ┣ ❒ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID3})
