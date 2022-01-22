@@ -180,10 +180,10 @@ Downloading....
                 photo=f"downloads/{_chat_}final.png",
                 reply_markup=InlineKeyboardMarkup(buttons),
                 caption=f"""
-<b>**💽 Memutar Lagu Berikutnya 💽**</b> 
+<b>**🎥 Memutar Lagu Berikutnya **</b> 
 
 <b>🏷 Nama :</b> {title}
-<b>⏰ Durasi :</b> `{duration}`Menit
+<b>⏰ Durasi :</b> `{duration}` Menit
 <b>🎧 Permintaan Dari :</b> {username}
 """,
                 )
