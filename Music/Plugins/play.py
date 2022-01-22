@@ -451,10 +451,10 @@ async def play(_, message: Message):
         photo=thumb,
         reply_markup=InlineKeyboardMarkup(buttons),    
         caption=(f"""
-<b>🏷 **𝐍𝐚𝐦𝐚** :</b> [{title[:80]}]({link})
-<b>⏱️ **𝐃𝐮𝐫𝐚𝐬𝐢** :</b> {duration} 𝐌𝐞𝐧𝐢𝐭
-<b>🎧 **𝐀𝐭𝐚𝐬 𝐩𝐞𝐫𝐦𝐢𝐧𝐭𝐚𝐚𝐧** :</b> {checking}
-<b>⚡ **𝐏𝐞𝐦𝐢𝐦𝐩𝐢𝐧** : 𝐃𝐞𝐦𝐨𝐧𝐒𝐥𝐚𝐲𝐞𝐫
+<b>🏷 **Nama** :</b> [{title[:80]}]({link})
+<b>⏱️ **Durasi** :</b> {duration} 𝐌𝐞𝐧𝐢𝐭
+<b>🎧 **Atas Permintaan** :</b> {checking}
+<b>⚡ **Powered by** : Demon π Slayer
 """)
         )   
         return await mystic.delete()
@@ -573,13 +573,13 @@ async def startyuplay(_,CallbackQuery):
         m = await CallbackQuery.message.reply_photo(
         photo=thumb,
         caption=(f"""
-<b>🎼 𝐌𝐞𝐧𝐚𝐦𝐛𝐚𝐡𝐤𝐚𝐧 𝐊𝐞 𝐃𝐚𝐟𝐭𝐚𝐫 𝐀𝐧𝐭𝐫𝐢𝐚𝐧 𝐋𝐚𝐠𝐮 🎼</b> 
+<b>🎼 Menambahkan Ke Daftar Antrian 🎼</b> 
 
-<b>🏷 **𝐍𝐚𝐦𝐚** :</b> [{title[:80]}]({url})
-<b>⏱️ **𝐃𝐮𝐫𝐚𝐬𝐢** :</b> {duration} 𝐌𝐞𝐧𝐢𝐭
-<b>💡 **𝐒𝐭𝐚𝐭𝐮𝐬** : `Dalam antrian`
-<b>🎧 **𝐀𝐭𝐚𝐬 𝐏𝐞𝐫𝐦𝐢𝐧𝐭𝐚𝐚𝐧** :</b> {checking}
-<b>🔢 **𝐏𝐨𝐬𝐢𝐬𝐢 𝐀𝐧𝐭𝐫𝐢𝐚𝐧 𝐊𝐞** »</b> `{position}`
+<b>🏷 **Nama** :</b> [{title[:80]}]({url})
+<b>⏱️ **Durasi** :</b> {duration} 𝐌𝐞𝐧𝐢𝐭
+<b>💡 **Status** : `Dalam antrian`
+<b>🎧 **Atas Permintaan** :</b> {checking}
+<b>🔢 **Posisi Antrian Ke** »</b> `{position}`
 """),
         reply_markup=InlineKeyboardMarkup(buttons)
         )
@@ -603,11 +603,11 @@ async def startyuplay(_,CallbackQuery):
         photo=thumb,
         reply_markup=InlineKeyboardMarkup(buttons),    
         caption=(f"""
-<b>🏷 **𝐍𝐚𝐦𝐚** :</b> [{title[:80]}]({url})
-<b>⏱️ **𝐃𝐮𝐫𝐚𝐬𝐢** :</b> {duration} 𝐌𝐞𝐧𝐢𝐭
-<b>💡 **𝐒𝐭𝐚𝐭𝐮𝐬** : `Sedang memutar`
-<b>🎧 **𝐀𝐭𝐚𝐬 𝐏𝐞𝐫𝐦𝐢𝐧𝐭𝐚𝐚𝐧** :</b> {checking}
-<b>⚡ **𝐏𝐞𝐦𝐢𝐦𝐩𝐢𝐧** :</b> 𝐃𝐞𝐦𝐨𝐧𝐒𝐥𝐚𝐲𝐞𝐫
+<b>🏷 **Nama** :</b> [{title[:80]}]({url})
+<b>⏱️ **Durasi** :</b> {duration} Menit
+<b>💡 **Status** : `Sedang memutar`
+<b>🎧 **Atas Permintaan** :</b> {checking}
+<b>⚡ **Powered by** :</b> Demon π Slayer
 """)
         )   
         os.remove(thumb)
