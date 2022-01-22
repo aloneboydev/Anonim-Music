@@ -264,7 +264,7 @@ async def stop_cmd(_, message):
 <b>🏷 **Nama** : </b>[{title[:50]}]({url})
 <b>⏱️ **Durasi** : </b> `{duration}` `Menit`
 <b>🎧 **Atas permintaan** :</b> {semx.mention}
-<b>✨**Powered by** :<b> [Hiroshi•](https://t.me/Bisubiarenak)
+<b>✨**Powered by** :<b> [Demon π Slayer](https://t.me/Resumedemonbot)
 """
                     ),
                 )
@@ -302,7 +302,7 @@ async def stop_cmd(_, message):
 <b>🏷 **Nama** : </b>[{title[:50]}]
 <b>⏱️ **Durasi** : </b> `{duration}` `Menit`
 <b>🎧 **Atas permintaan** :</b> {username}
-<b>✨ **Powered by** :<b> [Hiroshi•](https://t.me/Bisubiarenak)
+<b>✨ **Powered by** :<b> [Demon π Slayer](https://t.me/Resumedemonbot)
 """,
                 )
                 return
