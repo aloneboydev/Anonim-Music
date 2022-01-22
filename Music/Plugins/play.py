@@ -357,29 +357,29 @@ async def play(_, message: Message):
 **🎼 𝐒𝐢𝐥𝐚𝐡𝐤𝐚𝐧 𝐏𝐢𝐥𝐢𝐡 𝐋𝐚𝐠𝐮 𝐘𝐚𝐧𝐠 𝐈𝐧𝐠𝐢𝐧 𝐋𝐮 𝐏𝐮𝐭𝐚𝐫 𝐊𝐧𝐭𝐥 🎼**
 
 ¹ <b>{title1[:65]}</b>
-  ┣ ❒ **[ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ]**(https://t.me/{BOT_USERNAME}?start=info_{ID1})
+  ┣ ❒ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID1})
   ┣ ❒ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ɢʟɪᴛᴛᴇʀ](https://t.me/Biarenakliatnyaaaa)
-  ┗ ❒ **ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴇᴍᴏɴ sʟᴀʏᴇʀ**
+  ┗ ❒ **ᴘᴇᴍɪʟɪᴋ ᴅᴇᴍᴏɴ sʟᴀʏᴇʀ**
 
 ² <b>{title2[:65]}</b>
-  ┣ ❒ **[ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ]**(https://t.me/{BOT_USERNAME}?start=info_{ID2})
+  ┣ ❒ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID2})
   ┣ ❒ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ɢʟɪᴛᴛᴇʀ](https://t.me/Biarenakliatnyaaaa)
-  ┗ ❒ **ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴇᴍᴏɴ sʟᴀʏᴇʀ**
+  ┗ ❒ **ᴘᴇᴍɪʟɪᴋ ᴅᴇᴍᴏɴ sʟᴀʏᴇʀ**
 
 ³ <b>{title3[:65]}</b>
-  ┣ ❒ **[ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ]**(https://t.me/{BOT_USERNAME}?start=info_{ID3})
+  ┣ ❒ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID3})
   ┣ ❒ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ɢʟɪᴛᴛᴇʀ](https://t.me/Biarenakliatnyaaaa)
-  ┗ ❒ **ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴇᴍᴏɴ sʟᴀʏᴇʀ**
+  ┗ ❒ **ᴘᴇᴍɪʟɪᴋ ᴅᴇᴍᴏɴ sʟᴀʏᴇʀ**
 
 ⁴ <b>{title4[:65]}</b>
-  ┣ ❒ **[ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ]**(https://t.me/{BOT_USERNAME}?start=info_{ID3})
+  ┣ ❒ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID3})
   ┣ ❒ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ɢʟɪᴛᴛᴇʀ](https://t.me/Biarenakliatnyaaaa)
-  ┗ ❒ **ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴇᴍᴏɴ sʟᴀʏᴇʀ**
+  ┗ ❒ **ᴘᴇᴍɪʟɪᴋ ᴅᴇᴍᴏɴ sʟᴀʏᴇʀ**
 
 ⁵ <b>{title5[:65]}</b>
-  ┣ ❒ **[ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ]**(https://t.me/{BOT_USERNAME}?start=info_{ID3})
+  ┣ ❒ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID3})
   ┣ ❒ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ɢʟɪᴛᴛᴇʀ](https://t.me/Biarenakliatnyaaaa)
-  ┗ ❒ **ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴇᴍᴏɴ sʟᴀʏᴇʀ**
+  ┗ ❒ **ᴘᴇᴍɪʟɪᴋ ᴅᴇᴍᴏɴ sʟᴀʏᴇʀ**
 """),    
             reply_markup=InlineKeyboardMarkup(buttons),
         )  
