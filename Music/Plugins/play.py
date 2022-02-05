@@ -359,27 +359,27 @@ async def play(_, message: Message):
 ¹ <b>{title1[:65]}</b>
   ╠ ❒ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID1})
   ╠ ❒ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ʜɪʀᴏsʜɪ](https://t.me/Bisubiarenak)
-  ╚ ❒ **ᴘᴇᴍɪʟɪᴋ ʜɪʀᴏsʜɪ π ʀᴏʙᴏᴛ**
+  ╚ ❒ **{BOT_NAME}**
 
 ² <b>{title2[:65]}</b>
   ╠ ❒ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID2})
   ╠ ❒ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ʜɪʀᴏsʜɪ](https://t.me/Bisubiarenak)
-  ╚ ❒ **ᴘᴇᴍɪʟɪᴋ ʜɪʀᴏsʜɪ π ʀᴏʙᴏᴛ**
+  ╚ ❒ **{BOT_NAME}**
 
 ³ <b>{title3[:65]}</b>
   ╠ ❒ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID3})
   ╠ ❒ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ʜɪʀᴏsʜɪ](https://t.me/Bisubiarenak)
-  ╚ ❒ **ᴘᴇᴍɪʟɪᴋ ʜɪʀᴏsʜɪ π ʀᴏʙᴏᴛ**
+  ╚ ❒ **{BOT_NAME}**
 
 ⁴ <b>{title4[:65]}</b>
   ╠ ❒ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID3})
   ╠ ❒ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ʜɪʀᴏsʜɪ](https://t.me/Bisubiarenak)
-  ╚ ❒ **ᴘᴇᴍɪʟɪᴋ ʜɪʀᴏsʜɪ π ʀᴏʙᴏᴛ**
+  ╚ ❒ **{BOT_NAME}**
 
 ⁵ <b>{title5[:65]}</b>
   ╠ ❒ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID3})
   ╠ ❒ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ʜɪʀᴏsʜɪ](https://t.me/Bisubiarenak)
-  ╚ ❒ **ᴘᴇᴍɪʟɪᴋ ʜɪʀᴏsʜɪ π ʀᴏʙᴏᴛ**
+  ╚ ❒ **{BOT_NAME}**
 """),    
             reply_markup=InlineKeyboardMarkup(buttons),
         )  
@@ -454,7 +454,7 @@ async def play(_, message: Message):
 <b>🏷 **Nama** :</b> [{title[:50]}]({link})
 <b>⏱️ **Durasi** :</b> {duration} Menit
 <b>🎧 **Atas Permintaan** :</b> {checking}
-<b>⚡ **Powered by** : [Hiroshi Robot](https://t.me/HiroshiMusicBot)
+<b>⚡ **Powered by** : {BOT_NAME}
 """)
         )   
         return await mystic.delete()
@@ -607,7 +607,7 @@ async def startyuplay(_,CallbackQuery):
 <b>⏱️ **Durasi** :</b> {duration} Menit
 <b>💡 **Status** : `Sedang memutar`
 <b>🎧 **Atas Permintaan** :</b> {checking}
-<b>⚡ **Powered by** :</b> [Hiroshi Robot](https://t.me/HiroshiMusicBot)
+<b>⚡ **Powered by** :</b> {BOT_NAME}
 """)
         )   
         os.remove(thumb)
@@ -674,27 +674,27 @@ async def popat(_,CallbackQuery):
 ⁶ <b>{title6[:60]}</b>
   ╠ ❒ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID3})
   ╠ ❒ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ʜɪʀᴏsʜɪ](https://t.me/Bisubiarenak)
-  ╚ ❒ **ᴘᴇᴍɪʟɪᴋ ʜɪʀᴏsʜɪ π ʀᴏʙᴏᴛ**
+  ╚ ❒ **{BOT_NAME}**
 
 ⁷ <b>{title7[:60]}</b>
   ╠ ❒ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID3})
   ╠ ❒ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ʜɪʀᴏsʜɪ](https://t.me/Bisubiarenak)
-  ╚ ❒ **ᴘᴇᴍɪʟɪᴋ ʜɪʀᴏsʜɪ π ʀᴏʙᴏᴛ**
+  ╚ ❒ **{BOT_NAME}**
 
 ⁸ <b>{title8[:60]}</b>
   ╠ ❒ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID3})
   ╠ ❒ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ʜɪʀᴏsʜɪ](https://t.me/Bisubiarenak)
-  ╚ ❒ **ᴘᴇᴍɪʟɪᴋ ʜɪʀᴏsʜɪ π ʀᴏʙᴏᴛ**
+  ╚ ❒ **{BOT_NAME}**
 
 ⁹ <b>{title9[:60]}</b>
   ╠ ❒ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID3})
   ╠ ❒ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ʜɪʀᴏsʜɪ](https://t.me/Bisubiarenak)
-  ╚ ❒ **ᴘᴇᴍɪʟɪᴋ ʜɪʀᴏsʜɪ π ʀᴏʙᴏᴛ**
+  ╚ ❒ **{BOT_NAME}**
 
 ¹⁰ <b>{title10[:60]}</b>
    ╠ ❒ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID3})
    ╠ ❒ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ʜɪʀᴏsʜɪ](https://t.me/Bisubiarenak)
-   ╚ ❒ **ᴘᴇᴍɪʟɪᴋ ʜɪʀᴏsʜɪ π ʀᴏʙᴏᴛ**
+   ╚ ❒ **{BOT_NAME}**
 """, 
             reply_markup=InlineKeyboardMarkup(buttons),
         )  
@@ -709,27 +709,27 @@ async def popat(_,CallbackQuery):
 ¹ <b>{title1[:60]}</b>
   ╠ ❒ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID3})
   ╠ ❒ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ʜɪʀᴏsʜɪ](https://t.me/Bisubiarenak)
-  ╚ ❒ **ᴘᴇᴍɪʟɪᴋ ʜɪʀᴏsʜɪ π ʀᴏʙᴏᴛ**
+  ╚ ❒ **{BOT_NAME}**
 
 ² <b>{title2[:60]}</b>
   ╠ ❒ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID3})
   ╠ ❒ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ʜɪʀᴏsʜɪ](https://t.me/Bisubiarenak)
-  ╚ ❒ **ᴘᴇᴍɪʟɪᴋ ʜɪʀᴏsʜɪ π ʀᴏʙᴏᴛ**
+  ╚ ❒ **{BOT_NAME}**
 
 ³ <b>{title3[:60]}</b>
   ╠ ❒ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID3})
   ╠ ❒ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ʜɪʀᴏsʜɪ](https://t.me/Bisubiarenak)
-  ╚ ❒ **ᴘᴇᴍɪʟɪᴋ ʜɪʀᴏsʜɪ π ʀᴏʙᴏᴛ**
+  ╚ ❒ **{BOT_NAME}**
 
 ⁴ <b>{title4[:60]}</b>
   ╠ ❒ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID3})
   ╠ ❒ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ʜɪʀᴏsʜɪ](https://t.me/Bisubiarenak)
-  ╚ ❒ **ᴘᴇᴍɪʟɪᴋ ʜɪʀᴏsʜɪ π ʀᴏʙᴏᴛ**
+  ╚ ❒ **{BOT_NAME}**
 
 ⁵ <b>{title5[:60]}</b>
   ╠ ❒ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID3})
   ╠ ❒ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ʜɪʀᴏsʜɪ](https://t.me/Bisubiarenak)
-  ╚ ❒ **ᴘᴇᴍɪʟɪᴋ ʜɪʀᴏsʜɪ π ʀᴏʙᴏᴛ**
+  ╚ ❒ **{BOT_NAME}**
 """,    
             reply_markup=InlineKeyboardMarkup(buttons),
         )  
