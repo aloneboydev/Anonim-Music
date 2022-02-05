@@ -215,27 +215,27 @@ Kembalikan ke Akun Pengguna Dari Hak Admin.
 ¹ <b>{title1[:50]}</b>
   ╠ ❒ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID1})
   ╠ ❒ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ʜɪʀᴏsʜɪ](https://t.me/Bisubiarenak)
-  ╚ ❒ **ᴘᴇᴍɪʟɪᴋ ʜɪʀᴏsʜɪ π ʀᴏʙᴏᴛ**
+  ╚ ❒ **{BOT_NAME}**
 
 ² <b>{title2[:50]}</b>
   ╠ ❒ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID2})
   ╠ ❒ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ʜɪʀᴏsʜɪ](https://t.me/Bisubiarenak)
-  ╚ ❒ **ᴘᴇᴍɪʟɪᴋ ʜɪʀᴏsʜɪ π ʀᴏʙᴏᴛ**
+  ╚ ❒ **{BOT_NAME}**
 
 ³ <b>{title3[:50]}</b>
   ╠ ❒ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID3})
   ╠ ❒ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ʜɪʀᴏsʜɪ](https://t.me/Bisubiarenak)
-  ╚ ❒ **ᴘᴇᴍɪʟɪᴋ ʜɪʀᴏsʜɪ π ʀᴏʙᴏᴛ**
+  ╚ ❒ **{BOT_NAME}**
 
 ⁴ <b>{title4[:50]}</b>
   ╠ ❒ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID4})
   ╠ ❒ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ʜɪʀᴏsʜɪ](https://t.me/Bisubiarenak)
-  ╚ ❒ **ᴘᴇᴍɪʟɪᴋ ʜɪʀᴏsʜɪ π ʀᴏʙᴏᴛ**
+  ╚ ❒ **{BOT_NAME}**
 
 ⁵ <b>{title5[:50]}</b>
   ╠ ❒ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID5})
   ╠ ❒ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ʜɪʀᴏsʜɪ](https://t.me/Bisubiarenak)
-  ╚ ❒ **ᴘᴇᴍɪʟɪᴋ ʜɪʀᴏsʜɪ π ʀᴏʙᴏᴛ**
+  ╚ ❒ **{BOT_NAME}**
 """,
             reply_markup=InlineKeyboardMarkup(buttons),
         )
@@ -377,27 +377,27 @@ async def chonga(_, CallbackQuery):
 ⁶ <b>{title6[:50]}</b>
   ╠ ❒ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID6})
   ╠ ❒ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ʜɪʀᴏsʜɪ](https://t.me/Bisubiarenak)
-  ╚ ❒ **ᴘᴇᴍɪʟɪᴋ ʜɪʀᴏsʜɪ π ʀᴏʙᴏᴛ**
+  ╚ ❒ **{BOT_NAME}**
 
 ⁷ <b>{title7[:50]}</b>
   ╠ ❒ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID7})
   ╠ ❒ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ʜɪʀᴏsʜɪ](https://t.me/Bisubiarenak)
-  ╚ ❒ **ᴘᴇᴍɪʟɪᴋ ʜɪʀᴏsʜɪ π ʀᴏʙᴏᴛ**
+  ╚ ❒ **{BOT_NAME}**
 
 ⁸ <b>{title8[:50]}</b>
   ╠ ❒ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID8})
   ╠ ❒ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ʜɪʀᴏsʜɪ](https://t.me/Bisubiarenak)
-  ╚ ❒ **ᴘᴇᴍɪʟɪᴋ ʜɪʀᴏsʜɪ π ʀᴏʙᴏᴛ**
+  ╚ ❒ **{BOT_NAME}**
 
 ⁹ <b>{title9[:50]}</b>
   ╠ ❒ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID9})
   ╠ ❒ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ʜɪʀᴏsʜɪ](https://t.me/Bisubiarenak)
-  ╚ ❒ **ᴘᴇᴍɪʟɪᴋ ʜɪʀᴏsʜɪ π ʀᴏʙᴏᴛ**
+  ╚ ❒ **{BOT_NAME}**
 
 ¹⁰ <b>{title10[:50]}</b>
    ╠ ❒ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID10})
    ╠ ❒ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ʜɪʀᴏsʜɪ](https://t.me/Bisubiarenak)
-   ╚ ❒ **ᴘᴇᴍɪʟɪᴋ ʜɪʀᴏsʜɪ π ʀᴏʙᴏᴛ**
+   ╚ ❒ **{BOT_NAME}**
 """,
             reply_markup=InlineKeyboardMarkup(buttons),
         )  
@@ -412,27 +412,27 @@ async def chonga(_, CallbackQuery):
 ¹ <b>{title1[:50]}</b>
   ╠ ❒ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID1})
   ╠ ❒ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ʜɪʀᴏsʜɪ](https://t.me/Bisubiarenak)
-  ╚ ❒ **ᴘᴇᴍɪʟɪᴋ ʜɪʀᴏsʜɪ π ʀᴏʙᴏᴛ**
+  ╚ ❒ **{BOT_NAME}**
 
 ² <b>{title2[:50]}</b>
   ╠ ❒ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID2})
   ╠ ❒ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ʜɪʀᴏsʜɪ](https://t.me/Bisubiarenak)
-  ╚ ❒ **ᴘᴇᴍɪʟɪᴋ ʜɪʀᴏsʜɪ π ʀᴏʙᴏᴛ**
+  ╚ ❒ **{BOT_NAME}**
 
 ³ <b>{title3[:50]}</b>
   ╠ ❒ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID3})
   ╠ ❒ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ʜɪʀᴏsʜɪ](https://t.me/Bisubiarenak)
-  ╚ ❒ **ᴘᴇᴍɪʟɪᴋ ʜɪʀᴏsʜɪ π ʀᴏʙᴏᴛ**
+  ╚ ❒ **{BOT_NAME}**
 
 ⁴ <b>{title4[:50]}</b>
   ╠ ❒ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID4})
   ╠ ❒ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ʜɪʀᴏsʜɪ](https://t.me/Bisubiarenak)
-  ╚ ❒ **ᴘᴇᴍɪʟɪᴋ ʜɪʀᴏsʜɪ π ʀᴏʙᴏᴛ**
+  ╚ ❒ **{BOT_NAME}**
 
 ⁵ <b>{title5[:50]}</b>
   ╠ ❒ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID5})
   ╠ ❒ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ʜɪʀᴏsʜɪ](https://t.me/Bisubiarenak)
-  ╚ ❒ **ᴘᴇᴍɪʟɪᴋ ʜɪʀᴏsʜɪ π ʀᴏʙᴏᴛ**
+  ╚ ❒ **{BOT_NAME}**
 """,
             reply_markup=InlineKeyboardMarkup(buttons),
         )  
