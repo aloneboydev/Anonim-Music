@@ -25,7 +25,7 @@ from pyrogram.types import (
 def start_pannel():
     buttons = [
         [
-            InlineKeyboardButton("Support", url="https://t.me/hiroshisupport"),
+            InlineKeyboardButton("Support", url="https://t.me/Virtualllnihsad"),
             InlineKeyboardButton("Updates", url=f"https://t.me/bombleebas"),
         ],
     ]
@@ -39,10 +39,10 @@ pstart_markup = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(
-                "➕ ᴛᴀᴍʙᴀʜᴋᴀɴ sᴀʏᴀ ᴋᴇ ɢʀᴏᴜᴘ ᴀɴᴅᴀ ➕", url=f"https://t.me/HiroshiMusicBot?startgroup=true"),
+                "➕ ᴛᴀᴍʙᴀʜᴋᴀɴ sᴀʏᴀ ᴋᴇ ɢʀᴏᴜᴘ ᴀɴᴅᴀ ➕", url=f"https://t.me/Musicanonimbot?startgroup=true"),
         ],
         [
-            InlineKeyboardButton("ɢʀᴜᴘ sᴜᴘᴘʀᴏᴛ", url="https://t.me/hiroshisupport"),
+            InlineKeyboardButton("ɢʀᴜᴘ sᴜᴘᴘʀᴏᴛ", url="https://t.me/Virtualllnihsad"),
             InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ ɪɴғᴏ", url=f"https://t.me/bombleebas"),
         ],
         [
