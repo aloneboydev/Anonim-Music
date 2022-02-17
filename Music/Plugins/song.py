@@ -18,6 +18,7 @@ from Music import (
     dbb,
     app,
     BOT_USERNAME,
+    BOT_NAME,
     BOT_ID,
     ASSID,
     ASSNAME,
