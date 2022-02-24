@@ -25,8 +25,8 @@ from pyrogram.types import (
 def start_pannel():
     buttons = [
         [
-            InlineKeyboardButton("Support", url="https://t.me/bestie4ever_id"),
-            InlineKeyboardButton("Updates", url=f"https://t.me/bestieechannel"),
+            InlineKeyboardButton("Support", url="https://t.me/hiroshisupport"),
+            InlineKeyboardButton("Updates", url=f"https://t.me/bombleebas"),
         ],
     ]
     return (
@@ -39,16 +39,16 @@ pstart_markup = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(
-                "➕ ᴛᴀᴍʙᴀʜᴋᴀɴ sᴀʏᴀ ᴋᴇ ɢʀᴏᴜᴘ ᴀɴᴅᴀ ➕", url=f"https://t.me/BeestieMusic_bot?startgroup=true"),
+                "➕ ᴛᴀᴍʙᴀʜᴋᴀɴ sᴀʏᴀ ᴋᴇ ɢʀᴏᴜᴘ ᴀɴᴅᴀ ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
         ],
         [
-            InlineKeyboardButton("ɢʀᴜᴘ sᴜᴘᴘʀᴏᴛ", url="https://t.me/bestie4ever_id"),
-            InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ ɪɴғᴏ", url=f"https://t.me/bestieechannel"),
+            InlineKeyboardButton("ɢʀᴜᴘ sᴜᴘᴘʀᴏᴛ", url="https://t.me/hiroshisupport"),
+            InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ ɪɴғᴏ", url=f"https://t.me/bombleebas"),
         ],
         [
             InlineKeyboardButton(
-                "ᴏᴡɴᴇʀ", url=f"https://t.me/bengalnibos"),
-            InlineKeyboardButton("ᴄᴏᴍᴍᴀɴᴅ", url="https://telegra.ph/s%C9%AA%CA%99%E1%B4%87%C9%A2%E1%B4%80%CA%9F-02-18"),
+                "ᴏᴡɴᴇʀ", url=f"https://t.me/Bisubiarenak"),
+            InlineKeyboardButton("ᴄᴏᴍᴍᴀɴᴅ", url="https://telegra.ph/Hiroshi-12-28-2"),
         ],
     ]
 )
