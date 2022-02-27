@@ -358,27 +358,27 @@ async def play(_, message: Message):
 
 ¹ <b>{title1[:65]}</b>
   ┣ ❒ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID1})
-  ┣ ❒ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ɢʟɪᴛᴛᴇʀ](https://t.me/Biarenakliatnyaaaa)
+  ┣ ❒ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ᴋᴀʏᴏsʜɪ](https://t.me/Kayoshineey)
   ┗ ❒ **{BOT_NAME}**
 
 ² <b>{title2[:65]}</b>
   ┣ ❒ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID1})
-  ┣ ❒ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ɢʟɪᴛᴛᴇʀ](https://t.me/Biarenakliatnyaaaa)
+  ┣ ❒ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ᴋᴀʏᴏsʜɪ](https://t.me/Kayoshineey)
   ┗ ❒ **{BOT_NAME}**
 
 ³ <b>{title3[:65]}</b>
   ┣ ❒ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID1})
-  ┣ ❒ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ɢʟɪᴛᴛᴇʀ](https://t.me/Biarenakliatnyaaaa)
+  ┣ ❒ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ᴋᴀʏᴏsʜɪ](https://t.me/Kayoshineey)
   ┗ ❒ **{BOT_NAME}**
 
 ⁴ <b>{title4[:65]}</b>
   ┣ ❒ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID1})
-  ┣ ❒ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ɢʟɪᴛᴛᴇʀ](https://t.me/Biarenakliatnyaaaa)
+  ┣ ❒ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ᴋᴀʏᴏsʜɪ](https://t.me/Kayoshineey)
   ┗ ❒ **{BOT_NAME}**
 
 ⁵ <b>{title5[:65]}</b>
   ┣ ❒ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID1})
-  ┣ ❒ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ɢʟɪᴛᴛᴇʀ](https://t.me/Biarenakliatnyaaaa)
+  ┣ ❒ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ᴋᴀʏᴏsʜɪ](https://t.me/Kayoshineey)
   ┗ ❒ **{BOT_NAME}**
 """),    
             reply_markup=InlineKeyboardMarkup(buttons),
@@ -673,27 +673,27 @@ async def popat(_,CallbackQuery):
 
 ⁶ <b>{title6[:60]}</b>
   ┣ ❒ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID1})
-  ┣ ❒ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ɢʟɪᴛᴛᴇʀ](https://t.me/Biarenakliatnyaaaa)
+  ┣ ❒ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ᴋᴀʏᴏsʜɪ](https://t.me/Kayoshineey)
   ┗ ❒ **{BOT_NAME}**
 
 ⁷ <b>{title7[:60]}</b>
   ┣ ❒ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID1})
-  ┣ ❒ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ɢʟɪᴛᴛᴇʀ](https://t.me/Biarenakliatnyaaaa)
+  ┣ ❒ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ᴋᴀʏᴏsʜɪ](https://t.me/Kayoshineey)
   ┗ ❒ **{BOT_NAME}**
 
 ⁸ <b>{title8[:60]}</b>
   ┣ ❒ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID1})
-  ┣ ❒ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ɢʟɪᴛᴛᴇʀ](https://t.me/Biarenakliatnyaaaa)
+  ┣ ❒ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ᴋᴀʏᴏsʜɪ](https://t.me/Kayoshineey)
   ┗ ❒ **{BOT_NAME}**
 
 ⁹ <b>{title9[:60]}</b>
   ┣ ❒ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID1})
-  ┣ ❒ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ɢʟɪᴛᴛᴇʀ](https://t.me/Biarenakliatnyaaaa)
+  ┣ ❒ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ᴋᴀʏᴏsʜɪ](https://t.me/Kayoshineey)
   ┗ ❒ **{BOT_NAME}**
 
 ¹⁰ <b>{title10[:60]}</b>
    ┣ ❒ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID1})
-   ┣ ❒ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ɢʟɪᴛᴛᴇʀ](https://t.me/Biarenakliatnyaaaa)
+   ┣ ❒ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ᴋᴀʏᴏsʜɪ](https://t.me/Kayoshineey)
    ┗ ❒ **{BOT_NAME}**
 """, 
             reply_markup=InlineKeyboardMarkup(buttons),
@@ -708,27 +708,27 @@ async def popat(_,CallbackQuery):
 
 ¹ <b>{title1[:60]}</b>
   ┣ ❒ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID1})
-  ┣ ❒ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ɢʟɪᴛᴛᴇʀ](https://t.me/Biarenakliatnyaaaa)
+  ┣ ❒ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ᴋᴀʏᴏsʜɪ](https://t.me/Kayoshineey)
   ┗ ❒ **{BOT_NAME}**
 
 ² <b>{title2[:60]}</b>
   ┣ ❒ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID1})
-  ┣ ❒ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ɢʟɪᴛᴛᴇʀ](https://t.me/Biarenakliatnyaaaa)
+  ┣ ❒ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ᴋᴀʏᴏsʜɪ](https://t.me/Kayoshineey)
   ┗ ❒ **{BOT_NAME}**
 
 ³ <b>{title3[:60]}</b>
   ┣ ❒ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID1})
-  ┣ ❒ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ɢʟɪᴛᴛᴇʀ](https://t.me/Biarenakliatnyaaaa)
+  ┣ ❒ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ᴋᴀʏᴏsʜɪ](https://t.me/Kayoshineey)
   ┗ ❒ **{BOT_NAME}**
 
 ⁴ <b>{title4[:60]}</b>
   ┣ ❒ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID1})
-  ┣ ❒ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ɢʟɪᴛᴛᴇʀ](https://t.me/Biarenakliatnyaaaa)
+  ┣ ❒ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ᴋᴀʏᴏsʜɪ](https://t.me/Kayoshineey)
   ┗ ❒ **{BOT_NAME}**
 
 ⁵ <b>{title5[:60]}</b>
   ┣ ❒ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID1})
-  ┣ ❒ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ɢʟɪᴛᴛᴇʀ](https://t.me/Biarenakliatnyaaaa)
+  ┣ ❒ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ᴋᴀʏᴏsʜɪ](https://t.me/Kayoshineey)
   ┗ ❒ **{BOT_NAME}**
 """,    
             reply_markup=InlineKeyboardMarkup(buttons),
