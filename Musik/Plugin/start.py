@@ -25,8 +25,8 @@ from pyrogram.types import (
 def start_pannel():
     buttons = [
         [
-            InlineKeyboardButton("Support", url="https://t.me/hiroshisupport"),
-            InlineKeyboardButton("Updates", url=f"https://t.me/hiroshimabes"),
+            InlineKeyboardButton("Support", url="https://t.me/BestieForever_id"),
+            InlineKeyboardButton("Updates", url=f"https://t.me/bestieechannel"),
         ],
     ]
     return (
@@ -42,12 +42,12 @@ pstart_markup = InlineKeyboardMarkup(
                 "➕ ᴛᴀᴍʙᴀʜᴋᴀɴ sᴀʏᴀ ᴋᴇ ɢʀᴏᴜᴘ ᴀɴᴅᴀ ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
         ],
         [
-            InlineKeyboardButton("ɢʀᴜᴘ sᴜᴘᴘʀᴏᴛ", url="https://t.me/hiroshisupport"),
-            InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ ɪɴғᴏ", url=f"https://t.me/hiroshimabes"),
+            InlineKeyboardButton("ɢʀᴜᴘ sᴜᴘᴘʀᴏᴛ", url="https://t.me/BestieForever_id"),
+            InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ ɪɴғᴏ", url=f"https://t.me/bestieechannel"),
         ],
         [
             InlineKeyboardButton(
-                "ᴏᴡɴᴇʀ", url=f"https://t.me/Kayoshineey"),
+                "ᴏᴡɴᴇʀ", url=f"https://t.me/bengalnibos"),
             InlineKeyboardButton("ᴄᴏᴍᴍᴀɴᴅ", url="https://telegra.ph/Hiroshi-12-28-2"),
         ],
     ]
