@@ -362,7 +362,7 @@ async def play(_, message: Message):
   ╚ ❒ **{BOT_NAME}**
 
 ² <b>{title2[:65]}</b>
-  ┣ ❒ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID1})
+  ╠ ❒ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID1})
   ╠ ❒ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ʜɪʀᴏsʜɪ](https://t.me/Bisubiarenak)
   ╚ ❒ **{BOT_NAME}**
 
