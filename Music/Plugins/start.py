@@ -26,7 +26,7 @@ def start_pannel():
     buttons = [
         [
             InlineKeyboardButton("Support", url="https://t.me/hiroshisupport"),
-            InlineKeyboardButton("Updates", url=f"https://t.me/bombleebas"),
+            InlineKeyboardButton("Updates", url=f"https://t.me/hiroshimabes"),
         ],
     ]
     return (
@@ -43,7 +43,7 @@ pstart_markup = InlineKeyboardMarkup(
         ],
         [
             InlineKeyboardButton("ɢʀᴜᴘ sᴜᴘᴘʀᴏᴛ", url="https://t.me/hiroshisupport"),
-            InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ ɪɴғᴏ", url=f"https://t.me/bombleebas"),
+            InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ ɪɴғᴏ", url=f"https://t.me/hiroshimabes"),
         ],
         [
             InlineKeyboardButton(
