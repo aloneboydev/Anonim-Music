@@ -15,9 +15,24 @@ from aiohttp import ClientSession
 from motor.motor_asyncio import AsyncIOMotorClient as MongoClient
 import time
 
+console = Console()
+
 def initialize():
     global dbb
     dbb = {}
+
+### Mongo DB
+MONGODB_CLI = Bot(mango)
+db = MONGODB_CLI
+pymongodb = ""
+
+### Boot Time
+boottime = time.time()
+
+### Clients
+app = app
+userbot = userbot
+aiohttpsession = ClientSession()
     
 initialize()
 
