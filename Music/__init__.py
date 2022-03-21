@@ -15,7 +15,6 @@ from aiohttp import ClientSession
 from motor.motor_asyncio import AsyncIOMotorClient as MongoClient
 import time
 
-console = Console()
 
 def initialize():
     global dbb
