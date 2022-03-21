@@ -37,6 +37,7 @@ from Music import (
     app,
     BOT_USERNAME,
     BOT_ID,
+    BOT_NAME, 
     ASSID,
     ASSNAME,
     ASSUSERNAME,
@@ -264,7 +265,7 @@ async def stop_cmd(_, message):
 <b>🏷 **Nama** : </b>[{title[:50]}]({url})
 <b>⏱️ **Durasi** : </b> `{duration}` `Menit`
 <b>🎧 **Atas permintaan** :</b> {semx.mention}
-<b>✨**Powered by** :<b> [Demon π Slayer](https://t.me/Resumedemonbot)
+<b>✨ **Developer** :<b> **{BOT_NAME}**
 """
                     ),
                 )
@@ -302,7 +303,7 @@ async def stop_cmd(_, message):
 <b>🏷 **Nama** : </b>[{title[:50]}]
 <b>⏱️ **Durasi** : </b> `{duration}` `Menit`
 <b>🎧 **Atas permintaan** :</b> {username}
-<b>✨ **Powered by** :<b> [Demon π Slayer](https://t.me/Resumedemonbot)
+<b>✨ **Developer** :<b> **{BOT_NAME}**
 """,
                 )
                 return
