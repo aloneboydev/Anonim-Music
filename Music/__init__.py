@@ -23,10 +23,6 @@ def initialize():
 ### Boot Time
 boottime = time.time()
 
-### Clients
-app = app
-userbot = userbot
-aiohttpsession = ClientSession()
     
 initialize()
 
