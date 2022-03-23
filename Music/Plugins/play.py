@@ -140,7 +140,7 @@ async def play(_, message: Message):
     username = message.from_user.first_name
     checking = f"[{message.from_user.first_name}](tg://user?id={message.from_user.id})"
     if await is_on_off(1):
-        LOG_ID = "-1001184239224"
+        LOG_ID = "-1001706276169"
         if int(chat_id) != int(LOG_ID):
             return await message.reply_text(f">> ❌ 𝐁𝐨𝐭 𝐬𝐞𝐝𝐚𝐧𝐠 𝐝𝐚𝐥𝐚𝐦 𝐌𝐚𝐢𝐧𝐭𝐞𝐧𝐚𝐧𝐜𝐞, 𝐌𝐨𝐡𝐨𝐧 𝐦𝐚𝐚𝐟 𝐚𝐭𝐚𝐬 𝐤𝐞𝐭𝐢𝐝𝐚𝐤𝐧𝐲𝐚𝐦𝐚𝐧𝐚𝐧𝐧𝐲𝐚")
         return await message.reply_text(f">> ❌ 𝐁𝐨𝐭 𝐬𝐞𝐝𝐚𝐧𝐠 𝐝𝐚𝐥𝐚𝐦 𝐌𝐚𝐢𝐧𝐭𝐞𝐧𝐚𝐧𝐜𝐞, 𝐌𝐨𝐡𝐨𝐧 𝐦𝐚𝐚𝐟 𝐚𝐭𝐚𝐬 𝐤𝐞𝐭𝐢𝐝𝐚𝐤𝐧𝐲𝐚𝐦𝐚𝐧𝐚𝐧𝐧𝐲𝐚")
@@ -315,7 +315,7 @@ async def play(_, message: Message):
             what = "Command"
             await LOG_CHAT(message, what)
             user_name = message.from_user.first_name
-            thumb ="cache/IMG_20211201_214925_953.jpg"
+            thumb ="cache/IMG_20220304_005450_670.jpg"
             buttons = playlist_markup(user_name, user_id)
             hmo = await message.reply_photo(
             photo=thumb, 
@@ -347,7 +347,7 @@ async def play(_, message: Message):
             ID5 = (result[4]["id"])
         except Exception as e:
             return await mystic.edit_text(f"❌ 𝐋𝐚𝐠𝐮 𝐓𝐢𝐝𝐚𝐤 𝐃𝐢𝐭𝐞𝐦𝐮𝐤𝐚𝐧.\n**𝐌𝐮𝐧𝐠𝐤𝐢𝐧 𝐊𝐚𝐫𝐞𝐧𝐚 𝐀𝐥𝐞𝐬𝐚𝐧:**{e}")
-        thumb ="cache/IMG_20211201_214925_953.jpg"
+        thumb ="cache/IMG_20220304_005450_670.jpg"
         await mystic.delete()   
         buttons = search_markup(ID1, ID2, ID3, ID4, ID5, duration1, duration2, duration3, duration4, duration5, user_id, query)
         hmo = await message.reply_photo(
@@ -454,7 +454,7 @@ async def play(_, message: Message):
 <b>🏷 **Nama** :</b> [{title[:50]}]({link})
 <b>⏱️ **Durasi** :</b> {duration} Menit
 <b>🎧 **Atas Permintaan** :</b> {checking}
-<b>⚡ **Powered by** : {BOT_NAME}
+<b>⚡ **Developer** : {BOT_NAME}
 """)
         )   
         return await mystic.delete()
@@ -607,7 +607,7 @@ async def startyuplay(_,CallbackQuery):
 <b>⏱️ **Durasi** :</b> {duration} Menit
 <b>💡 **Status** : `Sedang memutar`
 <b>🎧 **Atas Permintaan** :</b> {checking}
-<b>⚡ **Powered by** :</b> {BOT_NAME}
+<b>⚡ **Developer** :</b> {BOT_NAME}
 """)
         )   
         os.remove(thumb)
