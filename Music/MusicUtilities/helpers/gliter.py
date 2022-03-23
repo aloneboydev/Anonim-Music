@@ -23,10 +23,10 @@ def subcribe(func):
                     chat_info.invite_link
                 try:
                     await message.reply(
-                        f"**Hallo {rpk}. Agar Bisa Menggunakan Bot Anda Harus Masuk Ke Channel Updates Bot Terlebih Dahulu!. Silahkan Klik Tombol Di Bawah Untuk Join Ke Channel Update Bot.**",
+                        f"**Hallo {rpk}. Agar Bisa Menggunakan Bot Anda Harus Masuk Ke Channel Updates Bot Terlebih Dahulu!. Silahkan Klik Tombol Di Bawah Untuk Join Ke Channel Update**",
                         disable_web_page_preview=True,
                         reply_markup=InlineKeyboardMarkup(
-                            [[InlineKeyboardButton("Join Channel Bot", url=link)]]
+                            [[InlineKeyboardButton("**Join Channel**", url=link)]]
                         ),
                     )
                     await message.stop_propagation()
