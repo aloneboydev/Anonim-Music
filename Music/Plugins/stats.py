@@ -63,7 +63,3 @@ async def gstats(_, message):
 **GBanned Users:** {blocked}
 **Sudo Users:** {j}
 **Allowed Chats:** {len(served_chats)}
-
-"""
-    served_chats.pop(0)
-    await m.edit(msg, disable_web_page_preview=True)
