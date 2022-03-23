@@ -456,7 +456,6 @@ async def play(_, message: Message):
 <b>🏷 **Nama** :</b> [{title[:50]}]({link})
 <b>⏱️ **Durasi** :</b> {duration} Menit
 <b>🎧 **Atas Permintaan** :</b> {checking}
-<b>⚡ **Developer** : {BOT_NAME}
 """)
         )   
         return await mystic.delete()
@@ -609,7 +608,6 @@ async def startyuplay(_,CallbackQuery):
 <b>⏱️ **Durasi** :</b> {duration} Menit
 <b>💡 **Status** : `Sedang memutar`
 <b>🎧 **Atas Permintaan** :</b> {checking}
-<b>⚡ **Developer** :</b> {BOT_NAME}
 """)
         )   
         os.remove(thumb)
