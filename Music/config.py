@@ -18,3 +18,6 @@ ASS_ID = int(getenv("ASS_ID", '2130437611'))
 OWNER_ID = list(map(int, getenv('OWNER_ID', '').split()))
 GROUP = getenv("GROUP", None)
 CHANNEL = getenv("CHANNEL", None)
+if MUST_JOIN.startswith("@"):
+    MUST_JOIN = MUST_JOIN.replace("@", "")
+
