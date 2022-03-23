@@ -98,7 +98,8 @@ from Music.MusicUtilities.helpers.gets import (
 from Music.MusicUtilities.helpers.logger import LOG_CHAT
 from Music.MusicUtilities.helpers.thumbnails import gen_thumb
 from Music.MusicUtilities.helpers.chattitle import CHAT_TITLE
-from Music.MusicUtilities.helpers.ytdl import ytdl_opts 
+from Music.MusicUtilities.helpers.ytdl import ytdl_opts
+from Music.MusicUtilities.helpers.gliter import subcribe
 from Music.MusicUtilities.helpers.inline import (
     play_keyboard,
     search_markup2,
@@ -131,6 +132,7 @@ def time_to_seconds(time):
     )
 
 @Client.on_message(command(["play", f"play@{BOT_USERNAME}", "p"]))
+@subcribe
 async def play(_, message: Message):
     chat_id = message.chat.id  
     if message.sender_chat:
