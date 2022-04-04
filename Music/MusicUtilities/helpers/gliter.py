@@ -23,7 +23,7 @@ def subcribe(func):
                     chat_info.invite_link
                 try:
                     await message.reply(
-                        f"**Hallo {rpk}. Agar Bisa Menggunakan Bot Anda Harus Masuk Ke Channel Updates Bot Terlebih Dahulu!. Silahkan Klik Tombol Di Bawah Untuk Join Ke Channel Update**",
+                        f"**ʜᴀʟʟᴏ {rpk}. ᴀɢᴀʀ ʙɪsᴀ ᴍᴇɴɢɢᴜɴᴀᴋᴀɴ ʙᴏᴛ ᴀɴᴅᴀ ʜᴀʀᴜs ᴍᴀsᴜᴋ ᴋᴇ ᴄʜᴀɴɴᴇʟ ᴜᴘᴅᴀᴛᴇs ʙᴏᴛ ᴛᴇʀʟᴇʙɪʜ ᴅᴀʜᴜʟᴜ!. sɪʟᴀʜᴋᴀɴ ᴋʟɪᴋ ᴛᴏᴍʙᴏʟ ᴅɪ ʙᴀᴡᴀʜ ᴜɴᴛᴜᴋ ᴊᴏɪɴ ᴋᴇ ᴄʜᴀɴɴᴇʟ ᴜᴘᴅᴀᴛᴇ**",
                         disable_web_page_preview=True,
                         reply_markup=InlineKeyboardMarkup(
                             [[InlineKeyboardButton("🏷 Join Channel", url=link)]]
