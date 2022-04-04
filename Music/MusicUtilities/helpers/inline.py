@@ -16,7 +16,7 @@ def play_markup(videoid, user_id):
         ],
         [      
             InlineKeyboardButton(text="ᴄʟᴏsᴇ", callback_data=f"close"),
-            InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ​​", url=f"https://t.me/{CHANNEL}"),  
+            InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ​​", url=f"https://t.me/{CHANNEL}"),  
         ],
     ]
     return buttons
