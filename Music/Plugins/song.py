@@ -155,8 +155,7 @@ Kembalikan ke Akun Pengguna Dari Hak Admin.
         m = await message.reply_text(
             f"""
 <b>🏷️ **Nama** :</b> [{title[:50]}]({url})
-<b>💡</b> [Kepo Lu Kontol](https://t.me/{BOT_USERNAME}?start=info_{id})
-<b>✨ **Developer** : [ʜɪʀᴏsʜɪ](https://t.me/Bisubiarenak)
+<b>💡</b> [Developer](https://t.me/{BOT_USERNAME}?start=info_{id})
 """,
             reply_markup=InlineKeyboardMarkup(buttons),
         )
@@ -214,28 +213,23 @@ Kembalikan ke Akun Pengguna Dari Hak Admin.
 <b>✨ sɪʟᴀʜᴋᴀɴ ᴘɪʟɪʜ ᴍᴀɴᴀ ʟᴀɢᴜ ʏᴀɴɢ ɪɴɢɪɴ ʟᴜ ᴅᴏᴡɴʟᴏᴀᴅ</b>
 
 ¹ <b>{title1[:50]}</b>
-  ╠ ❒ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID1})
-  ╠ ❒ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ʜɪʀᴏsʜɪ](https://t.me/Bisubiarenak)
+  ╠ ❒ [ᴅᴇᴠᴇʟᴏᴘᴇʀ](https://t.me/{BOT_USERNAME}?start=info_{ID1})
   ╚ ❒ **{BOT_NAME}**
 
 ² <b>{title2[:50]}</b>
   ╠ ❒ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID2})
-  ╠ ❒ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ʜɪʀᴏsʜɪ](https://t.me/Bisubiarenak)
   ╚ ❒ **{BOT_NAME}**
 
 ³ <b>{title3[:50]}</b>
   ╠ ❒ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID3})
-  ╠ ❒ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ʜɪʀᴏsʜɪ](https://t.me/Bisubiarenak)
   ╚ ❒ **{BOT_NAME}**
 
 ⁴ <b>{title4[:50]}</b>
   ╠ ❒ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID4})
-  ╠ ❒ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ʜɪʀᴏsʜɪ](https://t.me/Bisubiarenak)
   ╚ ❒ **{BOT_NAME}**
 
 ⁵ <b>{title5[:50]}</b>
   ╠ ❒ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID5})
-  ╠ ❒ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ʜɪʀᴏsʜɪ](https://t.me/Bisubiarenak)
   ╚ ❒ **{BOT_NAME}**
 """,
             reply_markup=InlineKeyboardMarkup(buttons),
@@ -295,8 +289,7 @@ async def startyuplay(_, CallbackQuery):
         reply_markup=InlineKeyboardMarkup(buttons),
         caption=f"""
 <b>🏷️ **Nama** :</b> [{title[:50]}]({url})
-╚ 💡 [Kepo Lu Kontol](https://t.me/{BOT_USERNAME}?start=info_{id})
-╚ ✨ **Developer** : [ʜɪʀᴏsʜɪ](https://t.me/Bisubiarenak)
+╚ 💡 [Developer](https://t.me/{BOT_USERNAME}?start=info_{id})
 """,
     )
     os.remove(thumb)
@@ -377,27 +370,22 @@ async def chonga(_, CallbackQuery):
 
 ⁶ <b>{title6[:50]}</b>
   ╠ ❒ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID6})
-  ╠ ❒ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ʜɪʀᴏsʜɪ](https://t.me/Bisubiarenak)
   ╚ ❒ **{BOT_NAME}**
 
 ⁷ <b>{title7[:50]}</b>
   ╠ ❒ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID7})
-  ╠ ❒ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ʜɪʀᴏsʜɪ](https://t.me/Bisubiarenak)
   ╚ ❒ **{BOT_NAME}**
 
 ⁸ <b>{title8[:50]}</b>
   ╠ ❒ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID8})
-  ╠ ❒ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ʜɪʀᴏsʜɪ](https://t.me/Bisubiarenak)
   ╚ ❒ **{BOT_NAME}**
 
 ⁹ <b>{title9[:50]}</b>
   ╠ ❒ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID9})
-  ╠ ❒ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ʜɪʀᴏsʜɪ](https://t.me/Bisubiarenak)
   ╚ ❒ **{BOT_NAME}**
 
 ¹⁰ <b>{title10[:50]}</b>
    ╠ ❒ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID10})
-   ╠ ❒ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ʜɪʀᴏsʜɪ](https://t.me/Bisubiarenak)
    ╚ ❒ **{BOT_NAME}**
 """,
             reply_markup=InlineKeyboardMarkup(buttons),
@@ -412,27 +400,22 @@ async def chonga(_, CallbackQuery):
 
 ¹ <b>{title1[:50]}</b>
   ╠ ❒ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID1})
-  ╠ ❒ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ʜɪʀᴏsʜɪ](https://t.me/Bisubiarenak)
   ╚ ❒ **{BOT_NAME}**
 
 ² <b>{title2[:50]}</b>
   ╠ ❒ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID2})
-  ╠ ❒ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ʜɪʀᴏsʜɪ](https://t.me/Bisubiarenak)
   ╚ ❒ **{BOT_NAME}**
 
 ³ <b>{title3[:50]}</b>
   ╠ ❒ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID3})
-  ╠ ❒ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ʜɪʀᴏsʜɪ](https://t.me/Bisubiarenak)
   ╚ ❒ **{BOT_NAME}**
 
 ⁴ <b>{title4[:50]}</b>
   ╠ ❒ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID4})
-  ╠ ❒ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ʜɪʀᴏsʜɪ](https://t.me/Bisubiarenak)
   ╚ ❒ **{BOT_NAME}**
 
 ⁵ <b>{title5[:50]}</b>
   ╠ ❒ [ᴋᴇᴘᴏ ʟᴜ ᴋᴏɴᴛᴏʟ](https://t.me/{BOT_USERNAME}?start=info_{ID5})
-  ╠ ❒ **ᴅᴇᴠᴇʟᴏᴘᴇʀ** : [ʜɪʀᴏsʜɪ](https://t.me/Bisubiarenak)
   ╚ ❒ **{BOT_NAME}**
 """,
             reply_markup=InlineKeyboardMarkup(buttons),
@@ -453,9 +436,9 @@ def search_markup(ID1, ID2, ID3, ID4, ID5, duration1, duration2, duration3, dura
             ],
             [ 
                 
-                InlineKeyboardButton(text="«««", callback_data=f'chonga 2|{query}|{user_id}'), 
+                InlineKeyboardButton(text="<<", callback_data=f'chonga 2|{query}|{user_id}'), 
                 InlineKeyboardButton(text="🗑 Close", callback_data=f"ppcl2 smex|{user_id}") ,
-                InlineKeyboardButton(text="»»»", callback_data=f'chonga 2|{query}|{user_id}')             
+                InlineKeyboardButton(text=">>", callback_data=f'chonga 2|{query}|{user_id}')             
             ],
         ]
     return buttons   
@@ -473,9 +456,9 @@ def search_markup2(ID6, ID7, ID8, ID9, ID10, duration6, duration7, duration8, du
             ],
             [ 
                 
-                InlineKeyboardButton(text="«««", callback_data=f'chonga 2|{query}|{user_id}'), 
+                InlineKeyboardButton(text="<<", callback_data=f'chonga 2|{query}|{user_id}'), 
                 InlineKeyboardButton(text="🗑 Close", callback_data=f"ppcl2 smex|{user_id}") ,
-                InlineKeyboardButton(text="»»»", callback_data=f'chonga 2|{query}|{user_id}')             
+                InlineKeyboardButton(text=">>", callback_data=f'chonga 2|{query}|{user_id}')             
             ],
         ]
     return buttons     
