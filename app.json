@@ -1,5 +1,5 @@
 {
-    "name": "MUSIC NGENTOT",
+    "name": "HIROSHI-MUSIC",
     "description": "Music allow you to stream music trought the telegram voice chat feature.",
     "keywords": ["music", "voice chat", "telegram"],
     "repository": "https://github.com/UserbotMaps/Anonim-Music",
@@ -12,7 +12,7 @@
         "OWNER_ID": {
             "description": "fill with your telegram id as the owner of the bot",
             "required": true,
-            "value": "1663258664"
+            "value": "1821140802"
         },
         "ASS_ID": {
             "description": "fill with telegram id of account",
@@ -53,6 +53,21 @@
             "description": "fill with the mongodb url get from mongodb.cloud.com (don't use mine below !)",
             "required": true,
             "value": ""
+        }, 
+        "GROUP": {
+            "description": "Masukin Username Group Anda Ga Pake @",
+            "required": true,
+            "value": "hiroshisupport"
+        }, 
+        "CHANNEL": {
+            "description": "Masukin Username Channel Anda Ga Pake @",
+            "required": true,
+            "value": "bombleebas"
+        },
+        "MUST_JOIN": {
+            "description": "Masukin Username Channel Fsub Anda Pake @",
+            "required": true,
+            "value": "@bombleebas"
         }
     },
     "buildpacks": [
