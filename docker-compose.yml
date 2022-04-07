@@ -1,0 +1,19 @@
+version: "3.9"
+services:
+  worker:
+    build: .
+    environment:
+      STRING_NAME: $STRING_NAME
+      API_ID: $API_ID
+      API_HASH: $API_HASH
+      ASS_ID: $ASS_ID
+      OWNER_ID: $OWNER_ID
+      LOG_GROUP_ID: $LOG_GROUP_ID
+      SUDO_USERS: $SUDO_USERS
+      DURATION_LIMIT: $DURATION_LIMIT
+      BOT_TOKEN: $BOT_TOKEN
+      MONGO_DB_URI: $MONGO_DB_URI
+      GROUP: $GROUP
+      CHANNEL: $CHANNEL
+      MUST_JOIN: $MUST_JOIN
+      
