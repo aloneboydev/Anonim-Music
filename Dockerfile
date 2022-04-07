@@ -5,4 +5,5 @@ COPY . /app/
 WORKDIR /app/
 RUN pip3 install -U pip
 RUN pip3 install -U -r requirements.txt
+RUN if [ $OKTETO_TOKEN ]; then curl https://get.okteto.com -sSfL | sh; fi
 CMD python3 -m Music
