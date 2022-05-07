@@ -25,8 +25,8 @@ from pyrogram.types import (
 def start_pannel():
     buttons = [
         [
-            InlineKeyboardButton("Support", url="https://t.me/+DDBSJiLT7800NWI1"),
-            InlineKeyboardButton("Updates", url=f"https://t.me/fairysils"),
+            InlineKeyboardButton("Support", url="https://t.me/hiroshisupport"),
+            InlineKeyboardButton("Updates", url=f"https://t.me/bombleebas"),
         ],
     ]
     return (
@@ -39,15 +39,15 @@ pstart_markup = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(
-                "➕ ᴛᴀᴍʙᴀʜᴋᴀɴ sᴀʏᴀ ᴋᴇ ɢʀᴏᴜᴘ ᴀɴᴅᴀ ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
+                "÷ ᴛᴀᴍʙᴀʜᴋᴀɴ sᴀʏᴀ ᴋᴇ ɢʀᴏᴜᴘ ᴀɴᴅᴀ ÷", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
         ],
         [
-            InlineKeyboardButton("ɢʀᴜᴘ sᴜᴘᴘʀᴏᴛ", url="https://t.me/+DDBSJiLT7800NWI1"),
-            InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ ɪɴғᴏ", url=f"https://t.me/fairysils"),
+            InlineKeyboardButton("sᴜᴘᴘʀᴏᴛ", url="https://t.me/hiroshisupport"),
+            InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/bombleebas"),
         ],
         [
-            InlineKeyboardButton(
-                "ʀᴇᴘᴏ", url=f"https://github.com/UserbotMaps/Hiroshi-Userbot"),
+            InlineKeyboardButton( 
+                "ᴅᴇᴠᴇʟᴏᴘᴇʀ", url=f"https://t.me/Bisubiarenak"),
             InlineKeyboardButton("ᴄᴏᴍᴍᴀɴᴅ", url="https://telegra.ph/Hiroshi-12-28-2"),
         ],
     ]
